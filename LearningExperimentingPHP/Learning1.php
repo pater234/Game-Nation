@@ -11,7 +11,7 @@
         // variables in php
         $myInt = 45;
         $myBool = true;
-        $myString = "Hello";
+        $myString = "HelloHello";
         $myString = strtoupper($myString);
         $numOfChars = strlen($myString);
         if ($myBool) {
@@ -20,6 +20,8 @@
             echo ("<h3>This variable is false. variable name is $myString</h3>");
         }
         echo($myString[0]);
+        echo("<br>");
+        echo (str_replace("H", "Replaced", $myString));
 
     ?>
     </body>
