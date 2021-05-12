@@ -12,11 +12,15 @@ function check_login($con)
             $user_data = mysqli_fetch_assoc($result);
             return $user_data;
         }
+        else
+        {
+            return null;
+        }
     }
 
     // redirect to login
-    header("Location: login.php");
-    die;
+    //header("Location: Login");
+    //die;
 }
 
 function random_num($length)

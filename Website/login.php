@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
                 if (password_verify($password, $user_data['password']))
                 {
                     $_SESSION['user_id'] = $user_data['user_id'];
-                    header("Location: index");
+                    header("Location: homepage");
                     die;
                 }
             }

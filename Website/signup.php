@@ -26,7 +26,7 @@
                 $query = "insert into users (user_id, user_name, password) values ('$user_id', '$user_name', '$password')";
                 mysqli_query($con, $query);
 
-                header("Location: login.php");
+                header("Location: Login");
                 die;
             }
         }
@@ -80,7 +80,7 @@
 
         <input id="button" type="submit" value="Signup"><br><br>
 
-        <a href="login">Click to Login</a><br><br>
+        <a href="Login">Click to Login</a><br><br>
     </form>
 </div>
 </body>
