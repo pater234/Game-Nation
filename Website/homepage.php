@@ -27,13 +27,13 @@ session_start();
         <header>
             <nav>
                 <div class="logoname">
-                    <a>Classes 56</a>
+                    <a class="cta">Classes 56</a>
                     <img class="logo" src="Logo.png" alt="logo" width=35% height=auto>
                 </div>
                 <div class="nav__links">
-                    <li>View Classes</li>
-                    <li>About Us</li>
-                    <li>Contact Information</li>
+                    <li class="cta">View Classes</li>
+                    <li class="cta">About Us</li>
+                    <li class="cta">Contact Information</li>
                 </div>
                 <div class="buttons">
                     <a class="cta" href="<?php echo $button1[1] ?>"><button><?php echo $button1[0] ?></button></a>
@@ -41,5 +41,17 @@ session_start();
                 </div>
             </nav>
         </header>
+        <?php
+            if ($user_data != null)
+            {
+                $name = $user_data['user_name'];
+                echo
+                ('
+                <div class="Welcome"> 
+                    <a>Welcome '.$name.'</a>
+                </div>'
+                );
+            }
+        ?>
     </body>
 </html>
