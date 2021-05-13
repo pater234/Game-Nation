@@ -39,7 +39,7 @@ li, .cta, button {
     background-color: #323238;
 }
 
-.nav__links li {
+.nav__links li a {
     padding: 20px 20px;
     transition: all 0.3s ease 0s;
 }
@@ -69,11 +69,16 @@ nav {
     align-items: center;
 }
 
-.nav__links li {
+.nav__links li a {
     cursor: pointer;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    color: #edf0f1;
 }
 
-.nav__links li:hover {
+.nav__links li a:hover {
     color: #0088a9;
 }
 
@@ -99,11 +104,24 @@ button:hover {
 
 #Classes56 {
     padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
 .logo {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+#Classes56:hover {
+    opacity: 0.5;
+}
+
+.logo:hover {
+    opacity: 0.5;
 }
 
 

@@ -1,4 +1,4 @@
-<?php include "homepage.php" ?>
+<?php include "layout.php" ?>
 
 
 <style>
