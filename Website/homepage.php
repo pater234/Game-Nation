@@ -27,8 +27,9 @@ session_start();
         <header>
             <nav>
                 <div class="logoname">
-                    <a class="cta">Classes 56</a>
-                    <img class="logo" src="Logo.png" alt="logo" width=35% height=auto>
+                    <a class="cta" id="Classes56">Classes 56</a>
+                    <div class="verticalLine"></div>
+                    <img class="logo" src="Logo.png" alt="logo" width=30% height=auto>
                 </div>
                 <div class="nav__links">
                     <li class="cta">View Classes</li>
