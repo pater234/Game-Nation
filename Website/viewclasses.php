@@ -39,6 +39,10 @@
     <a><button>View more information</button></a>
 </div>
 
+<button onclick="color(); return false;">
+    Change Color
+</button>
+
 <script>
     function color()
     {
