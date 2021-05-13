@@ -38,3 +38,10 @@
     <p>Info about Scratch</p>
     <a><button>View more information</button></a>
 </div>
+
+<script>
+    function color()
+    {
+        document.querySelector('.card').style.color = "red";
+    }
+</script>
