@@ -14,6 +14,7 @@ session_start();
         $button1 = array("Account Information");
         $button2 = array("Log Out", "logout");
     }
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,7 @@ session_start();
     <head>
         <meta charset="UTF-8">
         <title>My Website</title>
-        <link rel="stylesheet" href="CSSFiles/styles.css">
+        <link rel="stylesheet" href="CSSFiles/styles.css?>">
     </head>
     <body>
         <header>

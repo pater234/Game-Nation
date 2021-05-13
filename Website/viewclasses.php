@@ -52,7 +52,7 @@
     <h1>Scratch</h1>
     <p class="price">$7 per class. $35 for the whole course</p>
     <p>Info about Scratch</p>
-    <a href="classes/scratch"><button>View more information</button></a>
+    <a href="scratch"><button>View more information</button></a>
 </div>
 
 <div class="card">
