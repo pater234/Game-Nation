@@ -27,7 +27,7 @@ session_start();
         <header>
             <nav>
                 <div class="logoname">
-                    <a class="cta" id="Classes56">Classes 56</a>
+                    <a class="cta" id="Classes56">Classes56</a>
                     <div class="verticalLine"></div>
                     <img class="logo" src="Logo.png" alt="logo" width=30% height=auto>
                 </div>
