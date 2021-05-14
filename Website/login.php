@@ -1,8 +1,6 @@
 <?php
-session_start();
+include "layout.php";
 
-include ("connection.php");
-include("functions.php");
 
 if ($_SERVER['REQUEST_METHOD'] == "POST")
 {
@@ -41,26 +39,28 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Login</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <title>Log In</title>
     </head>
     <body>
         <style type="text/css">
 
             #text{
-                height: 25px;
                 border-radius: 10px;
-                padding: 4px;
-                border: solid thin #aaa;
+                padding: 15px;
+                border: 0;
                 width: 100%;
                 outline: 0;
+                margin: 0px 0px 15px;
+                background: #f2f2f2;
+                box-sizing: border-box;
+                font-size: 14px;
             }
 
             #button{
                 padding: 10px;
                 width: 100px;
                 color: white;
-                background-color: lightblue;
+                background-color: #0088a9;
                 border: none;
                 transition: all 0.3s ease 0s;
                 border-radius: 10px;
@@ -75,13 +75,19 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
                 font-family: Montserrat, sans-serif;
                 background-color: #ffffff;
                 margin: 200px auto 100px;
-                max-width: 260px;
+                width: 22%;
+                max-width: 25%;
                 padding: 10px 45px 30px 45px;
                 box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
                 border-radius: 20px;
+                text-align: center;
+                border: 5px #0088a9;
             }
             body {
-                background-color: #aaaaaa;
+                /*background-color: #aaaaaa;*/
+                background-image: url("https://womensagenda.com.au/wp-content/uploads/2020/04/learning-at-home.jpg");
+                background-size: 100%;
+                background-blend-mode: color-burn;
             }
 
             #title {
@@ -90,18 +96,17 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
                 text-align: center;
             }
 
+
         </style>
-        <div id="topbar">
-            <a href="homepage"></a>
-        </div>
-        <div id="box">
+            <div id="box">
+            <img id="imglogo" src="Logo.png">
             <p id="title">Login</p>
             <form method="post">
-                <input id="text" type="text" name="user_name" placeholder="username">
-                <input id="text" type="password" name="password" placeholder="password">
-                <input id="button" type="submit" value="Login"><br><br>
+                <input id="text" type="text" name="user_name" placeholder="Username">
+                <input id="text" type="password" name="password" placeholder="Password">
+                <input id="button" type="submit" value="Log in"><br><br>
                 <p>Not registered? <a href="signup">Create an account</a></p>
             </form>
-        </div>
+            </div>
     </body>
 </html>

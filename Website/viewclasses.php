@@ -29,6 +29,12 @@
         width: 100%;
         align-content: center;
     }
+
+    body {
+        background-image: url("https://www.parentmap.com/sites/default/files/styles/1180x660_scaled_cropped/public/2018-09/iStock-612659828.jpg?itok=MhLCDK7N");
+        background-size: 100%;
+        background-blend-mode: color-burn;
+    }
 </style>
 
 <div id="card">
@@ -48,7 +54,7 @@
             <h1 class="card-title">Java</h1>
             <p class="card-text">$7 per class. $35 for the whole course</p>
             <p class="card-text">Info about Java</p>
-            <a class="btn btn-primary">View more information</a>
+            <a class="btn btn-primary" href="java">View more information</a>
         </div>
     </div>
 
@@ -58,7 +64,7 @@
             <h1 class="card-title">Game Design in Unreal Engine 4</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Info about UE4</p>
-            <a class="btn btn-primary">View more information</a>
+            <a class="btn btn-primary" href="ue4">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -67,7 +73,7 @@
             <h1 class="card-title">Web Design</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Info about Web Design</p>
-            <a class="btn btn-primary">View more information</a>
+            <a class="btn btn-primary" href="webdesign">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -76,7 +82,7 @@
         <h1 class="card-title">Python Programming</h1>
         <p class="card-text">$7 per class. $35 for the whole course</p>
         <p class="card-text">Info about Java</p>
-        <a class="btn btn-primary">View more information</a>
+        <a class="btn btn-primary" href="python">View more information</a>
         </div>
     </div>
 </div>
