@@ -42,45 +42,65 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
     <head>
         <meta charset="UTF-8">
         <title>Login</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     </head>
     <body>
         <style type="text/css">
 
             #text{
-
                 height: 25px;
-                border-radius: 5px;
+                border-radius: 10px;
                 padding: 4px;
                 border: solid thin #aaa;
                 width: 100%;
+                outline: 0;
             }
 
             #button{
-
                 padding: 10px;
                 width: 100px;
                 color: white;
                 background-color: lightblue;
                 border: none;
+                transition: all 0.3s ease 0s;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            #button:hover {
+                background-color: rgba(0, 136, 169,0.5);
             }
 
             #box{
-
-                background-color: grey;
-                margin: auto;
-                width: 300px;
-                padding: 20px;
+                font-family: Montserrat, sans-serif;
+                background-color: #ffffff;
+                margin: 200px auto 100px;
+                max-width: 260px;
+                padding: 10px 45px 30px 45px;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+                border-radius: 20px;
             }
+            body {
+                background-color: #aaaaaa;
+            }
+
+            #title {
+                font-size: 20px;
+                padding: 1px;
+                text-align: center;
+            }
+
         </style>
+        <div id="topbar">
+            <a href="homepage"></a>
+        </div>
         <div id="box">
+            <p id="title">Login</p>
             <form method="post">
-                <div style="font-size: 20px;margin: 10px;color: white;">Login</div>
-                <input id="text" type="text" name="user_name"><br><br>
-                <input id="text" type="password" name="password"><br><br>
-
+                <input id="text" type="text" name="user_name" placeholder="username">
+                <input id="text" type="password" name="password" placeholder="password">
                 <input id="button" type="submit" value="Login"><br><br>
-
-                <a href="signup">Click to Signup</a><br><br>
+                <p>Not registered? <a href="signup">Create an account</a></p>
             </form>
         </div>
     </body>
