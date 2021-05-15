@@ -75,8 +75,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
                 font-family: Montserrat, sans-serif;
                 background-color: #ffffff;
                 margin: 200px auto 100px;
-                width: 22%;
-                max-width: 25%;
+                width: 19rem;
+                max-width: 25rem;
                 padding: 10px 45px 30px 45px;
                 box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
                 border-radius: 20px;
@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
         </style>
             <div id="box">
             <img id="imglogo" src="Logo.png">
-            <p id="title">Login</p>
+            <p id="title">Log In</p>
             <form method="post">
                 <input id="text" type="text" name="user_name" placeholder="Username">
                 <input id="text" type="password" name="password" placeholder="Password">
