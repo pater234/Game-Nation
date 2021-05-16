@@ -1,6 +1,27 @@
 RewriteEngine on
 
-RewriteRule ^login$ login.php [L]
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+<files layout.php>
+order allow,deny
+deny from all
+</files>
+
+<files functions.php>
+order allow,deny
+deny from all
+</files>
+
+<files connection.php>
+order allow,deny
+deny from all
+</files>
+
+IndexIgnore *.png *.jpg
 
 RewriteCond %{REQUEST_FILENAME} !-d
 

@@ -11,7 +11,7 @@ if ($user_data == null or !isset($user_data))
 }
 else
 {
-    $button1 = array("Account Information");
+    $button1 = array("Account Information", "accountinformation");
     $button2 = array("Log Out", "logout");
 }
 
