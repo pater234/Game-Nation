@@ -7,6 +7,7 @@
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="7aa84ac1ab" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="pytest" />

@@ -14,7 +14,6 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
 
             if ($password !== $confpassword) {
                 echo "The passwords do not match";
-
             } else {
 
                 $query = "SELECT * FROM users WHERE user_name = '$user_name' limit 1";
@@ -46,6 +45,7 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
 <style type="text/css">
@@ -126,3 +126,9 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
 </body>
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
 </html>
+
+<script type="text/javascript">
+    $(document).ready(function()) {
+        alert("SOmething");
+    }
+</script>
