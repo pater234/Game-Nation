@@ -6,6 +6,6 @@
     {
         unset($_SESSION['user_id']);
     }
-    header("Location: homepage");
+    header("Location: /");
     die;
 ?>

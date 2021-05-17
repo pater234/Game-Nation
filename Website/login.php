@@ -1,5 +1,5 @@
 <?php
-include "layout.php";
+include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
 
 
 if ($_SERVER['REQUEST_METHOD'] == "POST")
@@ -99,15 +99,15 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
 
         </style>
             <div id="box">
-            <img id="imglogo" src="Logo.png">
+            <img id="imglogo" src="othercontent/Logo.png">
             <p id="title">Log In</p>
             <form method="post">
-                <input id="text" type="text" name="user_name" placeholder="Username">
+                <input id="text" type="text" name="user_name" placeholder="Username" autofocus>
                 <input id="text" type="password" name="password" placeholder="Password">
                 <input id="button" type="submit" value="Log in"><br><br>
-                <p>Not registered? <a href="signup">Create an account</a></p>
+                <p>Not registered? <a href="/signup">Create an account</a></p>
             </form>
             </div>
     </body>
-    <?php include "footer.php"?>
+    <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
 </html>

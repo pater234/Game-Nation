@@ -1,4 +1,4 @@
-<?php include "layout.php"; ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php"); ?>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -10,4 +10,6 @@
     }
 </style>
 
-<h1 class="title">Python Programming</h1>
+<h1 class="title">Scratch</h1>
+
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>

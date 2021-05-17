@@ -1,4 +1,4 @@
-<?php include "layout.php" ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php"); ?>
 
 
 <style>
@@ -62,7 +62,7 @@
             <h1 class="card-title">Scratch</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Info about Scratch</p>
-            <a class="btn btn-primary" id="cardbutton" href="scratch">View more information</a>
+            <a class="btn btn-primary" id="cardbutton" href="/classes/scratch">View more information</a>
         </div>
     </div>
 
@@ -72,7 +72,7 @@
             <h1 class="card-title">Java</h1>
             <p class="card-text">$7 per class. $35 for the whole course</p>
             <p class="card-text">Info about Java</p>
-            <a class="btn btn-primary" id="cardbutton" href="java">View more information</a>
+            <a class="btn btn-primary" id="cardbutton" href="/classes/java">View more information</a>
         </div>
     </div>
 
@@ -82,7 +82,7 @@
             <h1 class="card-title">Game Design in Unreal Engine 4</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Info about UE4</p>
-            <a class="btn btn-primary" id="cardbutton" href="ue4">View more information</a>
+            <a class="btn btn-primary" id="cardbutton" href="/classes/ue4">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -91,7 +91,7 @@
             <h1 class="card-title">Web Design</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Info about Web Design</p>
-            <a class="btn btn-primary" id="cardbutton" href="webdesign">View more information</a>
+            <a class="btn btn-primary" id="cardbutton" href="/classes/webdesign">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -100,11 +100,11 @@
         <h1 class="card-title">Python Programming</h1>
         <p class="card-text">$7 per class. $35 for the whole course</p>
         <p class="card-text">Info about Java</p>
-        <a class="btn btn-primary" id="cardbutton" href="python">View more information</a>
+        <a class="btn btn-primary" id="cardbutton" href="/classes/python">View more information</a>
         </div>
     </div>
 </div>
-<?php include "footer.php"?>
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
 
 <!--<button onclick="color(); return false;">
     Change Color

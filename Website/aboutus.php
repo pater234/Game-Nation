@@ -1,4 +1,4 @@
-<?php include "layout.php" ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php"); ?>
 
 
 
@@ -46,7 +46,7 @@
 
 <body>
     <div class="aboutusheader">
-        <img src="Logo.png">
+        <img src="othercontent/Logo.png">
         <h1>Classes56</h1>
         <h1>About Us</h1>
     </div>
@@ -77,6 +77,6 @@
         </div>
     </div>
 </div>
-<?php include "footer.php"?>
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
 
 
