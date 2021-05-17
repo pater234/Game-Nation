@@ -7,7 +7,7 @@
             </div>
             <hr class="mb-4">
             <div class="row align-items-center">
-                <div class="col-md-7 col-lg-8">
+                <div style="text-align: center">
                     <p style="font-family: Montserrat, sans-serif">
                         Copyright ©2021 All rights reserved by Classes56
                     </p>
