@@ -6,25 +6,29 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
         // Something was posted
         $user_name = $_POST['user_name'];
         $password = $_POST['password'];
+        $confpassword = $_POST['confpassword'];
 
-        if (!empty($user_name) && !empty($password) && !is_numeric($user_name))
+        if (!empty($user_name) && !empty($password) && !empty($confpassword) && !is_numeric($user_name))
         {
-            $query = "select * from users where user_name = '$user_name' limit 1";
-            $result = mysqli_query($con, $query);
-            if ($result && mysqli_num_rows($result) > 0)
-            {
-                echo "This username is already in use! Please try with another one!";
-            }
-            else
-            {
-                // Save to DataBase
-                $user_id = random_num(20);
-                $password = password_hash($password, PASSWORD_DEFAULT);
-                $query = "insert into users (user_id, user_name, password) values ('$user_id', '$user_name', '$password')";
-                mysqli_query($con, $query);
 
-                header("Location: Login");
-                die;
+            if ($password !== $confpassword) {
+                echo "The passwords do not match";
+            } else {
+
+                $query = "SELECT * FROM users WHERE user_name = '$user_name' limit 1";
+                $result = mysqli_query($con, $query);
+                if ($result && mysqli_num_rows($result) > 0) {
+                    echo "This username is already in use! Please try with another one!";
+                } else {
+                    // Save to DataBase
+                    $user_id = random_num(20);
+                    $password = password_hash($password, PASSWORD_DEFAULT);
+                    $query = "INSERT INTO users (user_id, user_name, password) VALUES ('$user_id', '$user_name', '$password')";
+                    mysqli_query($con, $query);
+
+                    header("Location: Login");
+                    die;
+                }
             }
         }
         else
@@ -103,8 +107,10 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
     <form method="post">
         <input id="text" type="text" name="user_name" placeholder="Username" autofocus>
         <input id="text" type="password" name="password" placeholder="Password">
+        <input id="text" type="password" name="confpassword" placeholder="Retype Password">
         <input id="button" type="submit" value="Sign Up"><br><br>
         <p>Already registered? <a href="Login">Log In</a></p>
+        <p id="form-message"></p>
     </form>
 </div>
 </body>

@@ -1,7 +1,7 @@
-<?php include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php"); ?>
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
 if ($user_data == null or !isset($user_data))
 {
-    header("Location: Login");
+    header("Location: /Login");
 }
 ?>
 

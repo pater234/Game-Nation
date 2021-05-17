@@ -26,12 +26,6 @@
         align-content: center;
     }
 
-    body {
-        background-image: url("https://www.parentmap.com/sites/default/files/styles/1180x660_scaled_cropped/public/2018-09/iStock-612659828.jpg?itok=MhLCDK7N");
-        background-size: 100%;
-        background-blend-mode: color-burn;
-    }
-
     #cardbutton {
         background-color: rgba(220, 20, 60, 1);
         transition: all 0.3s ease 0s;
@@ -54,7 +48,6 @@
     }
 
 </style>
-
 <div id="card">
     <div class="card">
         <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
@@ -104,6 +97,7 @@
         </div>
     </div>
 </div>
+
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
 
 <!--<button onclick="color(); return false;">
