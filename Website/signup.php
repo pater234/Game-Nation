@@ -7,18 +7,21 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
         $user_name = $_POST['user_name'];
         $password = $_POST['password'];
         $confpassword = $_POST['confpassword'];
+        $dom = new DOMDocument();
 
         if (!empty($user_name) && !empty($password) && !empty($confpassword) && !is_numeric($user_name))
         {
 
             if ($password !== $confpassword) {
                 echo "The passwords do not match";
+
             } else {
 
                 $query = "SELECT * FROM users WHERE user_name = '$user_name' limit 1";
                 $result = mysqli_query($con, $query);
                 if ($result && mysqli_num_rows($result) > 0) {
                     echo "This username is already in use! Please try with another one!";
+                    $error_username = true;
                 } else {
                     // Save to DataBase
                     $user_id = random_num(20);
@@ -47,10 +50,9 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
 <body>
 <style type="text/css">
 
-    #text{
+    .text{
         border-radius: 10px;
         padding: 15px;
-        border: 0;
         width: 100%;
         outline: 0;
         margin: 0px 0px 15px;
@@ -99,18 +101,26 @@ include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
         text-align: center;
     }
 
+    .error {
+        border-color: red;
+    }
+
+    .normal {
+        border: none;
+    }
 
 </style>
+
 <div id="box">
     <img id="imglogo" src="othercontent/Logo.png">
     <p id="title">Sign Up</p>
     <form method="post">
-        <input id="text" type="text" name="user_name" placeholder="Username" autofocus>
-        <input id="text" type="password" name="password" placeholder="Password">
-        <input id="text" type="password" name="confpassword" placeholder="Retype Password">
+        <input id="text-username" type="text" class="text normal" name="user_name" placeholder="Username" autofocus>
+        <input id="text-pass" type="password" class="text normal" name="password" placeholder="Password">
+        <input id="text-2ndpass" type="password" class="text normal" name="confpassword" placeholder="Retype Password">
         <input id="button" type="submit" value="Sign Up"><br><br>
-        <p>Already registered? <a href="Login">Log In</a></p>
-        <p id="form-message"></p>
+        <p>Already registered? <a href="/Login">Log In</a></p>
+        <p class="form-message"></p>
     </form>
 </div>
 </body>
