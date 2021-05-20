@@ -27,19 +27,15 @@
         align-content: center;
     }
 
-    body {
-        background-image: url("https://www.parentmap.com/sites/default/files/styles/1180x660_scaled_cropped/public/2018-09/iStock-612659828.jpg?itok=MhLCDK7N");
-        background-size: 100%;
-        background-blend-mode: color-burn;
-    }
-
     .aboutusheader {
-
+        text-align: center;
+        background-color: #007bff;
+        padding-bottom: 5px;
     }
 
     .aboutusheader h1 {
         font-family: Montserrat, sans-serif;
-
+        color: white;
     }
 
 </style>
@@ -52,31 +48,60 @@
     </div>
     <div class="informationaboutus">
         <div id="Rishit">
-
+            <div id="card">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Rishit</h1>
+                        <h2 class="card-text">Classes Taught</h2>
+                        <p class="card-text">Python and Java</p>
+                        <h2 class="card-text">Qualifications</h2>
+                        <p class="card-text">Takes Python</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="Prathamesh">
-
+            <div id="card">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Prathamesh</h1>
+                        <h2 class="card-text">Classes Taught</h2>
+                        <p class="card-text">Python and Java</p>
+                        <h2 class="card-text">Qualifications</h2>
+                        <p class="card-text">Takes Python</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="Darsh">
-
+            <div id="card">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Darsh</h1>
+                        <h2 class="card-text">Classes Taught</h2>
+                        <p class="card-text">Python and Java</p>
+                        <h2 class="card-text">Qualifications</h2>
+                        <p class="card-text">Takes Python</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="Shreyas">
-
+            <div id="card">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Shreyas</h1>
+                        <h2 class="card-text">Classes Taught</h2>
+                        <p class="card-text">Python and Java</p>
+                        <h2 class="card-text">Qualifications</h2>
+                        <p class="card-text">Takes Python</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
 
-<div id="card">
-    <div class="card">
-        <div class="card-body">
-            <h1 class="card-title">Prathamesh</h1>
-            <h2 class="card-text">Classes Taught</h2>
-            <p class="card-text">Python and Java</p>
-            <h2 class="card-text">Qualifications</h2>
-            <p class="card-text">Takes Python</p>
-        </div>
-    </div>
-</div>
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
 
 
