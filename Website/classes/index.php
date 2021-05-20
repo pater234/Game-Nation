@@ -48,6 +48,7 @@
     }
 
 </style>
+<body>
 <div id="card">
     <div class="card">
         <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
@@ -97,6 +98,7 @@
         </div>
     </div>
 </div>
+</body>
 
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
 

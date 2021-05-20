@@ -1,5 +1,4 @@
-<?php
-include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
+<?php include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php");
 
     if ($_SERVER['REQUEST_METHOD'] == "POST")
     {
