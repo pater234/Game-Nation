@@ -34,6 +34,7 @@
     }
 
     .aboutusheader h1 {
+
         font-family: Montserrat, sans-serif;
         color: white;
     }
@@ -55,7 +56,7 @@
                         <h2 class="card-text">Classes Taught</h2>
                         <p class="card-text">Python and Java</p>
                         <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">Takes Python</p>
+                        <p class="card-text">Everything, he is a god</p>
                     </div>
                 </div>
             </div>
@@ -68,7 +69,7 @@
                         <h2 class="card-text">Classes Taught</h2>
                         <p class="card-text">Python and Java</p>
                         <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">Takes Python</p>
+                        <p class="card-text">None, ie. noob</p>
                     </div>
                 </div>
             </div>
@@ -81,7 +82,7 @@
                         <h2 class="card-text">Classes Taught</h2>
                         <p class="card-text">Python and Java</p>
                         <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">Takes Python</p>
+                        <p class="card-text">None, ie. noob</p>
                     </div>
                 </div>
             </div>
@@ -94,7 +95,7 @@
                         <h2 class="card-text">Classes Taught</h2>
                         <p class="card-text">Python and Java</p>
                         <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">Takes Python</p>
+                        <p class="card-text">None, ie. noob</p>
                     </div>
                 </div>
             </div>
