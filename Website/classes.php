@@ -92,7 +92,7 @@
     }
 
 </style>
-<body>
+<body class="body" style="position: relative; top: 0px">
 
 
 <div id="card">
@@ -152,7 +152,8 @@
         <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+            is not recommended for those that already have a sense of logic when it comes to programming. The programming taught in this class will be equal
+        to that taught in our Coding Principles class</p>
     </div>
 
 </div>
@@ -189,7 +190,8 @@
     </div>
 
 </div>
-<div id="pythonModal" class="modal">
+
+<div id="flaskModal" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
@@ -197,6 +199,83 @@
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic</p>
+    </div>
+
+</div>
+<div id="djangoModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
+            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
+            is not recommended for those that already have a sense of logic</p>
+    </div>
+
+</div>
+
+<div id="phpModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
+            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
+            is not recommended for those that already have a sense of logic</p>
+    </div>
+
+</div>
+
+<div id="pythonModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This course will teach you the basics of python through fun projects and lectures. Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.</p>
+    </div>
+
+</div>
+
+
+<div id="codingModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
+            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
+            is not recommended for those that already have a sense of logic</p>
+    </div>
+
+</div>
+
+<div id="exploringModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
+            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
+            is not recommended for those that already have a sense of logic</p>
+    </div>
+
+</div>
+<div id="entrepreneurshipModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>In this course, we will learn the basics of Business such as the 5 P's, Finance and many more! We will also learn what techinques companies use to catch the eye of the customers. We will also have a mini-project based on a company which you make yourself!</p>
+    </div>
+
+</div>
+<div id="3dModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>
+            This course will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
     </div>
 
 </div>

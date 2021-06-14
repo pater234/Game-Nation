@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
@@ -14,6 +23,8 @@ body {
 .navbar {
     background-color: #007bff;
     padding: 0;
+    top: 0;
+    transition: 0.8s all ease-out;
 }
 
 .nav-link , .navbar-brand{

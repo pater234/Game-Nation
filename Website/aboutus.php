@@ -18,13 +18,14 @@
         transition: all 0.3s ease 0s;
     }
 
-    #card {
+    .informationaboutus {
         /*padding-top: 4%;*/
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         width: 100%;
         align-content: center;
+        padding-bottom: 3%;
     }
 
     .aboutusheader {
@@ -41,7 +42,7 @@
 
 </style>
 
-<body>
+<body class="body" style="position: relative; top: 0px">
     <div class="aboutusheader">
         <img src="othercontent/Logo.png">
         <h1>Classes56</h1>
@@ -49,54 +50,46 @@
     </div>
     <div class="informationaboutus">
         <div id="Rishit">
-            <div id="card">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">Rishit</h1>
-                        <h2 class="card-text">Classes Taught</h2>
-                        <p class="card-text">Python and Java</p>
-                        <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">Everything, he is a god</p>
-                    </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Rishit</h1>
+                    <h2 class="card-text">Classes Taught</h2>
+                    <p class="card-text">Python and Java</p>
+                    <h2 class="card-text">Qualifications</h2>
+                    <p class="card-text">Everything, he is a god</p>
                 </div>
             </div>
         </div>
         <div id="Prathamesh">
-            <div id="card">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">Prathamesh</h1>
-                        <h2 class="card-text">Classes Taught</h2>
-                        <p class="card-text">Python and Java</p>
-                        <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">None, ie. noob</p>
-                    </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Prathamesh</h1>
+                    <h2 class="card-text">Classes Taught</h2>
+                    <p class="card-text">Python and Java</p>
+                    <h2 class="card-text">Qualifications</h2>
+                    <p class="card-text">None, ie. noob</p>
                 </div>
             </div>
         </div>
         <div id="Darsh">
-            <div id="card">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">Darsh</h1>
-                        <h2 class="card-text">Classes Taught</h2>
-                        <p class="card-text">Python and Java</p>
-                        <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">None, ie. noob</p>
-                    </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Darsh</h1>
+                    <h2 class="card-text">Classes Taught</h2>
+                    <p class="card-text">Python and Java</p>
+                    <h2 class="card-text">Qualifications</h2>
+                    <p class="card-text">None, ie. noob</p>
                 </div>
             </div>
         </div>
         <div id="Shreyas">
-            <div id="card">
-                <div class="card">
-                    <div class="card-body">
-                        <h1 class="card-title">Shreyas</h1>
-                        <h2 class="card-text">Classes Taught</h2>
-                        <p class="card-text">Python and Java</p>
-                        <h2 class="card-text">Qualifications</h2>
-                        <p class="card-text">None, ie. noob</p>
-                    </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Shreyas</h1>
+                    <h2 class="card-text">Classes Taught</h2>
+                    <p class="card-text">Python and Java</p>
+                    <h2 class="card-text">Qualifications</h2>
+                    <p class="card-text">None, ie. noob</p>
                 </div>
             </div>
         </div>
