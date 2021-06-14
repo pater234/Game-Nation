@@ -152,7 +152,8 @@
         <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+            is not recommended for those that already have a sense of logic when it comes to programming. The programming taught in this class will be equal
+        to that taught in our Coding Principles class</p>
     </div>
 
 </div>
