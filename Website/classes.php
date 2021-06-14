@@ -56,76 +56,6 @@
         width: 80%;
     }
 
-    .close1 {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    .close1:hover,
-    .close1:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    .close2 {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    .close2:hover,
-    .close2:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    .close3 {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    .close3:hover,
-    .close3:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    .close4 {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    .close4:hover,
-    .close4:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    .close5 {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    .close5:hover,
-    .close5:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
     .close {
         color: #aaaaaa;
         float: right;
@@ -187,7 +117,7 @@
     </div>
 
     <div class="card">
-        <img src="classes/ue4.png" alt="Unreal Engine" class="card-img-top" id="ue4">
+        <img src="/othercontent/ue4.png" alt="Unreal Engine" class="card-img-top" id="ue4">
         <div class="card-body">
             <h1 class="card-title">Game Design in Unreal Engine 4</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
@@ -219,7 +149,7 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-        <span id="close1" class="close">&times;</span>
+        <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic</p>
@@ -230,7 +160,7 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-        <span id="close2" class="close">&times;</span>
+        <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic</p>
@@ -241,7 +171,7 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-        <span id="close3" class="close">&times;</span>
+        <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic</p>
@@ -252,7 +182,7 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-        <span id="close4" class="close">&times;</span>
+        <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic</p>
@@ -263,7 +193,7 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-        <span id="close5" class="close">&times;</span>
+        <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic</p>
@@ -274,19 +204,19 @@
 <script>
     var modal1 = document.getElementById("scratchModal");
     var btn1 = document.getElementById("scratchBtn");
-    var span1 = document.getElementsByClassName("close1")[0];
+    var span1 = document.getElementsByClassName("close")[0];
     var modal2 = document.getElementById("javaModal")
     var btn2 = document.getElementById("javaBtn");
-    var span2 = document.getElementsByClassName("close2")[0];
+    var span2 = document.getElementsByClassName("close")[1];
     var modal3 = document.getElementById("ue4Modal");
     var btn3 = document.getElementById("ue4Btn");
-    var span3 = document.getElementsByClassName("close3")[0];
+    var span3 = document.getElementsByClassName("close")[2];
     var modal4 = document.getElementById("webModal");
     var btn4 = document.getElementById("webBtn");
-    var span4 = document.getElementsByClassName("close4")[0];
+    var span4 = document.getElementsByClassName("close")[3];
     var modal5 = document.getElementById("pythonModal");
     var btn5 = document.getElementById("pythonBtn");
-    var span5 = document.getElementsByClassName("close5")[0];
+    var span5 = document.getElementsByClassName("close")[4];
     btn1.onclick = function() {
         modal1.style.display = "block";
     }
