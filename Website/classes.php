@@ -128,10 +128,37 @@
     <div class="card">
         <img src="https://lh3.googleusercontent.com/Vs0cE-ieN6iLyVX9EI-jS_9xlxkdcZepsU7-9e8PoeIbdnRbpLGcsMNLqO7tDdDeGKPpZ1otT_97vyGZCga8KZz8XtkvdTeUibcmZ-b-QU86GH9mPLEFVaqndE_WMdWV6wiTM3D5EdcF9gCv" alt="Web Design" class="card-img-top" id="webdesign">
         <div class="card-body">
-            <h1 class="card-title">Web Design</h1>
+            <h1 class="card-title">Basic Web Design</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Info about Web Design</p>
             <a class="btn btn-primary" id="webBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body">
+            <h1 class="card-title">Web Design with Flask</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about Scratch</p>
+            <a class="btn btn-primary"  id="flaskBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body">
+            <h1 class="card-title">Web Design with Django</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about Scratch</p>
+            <a class="btn btn-primary"  id="djangoBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body">
+            <h1 class="card-title">Web Design with PHP</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about Scratch</p>
+            <a class="btn btn-primary"  id="phpBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -141,6 +168,42 @@
         <p class="card-text">$7 per class. $35 for the whole course</p>
         <p class="card-text">Info about Java</p>
         <a class="btn btn-primary" id="pythonBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body">
+            <h1 class="card-title">Coding Principles</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about Scratch</p>
+            <a class="btn btn-primary"  id="codingBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body">
+            <h1 class="card-title">Exploring Our Universe</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about Scratch</p>
+            <a class="btn btn-primary"  id="exploringBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body">
+            <h1 class="card-title">Entrepreneurship</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about Scratch</p>
+            <a class="btn btn-primary"  id="entrepreneurshipBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body">
+            <h1 class="card-title">3D Modeling</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about Scratch</p>
+            <a class="btn btn-primary"  id="3dBtn">View more information</a>
         </div>
     </div>
 </div>
@@ -153,18 +216,17 @@
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic when it comes to programming. The programming taught in this class will be equal
-        to that taught in our Coding Principles class</p>
+        to that taught in our Coding Principles class.</p>
     </div>
 
 </div>
+
 <div id="javaModal" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p>This Java course will give you an understanding into the basics of Java with simple lessons and well designed projects. </p>
     </div>
 
 </div>
@@ -293,9 +355,31 @@
     var modal4 = document.getElementById("webModal");
     var btn4 = document.getElementById("webBtn");
     var span4 = document.getElementsByClassName("close")[3];
-    var modal5 = document.getElementById("pythonModal");
-    var btn5 = document.getElementById("pythonBtn");
-    var span5 = document.getElementsByClassName("close")[4];
+    var modal5 = document.getElementById("flaskModal");
+    var btn5 = document.getElementById("flaskBtn");
+    var span5 = document.getElementsByClassName("close")[4]
+    var modal6 = document.getElementById("djangoModal");
+    var btn6 = document.getElementById("djangoBtn");
+    var span6 = document.getElementsByClassName("close")[5]
+    var modal7 = document.getElementById("phpModal");
+    var btn7 = document.getElementById("phpBtn");
+    var span7 = document.getElementsByClassName("close")[6]
+    var modal8 = document.getElementById("pythonModal");
+    var btn8 = document.getElementById("pythonBtn");
+    var span8 = document.getElementsByClassName("close")[7];
+    var modal9 = document.getElementById("codingModal");
+    var btn9 = document.getElementById("codingBtn");
+    var span9 = document.getElementsByClassName("close")[8]
+    var modal10 = document.getElementById("exploringModal");
+    var btn10 = document.getElementById("exploringBtn");
+    var span10 = document.getElementsByClassName("close")[9]
+    var modal11 = document.getElementById("entrepreneurshipModal");
+    var btn11 = document.getElementById("entrepreneurshipBtn");
+    var span11 = document.getElementsByClassName("close")[10]
+    var modal12 = document.getElementById("3dModal");
+    var btn12 = document.getElementById("3dBtn");
+    var span12 = document.getElementsByClassName("close")[11]
+
     btn1.onclick = function() {
         modal1.style.display = "block";
     }
@@ -369,6 +453,111 @@
     window.onclick = function(event) {
         if (event.target == modal5) {
             modal5.style.display = "none";
+        }
+    }
+    btn6.onclick = function() {
+        modal6.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span6.onclick = function() {
+        modal6.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal6) {
+            modal6.style.display = "none";
+        }
+    }
+    btn7.onclick = function() {
+        modal7.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span7.onclick = function() {
+        modal7.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal7) {
+            modal7.style.display = "none";
+        }
+    }
+    btn8.onclick = function() {
+        modal8.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span8.onclick = function() {
+        modal8.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal8) {
+            modal8.style.display = "none";
+        }
+    }
+    btn9.onclick = function() {
+        modal9.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span1.onclick = function() {
+        modal9.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal9) {
+            modal9.style.display = "none";
+        }
+    }
+    btn10.onclick = function() {
+        modal10.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span1.onclick = function() {
+        modal10.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal10) {
+            modal10.style.display = "none";
+        }
+    }
+    btn11.onclick = function() {
+        modal11.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span11.onclick = function() {
+        modal11.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal11) {
+            modal11.style.display = "none";
+        }
+    }
+    btn12.onclick = function() {
+        modal12.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span12.onclick = function() {
+        modal12.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal12) {
+            modal12.style.display = "none";
         }
     }
 
