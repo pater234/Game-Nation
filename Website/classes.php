@@ -24,16 +24,9 @@
         justify-content: space-evenly;
         width: 100%;
         align-content: center;
+        margin-bottom: 3%;
     }
 
-    #cardbutton {
-        background-color: rgba(220, 20, 60, 1);
-        transition: all 0.3s ease 0s;
-    }
-
-    #cardbutton:hover {
-        background-color: rgba(220, 20, 60, 0.5);
-    }
     .modal {
         display: none; /* Hidden by default */
         position: fixed; /* Stay in place */
@@ -504,7 +497,7 @@
     }
 
     // When the user clicks on <span> (x), close the modal
-    span1.onclick = function() {
+    span9.onclick = function() {
         modal9.style.display = "none";
     }
 
@@ -519,7 +512,7 @@
     }
 
     // When the user clicks on <span> (x), close the modal
-    span1.onclick = function() {
+    span10.onclick = function() {
         modal10.style.display = "none";
     }
 
