@@ -235,9 +235,10 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p>This course will give an introduction to video game design in Unreal Engine 4. Games in Unreal Engine can be coded in C++ or in Unreal's visual scripting system called Blueprints.
+            Many people debate on whether it is better to use C++ or blueprints. However, the correct answer is to use both because it makes coding games easier and more efficient.
+            We will be using both of them in tandem to code a simple game. You will learn about their strengths and weaknesses and how to gain the most out of them.
+            By the end of this course, students will have understood the fundamentals of Unreal Engine and how to use its advantages to code a game in C++ and blueprints.</p>
     </div>
 
 </div>
@@ -246,9 +247,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p>This course will teach you the basics of web design and by the time you have completed it, you will be able to create a well designed website that will be visually appealing to viewers. First, you will learn HTML, for formatting webpages, and CSS, for designing the webpage. Then, to make the webpages interactive, you will first learn JavaScript and later, Python. Moreover, students will learn how to run Flask servers in which different users can login to view different webpages. Lastly, they will learn how to make HTML templates for similar webpages using Jinja.</p>
     </div>
 
 </div>
