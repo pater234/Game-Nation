@@ -24,7 +24,7 @@ body {
     background-color: #007bff;
     padding: 0;
     top: 0;
-    transition: 0.8s all ease-out;
+    transition: 0.2s top ease-out;
 }
 
 .nav-link , .navbar-brand{
