@@ -35,7 +35,7 @@
     <hr class="homepageBreak">
     <div id="overview">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Overview</h2>
-        <p style="padding-right: 10%; padding-left: 10%">
+        <p style="padding-right: 10%; padding-left: 10%;">
             Sup
         </p>
     </div>

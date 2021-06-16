@@ -4,12 +4,19 @@ require "../vendor/autoload.php";
 
 error_reporting(0);
 
-$nameErr = $emailErr = "";
+$nameErr = $emailErr = $classErr = "";
 $name = $email = "";
 $classesChosen = array();
 $className = array(
        "scratch", "java", "ue4", "web", "flask", "django", "php", "python", "coding", "exploring", "entrepreneurship", "3d", "pc",
 );
+
+$classPrice = array(
+        30, 35, 48, 48, 30, 30, 30, 35, 30, 30, 30, 30, 30,
+);
+$totalPrice = 0;
+
+$alert = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
@@ -54,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $valuesGet = $response->getValues();
         $length = strval(count($valuesGet) + 1);
 
-        $range = 'A' . $length . ':' . 'O' . $length;
+        $range = 'A' . $length . ':' . 'P' . $length;
 
         $innerValues = [$name, $email];
 
@@ -62,6 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         {
             array_push($innerValues, $item);
         }
+
+        array_push($innerValues, $totalPrice);
 
         $values = [
             $innerValues
@@ -79,10 +88,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $params
         );
     }
-
+    else
+    {
+        $alert = true;
+    }
 }
-
-
 
 function test_input($data): string
 {
@@ -91,6 +101,23 @@ function test_input($data): string
     $data = htmlspecialchars($data);
     return $data;
 } ?>
+    <script>
+        function alertUser()
+        {
+            var jsEmailErr = <?php echo(json_encode($emailErr)); ?>;
+            var jsNameErr = <?php echo(json_encode($nameErr)); ?>;
+            alert(jsNameErr + "\n"  + jsEmailErr);
+        }
+    </script>
+
+<?php
+
+if ($alert)
+{
+    echo "<script>alertUser()</script>";
+}
+
+?>
 
 <style>
     .mainForm {
@@ -131,29 +158,32 @@ function test_input($data): string
             max-width: 21rem;
         }
     }
-
-
 </style>
 
 <body class="body" style="position: relative; top: 0px">
-    <div class="mainForm">
-        <div style="text-align: center;"><img id="imglogo" src="othercontent/Logo.png"></div>
+    <div id="alert" class="alert alert-primary text-center visually-hidden" role="alert">
+        <?php echo $nameErr;?>
         <br>
-        <!--<p><span class="error">* Required field</span></p>-->
+        <?php echo $emailErr;?>
+    </div>
+    <div class="mainForm">
+        <div style="text-align: center;">
+            <img id="imglogo" src="othercontent/Logo.png">
+            <p id="title">Sign Up</p>
+        </div>
+        <br>
         <form class="form-check signupForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
-                    <span class="input-group-text" id="addon-wrapping">Name</span>
+                    <span class="input-group-text" id="addon-wrapping">Name*</span>
                     <input name="name" type="text" class="form-control form-control-inline" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
-                    <span class="error"> <?php echo $nameErr;?></span>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
-                    <span class="input-group-text" id="addon-wrapping">Email</span>
+                    <span class="input-group-text" id="addon-wrapping">Email*</span>
                     <input name="email" type="text" class="form-control form-control-inline" placeholder="example@gmail.com" aria-label="Email" aria-describedby="addon-wrapping">
-                    <span class="error"> <?php echo $emailErr;?></span>
                 </div>
             </div>
             <br><br>
