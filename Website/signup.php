@@ -8,7 +8,7 @@ $nameErr = $emailErr = "";
 $name = $email = "";
 $classesChosen = array();
 $className = array(
-       "scratch", "java", "ue4", "web", "flask", "django", "php", "python", "coding", "exploring", "entrepreneurship", "3d",
+       "scratch", "java", "ue4", "web", "flask", "django", "php", "python", "coding", "exploring", "entrepreneurship", "3d", "pc",
 );
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $valuesGet = $response->getValues();
         $length = strval(count($valuesGet) + 1);
 
-        $range = 'A' . $length . ':' . 'N' . $length;
+        $range = 'A' . $length . ':' . 'O' . $length;
 
         $innerValues = [$name, $email];
 
@@ -110,20 +110,37 @@ function test_input($data): string
         width: 20px;
         display: inline;
     }
-    
-    @media only screen and (max-width: 480px) {
+
+    @media only screen and (min-width: 1000px) {
+        .mainForm {
+            width: 26rem;
+            max-width: 26rem;
+        }
+    }
+
+    @media only screen and (max-width: 480px) and (min-width: 401px){
         .mainForm {
             width: 24rem;
             max-width: 24rem;
         }
     }
+
+    @media only screen and (max-width: 400px) {
+        .mainForm {
+            width: 21rem;
+            max-width: 21rem;
+        }
+    }
+
+
 </style>
 
 <body class="body" style="position: relative; top: 0px">
     <div class="mainForm">
-        <p><span class="error">* Required field</span></p>
+        <div style="text-align: center;"><img id="imglogo" src="othercontent/Logo.png"></div>
+        <br>
+        <!--<p><span class="error">* Required field</span></p>-->
         <form class="form-check signupForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
                     <span class="input-group-text" id="addon-wrapping">Name</span>
@@ -163,7 +180,9 @@ function test_input($data): string
             <input class="form-check-input" type="checkbox" id="entrepreneurship" name="entrepreneurship" value="entrepreneurship">
             <label class="form-check-label" for="entrepreneurship"> Entrepreneurship</label><br>
             <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d">
-            <label class="form-check-label" for="3d"> 3D Modeling</label><br><br>
+            <label class="form-check-label" for="3d"> 3D Modeling</label><br>
+            <input class="form-check-input" type="checkbox" id="pc" name="pc" value="pc">
+            <label class="form-check-label" for="pc"> PC</label><br><br>
             <div class="row">
                 <button type="submit" class="btn btn-primary" style="width: 30%;">Submit</button>
             </div>
@@ -172,14 +191,21 @@ function test_input($data): string
 </body>
 
 <script>
-    var navbarWidthStr = $(".navbar").css('width');
-    var navbarPos = navbarWidthStr.indexOf("px");
-    var navbarWidth = parseFloat(navbarWidthStr.slice(0, navbarPos));
-    var formStr = $(".mainForm").css('width');
-    var formPos = formStr.indexOf("px");
-    var form = parseFloat(formStr.slice(0, formPos));
-    var offset = (navbarWidth - form)/2;
-    $(".mainForm").css('margin-left', offset.toString() + "px");
+    $(document).ready(centerForm());
+
+    $(window).resize(centerForm());
+
+     function centerForm()
+     {
+         var navbarWidthStr = $(".navbar").css('width');
+         var navbarPos = navbarWidthStr.indexOf("px");
+         var navbarWidth = parseFloat(navbarWidthStr.slice(0, navbarPos));
+         var formStr = $(".mainForm").css('width');
+         var formPos = formStr.indexOf("px");
+         var form = parseFloat(formStr.slice(0, formPos));
+         var offset = (navbarWidth - form)/2;
+         $(".mainForm").css('margin-left', offset.toString() + "px");
+     }
 
 </script>
 

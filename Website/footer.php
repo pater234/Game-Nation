@@ -54,9 +54,9 @@
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 contactinfo" style="font-family: Montserrat, sans-serif; color: lightskyblue">
                 <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
                 <div>
-                    <a href="#" class="fa fa-google"></a>
+                    <a href="mailto:classes56official@gmail.com" class="fa fa-google"></a>
                     <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw" class="fa fa-youtube"></a>
                     <a href="#" class="fa fa-facebook"></a>
                 </div>
             </div>
