@@ -6,6 +6,10 @@ error_reporting(0);
 
 $nameErr = $emailErr = "";
 $name = $email = "";
+$classesChosen = array();
+$className = array(
+       "scratch", "java", "ue4", "web", "flask", "django", "php", "python", "coding", "exploring", "entrepreneurship", "3d",
+);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
@@ -18,6 +22,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $emailErr = "Email is required";
     } else {
         $email = test_input($_POST["email"]);
+    }
+
+    foreach ($className as &$item)
+    {
+        if (isset($_POST[$item]))
+        {
+            array_push($classesChosen, 1);
+        }
+        else
+        {
+            array_push($classesChosen, 0);
+        }
     }
 
     if ($nameErr == "" && $emailErr == "")
@@ -38,9 +54,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $valuesGet = $response->getValues();
         $length = strval(count($valuesGet) + 1);
 
-        $range = 'A' . $length . ':' . 'B' . $length;
+        $range = 'A' . $length . ':' . 'N' . $length;
+
+        $innerValues = [$name, $email];
+
+        foreach ($classesChosen as &$item)
+        {
+            array_push($innerValues, $item);
+        }
+
         $values = [
-            [$name, $email]
+            $innerValues
         ];
         $body = new Google_Service_Sheets_ValueRange([
             'values' => $values
@@ -60,52 +84,98 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-function test_input($data) {
+function test_input($data): string
+{
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
     return $data;
-}
+} ?>
 
+<style>
+    .mainForm {
+        font-family: Montserrat, sans-serif;
+        background-color: #ffffff;
+        overflow: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 32.5%;
+        width: ;
+    }
+    .form-control-inline {
+        min-width: 0;
+        width: 20px;
+        display: inline;
+    }
+</style>
 
-?>
 <body class="body" style="position: relative; top: 0px">
-    <p><span class="error">* required field</span></p>
-    <div class="form">
-        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-            Name: <input type="text" name="name">
-            <span class="error">* <?php echo $nameErr;?></span>
+    <div class="mainForm">
+        <p><span class="error">* Required field</span></p>
+        <form class="form-check signupForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+            <div class="row">
+                <div class="input-group flex-nowrap" style="width: 90%">
+                    <span class="input-group-text" id="addon-wrapping">Name</span>
+                    <input name="name" type="text" class="form-control form-control-inline" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
+                    <span class="error"> <?php echo $nameErr;?></span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="input-group flex-nowrap" style="width: 90%">
+                    <span class="input-group-text" id="addon-wrapping">Email</span>
+                    <input name="email" type="text" class="form-control form-control-inline" placeholder="example@gmail.com" aria-label="Email" aria-describedby="addon-wrapping">
+                    <span class="error"> <?php echo $emailErr;?></span>
+                </div>
+            </div>
             <br><br>
-            E-mail: <input type="text" name="email">
-            <span class="error">* <?php echo $emailErr;?></span>
-            <br><br>
-            <input type="checkbox" id="scratch" name="scratch" value="scratch">
-            <label for="scratch"> Scratch</label><br>
-            <input type="checkbox" id="java" name="java" value="java">
-            <label for="java"> Java</label><br>
-            <input type="checkbox" id="ue4" name="ue4" value="ue4">
-            <label for="ue4"> Game Design in Unreal Engine 4</label><br>
-            <input type="checkbox" id="web" name="web" value="web">
-            <label for="web"> Basic Web Design</label><br>
-            <input type="checkbox" id="flask" name="flask" value="flask">
-            <label for="flask"> Web Design with Flask</label><br>
-            <input type="checkbox" id="django" name="django" value="django">
-            <label for="django"> Web Design with Django</label><br>
-            <input type="checkbox" id="php" name="php" value="php">
-            <label for="php"> Web Design with PHP</label><br>
-            <input type="checkbox" id="python" name="python" value="python">
-            <label for="python"> Python Programming</label><br>
-            <input type="checkbox" id="coding" name="coding" value="coding">
-            <label for="coding"> Coding Principles</label><br>
-            <input type="checkbox" id="exploring" name="exploring" value="exploring">
-            <label for="exploring"> Exploring Our Universe</label><br>
-            <input type="checkbox" id="entrepreneurship" name="entrepreneurship" value="entrepreneurship">
-            <label for="entrepreneurship"> Entrepreneurship</label><br>
-            <input type="checkbox" id="3d" name="3d" value="3d">
-            <label for="3d"> 3D Modeling</label><br>
-            <input type="submit" name="submit" value="Submit">
+            <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch">
+            <label class="form-check-label" for="scratch"> Scratch</label><br>
+            <input class="form-check-input" type="checkbox" id="java" name="java" value="java">
+            <label class="form-check-label" for="java"> Java</label><br>
+            <input class="form-check-input" type="checkbox" id="ue4" name="ue4" value="ue4">
+            <label id="ue4Label" class="form-check-label" for="ue4"> Game Design in Unreal Engine 4</label><br>
+            <input class="form-check-input" type="checkbox" id="web" name="web" value="web">
+            <label class="form-check-label" for="web"> Basic Web Design</label><br>
+            <input class="form-check-input" type="checkbox" id="flask" name="flask" value="flask">
+            <label class="form-check-label" for="flask"> Web Design with Flask</label><br>
+            <input class="form-check-input" type="checkbox" id="django" name="django" value="django">
+            <label class="form-check-label" for="django"> Web Design with Django</label><br>
+            <input class="form-check-input" type="checkbox" id="php" name="php" value="php">
+            <label class="form-check-label" for="php"> Web Design with PHP</label><br>
+            <input class="form-check-input" type="checkbox" id="python" name="python" value="python">
+            <label class="form-check-label" for="python"> Python Programming</label><br>
+            <input class="form-check-input" type="checkbox" id="coding" name="coding" value="coding">
+            <label class="form-check-label" for="coding"> Coding Principles</label><br>
+            <input class="form-check-input" type="checkbox" id="exploring" name="exploring" value="exploring">
+            <label class="form-check-label" for="exploring"> Exploring Our Universe</label><br>
+            <input class="form-check-input" type="checkbox" id="entrepreneurship" name="entrepreneurship" value="entrepreneurship">
+            <label class="form-check-label" for="entrepreneurship"> Entrepreneurship</label><br>
+            <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d">
+            <label class="form-check-label" for="3d"> 3D Modeling</label><br><br>
+            <div class="row">
+                <button type="submit" class="btn btn-default" style="width: 30%;">Submit</button>
+            </div>
         </form>
     </div>
 </body>
+
+<script>
+    var navbarWidthStr = $(".navbar").css('width');
+    var labelWidthStr = $("#ue4Label").css('width');
+    var checkboxWidthStr = $("#ue4").css('width');
+    var navbarPos = navbarWidthStr.indexOf("px");
+    var labelPos = labelWidthStr.indexOf("px");
+    var checkboxPos = checkboxWidthStr.indexOf("px");
+    var navbarWidth = parseFloat(navbarWidthStr.slice(0, navbarPos));
+    var labelWidth = parseFloat(labelWidthStr.slice(0, labelPos));
+    var checkboxWidth = parseFloat(checkboxWidthStr.slice(0, checkboxPos));
+    var formWidth = labelWidth + checkboxWidth + 10;
+    var offset = (navbarWidth - formWidth)/2;
+    //$(".mainForm").css('margin-left', offset.toString() + "px");
+
+
+</script>
 
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>

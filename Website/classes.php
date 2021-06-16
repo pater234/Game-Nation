@@ -396,12 +396,6 @@
         modal1.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal1) {
-            modal1.style.display = "none";
-        }
-    }
     btn2.onclick = function() {
         modal2.style.display = "block";
     }
@@ -411,12 +405,6 @@
         modal2.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal2) {
-            modal2.style.display = "none";
-        }
-    }
     btn3.onclick = function() {
         modal3.style.display = "block";
     }
@@ -426,12 +414,6 @@
         modal3.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal3) {
-            modal3.style.display = "none";
-        }
-    }
     btn4.onclick = function() {
         modal4.style.display = "block";
     }
@@ -441,12 +423,6 @@
         modal4.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal4) {
-            modal4.style.display = "none";
-        }
-    }
     btn5.onclick = function() {
         modal5.style.display = "block";
     }
@@ -456,12 +432,6 @@
         modal5.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal5) {
-            modal5.style.display = "none";
-        }
-    }
     btn6.onclick = function() {
         modal6.style.display = "block";
     }
@@ -471,12 +441,6 @@
         modal6.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal6) {
-            modal6.style.display = "none";
-        }
-    }
     btn7.onclick = function() {
         modal7.style.display = "block";
     }
@@ -486,12 +450,6 @@
         modal7.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal7) {
-            modal7.style.display = "none";
-        }
-    }
     btn8.onclick = function() {
         modal8.style.display = "block";
     }
@@ -501,12 +459,6 @@
         modal8.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal8) {
-            modal8.style.display = "none";
-        }
-    }
     btn9.onclick = function() {
         modal9.style.display = "block";
     }
@@ -516,12 +468,6 @@
         modal9.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal9) {
-            modal9.style.display = "none";
-        }
-    }
     btn10.onclick = function() {
         modal10.style.display = "block";
     }
@@ -531,12 +477,6 @@
         modal10.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal10) {
-            modal10.style.display = "none";
-        }
-    }
     btn11.onclick = function() {
         modal11.style.display = "block";
     }
@@ -546,12 +486,6 @@
         modal11.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal11) {
-            modal11.style.display = "none";
-        }
-    }
     btn12.onclick = function() {
         modal12.style.display = "block";
     }
@@ -561,12 +495,6 @@
         modal12.style.display = "none";
     }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal12) {
-            modal12.style.display = "none";
-        }
-    }
 
 </script>
 

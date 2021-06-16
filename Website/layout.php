@@ -62,10 +62,10 @@ else
                         <a class="nav-link" href="/donate">Donate</a>
                     </li>
                 </ul>
-                <ul>
+                <!--<ul>
                     <a href="<?php echo $button1[1] ?>"><button class="btn" id="navbutton"><?php echo $button1[0] ?></button></a>
                     <a href="<?php echo $button2[1] ?>"><button class="btn" id="navbutton"><?php echo $button2[0] ?></button></a>
-                </ul>
+                </ul>-->
             </div>
         </div>
     </nav>
