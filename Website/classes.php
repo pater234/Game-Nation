@@ -234,7 +234,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course will give an introduction to video game design in Unreal Engine 4. Games in Unreal Engine can be coded in C++ or in Unreal's visual scripting system called Blueprints.
+        <p>This course will give an introduction to <b>Game Design in Unreal Engine 4</b>. Games in Unreal Engine can be coded in C++ or in Unreal's visual scripting system called Blueprints.
             Many people debate on whether it is better to use C++ or blueprints. However, the correct answer is to use both because it makes coding games easier and more efficient.
             We will be using both of them in tandem to code a simple game. You will learn about their strengths and weaknesses and how to gain the most out of them.
             By the end of this course, students will have understood the fundamentals of Unreal Engine and how to use its advantages to code a game in C++ and blueprints.</p>
@@ -249,8 +249,8 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>This course is an introductory lesson into web design that will teach students how to utilize html and css in a basic way that will allow them to use
-        more advanced frameworks later on. This class is a prerequisite for our other web design classes, but those that have a background in web design will be
-        able to bypass this requirement.</p>
+            more advanced frameworks later on. <b>Basic Web Design</b> ensures that the student is able to properly utilize the web design principles that will be necessary for them to know no matter what they do afterwards.
+        This class is a prerequisite for our other web design classes, but those that have a background in web design will be able to bypass this requirement.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b>A computer with an ability to run a web browser and a github account</p>
     </div>
@@ -262,7 +262,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course is an introduction into the popular web framework known as flask, which is coded in Python. The students in this
+        <p>This course is an introduction into the popular web framework known as <b>Flask</b>, which is coded in Python. The students in this
         course will utilize higher level programming techniques to make extremely interactive websites. </p>
         <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
@@ -274,11 +274,11 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course is an introduction into the popular web framework known as Django, which is coded in Python. The students in this
+        <p><b>Django</b> is a popular web development framework coded in python. The students in this
             course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
             made from the code that they created to make extremely impressive websites that are sure to excite. </p>
-        <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
-        <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
+
+
     </div>
 
 </div>
@@ -288,9 +288,11 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p><b>PHP</b> is a scripting language that has been increasing in popularity in relation to utilizing python for Web Design backend. Students will
+        have an easier time utilizing PHP as compared to Flask and Django, and html is integrated in PHP files.</p>
+
+        <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
     </div>
 
 </div>
@@ -300,7 +302,12 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course will teach you the basics of python through fun projects and lectures. Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.</p>
+        <p>This course will teach you the basics of python through fun projects and lectures.
+            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
+        Following this course, students will be adept at logically using python, and will be able to think about attending competitions
+        related to coding.</p>
+        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
     </div>
 
 </div>
@@ -311,9 +318,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p></p>
     </div>
 
 </div>
@@ -323,9 +328,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p><b>Exploring Our Universe</b> is a class on Physics and Astronomy</p>
     </div>
 
 </div>

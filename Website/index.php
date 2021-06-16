@@ -65,8 +65,9 @@
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>The classes are taught by skilled volunteers who will not profit off of students.</strong> Classes56 is a volunteer run organization, so only volunteers
-                                    will be conducting the classes. All the volunteers are skilled at the disciplines that they teach, having taken classes in those subjects in preparation for teaching at Classes56.
+                                    <strong>The classes are taught by skilled volunteers who will not profit off of students.</strong> Classes56 is a volunteer run organization, so only there is no
+                                    incentive for them to run the classes except for desire from their hearts. Students will be taught by teachers who have no other intention except providing students
+                                    with quality lessons.
                                 </div>
                             </div>
                         </div>
