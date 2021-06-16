@@ -6,8 +6,8 @@
 
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        width: 25rem;
-        height: 30rem;
+        width: 22rem;
+        height: 29rem;
         margin-top: 20px;
         text-align: center;
         font-family: "Montserrat", sans-serif;
@@ -84,6 +84,9 @@
         background-color: rgba(220, 20, 60, 0.5);
     }
 
+    .card-title {
+        font-size: 33px;
+    }
 </style>
 <body class="body" style="position: relative; top: 0px">
 
@@ -197,6 +200,15 @@
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Info about 3D Modeling</p>
             <a class="btn btn-primary"  id="3dBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">PC</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Info about PC stuff</p>
+            <a class="btn btn-primary mt-auto" id="wopcBtn">View more information</a>
         </div>
     </div>
 </div>
@@ -351,6 +363,22 @@
     </div>
 
 </div>
+
+<div id="pcModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This course will teach you the basics of python through fun projects and lectures.
+            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
+            Following this course, students will be adept at logically using python, and will be able to think about attending competitions
+            related to coding.</p>
+        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+    </div>
+
+</div>
+
 </body>
 <script>
     var modal1 = document.getElementById("scratchModal");
@@ -388,7 +416,10 @@
     var span11 = document.getElementsByClassName("close")[10]
     var modal12 = document.getElementById("3dModal");
     var btn12 = document.getElementById("3dBtn");
-    var span12 = document.getElementsByClassName("close")[11]
+    var span12 = document.getElementsByClassName("close")[11];
+    var modal13 = document.getElementById("pcModal");
+    var btn13 = document.getElementById("wopcBtn");
+    var span13 = document.getElementsByClassName("close")[12]
 
     btn1.onclick = function() {
         modal1.style.display = "block";
@@ -496,6 +527,15 @@
     // When the user clicks on <span> (x), close the modal
     span12.onclick = function() {
         modal12.style.display = "none";
+    }
+
+    btn13.onclick = function() {
+        modal13.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span13.onclick = function() {
+        modal13.style.display = "none";
     }
 
 

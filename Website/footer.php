@@ -1,3 +1,48 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        transition: opacity 0.2s;
+    }
+
+    /* Add a hover effect if you want */
+    .fa-youtube:hover {
+        opacity: 0.7;
+        color: red;
+    }
+
+    .fa-youtube {
+        color: red;
+    }
+
+    .fa-instagram {
+        color: palevioletred;
+    }
+
+    .fa-instagram:hover {
+        color: palevioletred;
+        opacity: 0.7;
+    }
+
+    .fa-facebook:hover {
+        opacity: 0.7;
+    }
+
+    .fa-google {
+        color: #ec3d3d;
+    }
+
+    .fa-google:hover {
+        color: #ec3d3d;
+        opacity: 0.7;
+    }
+</style>
+
 <footer class="bg-dark text-white pt-5 pb-4">
     <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
@@ -8,11 +53,11 @@
 
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 contactinfo" style="font-family: Montserrat, sans-serif; color: lightskyblue">
                 <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
-                <div class="row text-center">
-                    <a class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw" target="_blank" rel="noreferrer noopener"><img src="/othercontent/yt.png" height="50%"></a>
-                    <a class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" ><img src="/othercontent/fb.png" height="50%"></a>
-                    <a class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3"><img src="/othercontent/insta.png" height="50%"></a>
-                    <a class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" href="mailto:classes56official@gmail.com"><img src="/othercontent/email.png" height="50%"></a>
+                <div>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-facebook"></a>
                 </div>
             </div>
             <hr class="mb-4">

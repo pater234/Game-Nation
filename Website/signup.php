@@ -96,16 +96,26 @@ function test_input($data): string
     .mainForm {
         font-family: Montserrat, sans-serif;
         background-color: #ffffff;
-        overflow: auto;
+        overflow: hidden;
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 32.5%;
-        width: ;
+        width: 25rem;
+        max-width: 25rem;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        border-radius: 30px;
+        padding: 20px 30px 30px 20px;
     }
     .form-control-inline {
         min-width: 0;
         width: 20px;
         display: inline;
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .mainForm {
+            width: 24rem;
+            max-width: 24rem;
+        }
     }
 </style>
 
@@ -155,7 +165,7 @@ function test_input($data): string
             <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d">
             <label class="form-check-label" for="3d"> 3D Modeling</label><br><br>
             <div class="row">
-                <button type="submit" class="btn btn-default" style="width: 30%;">Submit</button>
+                <button type="submit" class="btn btn-primary" style="width: 30%;">Submit</button>
             </div>
         </form>
     </div>
@@ -163,18 +173,13 @@ function test_input($data): string
 
 <script>
     var navbarWidthStr = $(".navbar").css('width');
-    var labelWidthStr = $("#ue4Label").css('width');
-    var checkboxWidthStr = $("#ue4").css('width');
     var navbarPos = navbarWidthStr.indexOf("px");
-    var labelPos = labelWidthStr.indexOf("px");
-    var checkboxPos = checkboxWidthStr.indexOf("px");
     var navbarWidth = parseFloat(navbarWidthStr.slice(0, navbarPos));
-    var labelWidth = parseFloat(labelWidthStr.slice(0, labelPos));
-    var checkboxWidth = parseFloat(checkboxWidthStr.slice(0, checkboxPos));
-    var formWidth = labelWidth + checkboxWidth + 10;
-    var offset = (navbarWidth - formWidth)/2;
-    //$(".mainForm").css('margin-left', offset.toString() + "px");
-
+    var formStr = $(".mainForm").css('width');
+    var formPos = formStr.indexOf("px");
+    var form = parseFloat(formStr.slice(0, formPos));
+    var offset = (navbarWidth - form)/2;
+    $(".mainForm").css('margin-left', offset.toString() + "px");
 
 </script>
 
