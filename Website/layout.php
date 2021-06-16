@@ -58,6 +58,9 @@ else
                     <li class="nav-item">
                         <a class="nav-link" href="/signup">Sign Up</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/donate">Donate</a>
+                    </li>
                 </ul>
                 <ul>
                     <a href="<?php echo $button1[1] ?>"><button class="btn" id="navbutton"><?php echo $button1[0] ?></button></a>

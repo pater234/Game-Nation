@@ -132,7 +132,7 @@
         <div class="card-body">
             <h1 class="card-title">Web Design with Flask</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about Scratch</p>
+            <p class="card-text">Info about Web Design with Flask</p>
             <a class="btn btn-primary"  id="flaskBtn">View more information</a>
         </div>
     </div>
@@ -141,7 +141,7 @@
         <div class="card-body">
             <h1 class="card-title">Web Design with Django</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about Scratch</p>
+            <p class="card-text">Info about Web Design with Django</p>
             <a class="btn btn-primary"  id="djangoBtn">View more information</a>
         </div>
     </div>
@@ -150,7 +150,7 @@
         <div class="card-body">
             <h1 class="card-title">Web Design with PHP</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about Scratch</p>
+            <p class="card-text">Info about Web Design with PHP</p>
             <a class="btn btn-primary"  id="phpBtn">View more information</a>
         </div>
     </div>
@@ -159,7 +159,7 @@
         <div class="card-body">
         <h1 class="card-title">Python Programming</h1>
         <p class="card-text">$7 per class. $35 for the whole course</p>
-        <p class="card-text">Info about Java</p>
+        <p class="card-text">Info about Python</p>
         <a class="btn btn-primary" id="pythonBtn">View more information</a>
         </div>
     </div>
@@ -168,7 +168,7 @@
         <div class="card-body">
             <h1 class="card-title">Coding Principles</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about Scratch</p>
+            <p class="card-text">Info about Coding Principles</p>
             <a class="btn btn-primary"  id="codingBtn">View more information</a>
         </div>
     </div>
@@ -177,7 +177,7 @@
         <div class="card-body">
             <h1 class="card-title">Exploring Our Universe</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about Scratch</p>
+            <p class="card-text">Info about Exploring our Universe</p>
             <a class="btn btn-primary"  id="exploringBtn">View more information</a>
         </div>
     </div>
@@ -186,7 +186,7 @@
         <div class="card-body">
             <h1 class="card-title">Entrepreneurship</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about Scratch</p>
+            <p class="card-text">Info about Entrepreneurship</p>
             <a class="btn btn-primary"  id="entrepreneurshipBtn">View more information</a>
         </div>
     </div>
@@ -195,7 +195,7 @@
         <div class="card-body">
             <h1 class="card-title">3D Modeling</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about Scratch</p>
+            <p class="card-text">Info about 3D Modeling</p>
             <a class="btn btn-primary"  id="3dBtn">View more information</a>
         </div>
     </div>
@@ -210,6 +210,8 @@
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic when it comes to programming. The programming taught in this class will be equal
         to that taught in our Coding Principles class.</p>
+        <p><b>Prerequisites: </b>None</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
     </div>
 
 </div>
@@ -219,7 +221,11 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This Java course will give you an understanding into the basics of Java with simple lessons and well designed projects. </p>
+        <p>This Java course will give you an understanding into the basics of Java with simple lessons and well designed projects. At the end of the course,
+        students will have the knowledge about syntax and sequence that will allow students the ability to solve many algorithmic problems and potentially
+        compete in coding competitions.</p>
+        <p><b>Prerequisites: </b>Have a basic knowledge of how to code (i.e. scratch)</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser and a github account for replit.com </p>
     </div>
 
 </div>
@@ -232,6 +238,8 @@
             Many people debate on whether it is better to use C++ or blueprints. However, the correct answer is to use both because it makes coding games easier and more efficient.
             We will be using both of them in tandem to code a simple game. You will learn about their strengths and weaknesses and how to gain the most out of them.
             By the end of this course, students will have understood the fundamentals of Unreal Engine and how to use its advantages to code a game in C++ and blueprints.</p>
+        <p><b>Prerequisites: </b>Decent knowledge of coding</p>
+        <p><b>Requirements:</b> A computer that can download and run Unreal Engine as well as Microsoft Visual Studio.  </p>
     </div>
 
 </div>
@@ -240,7 +248,11 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course will teach you the basics of web design and by the time you have completed it, you will be able to create a well designed website that will be visually appealing to viewers. First, you will learn HTML, for formatting webpages, and CSS, for designing the webpage. Then, to make the webpages interactive, you will first learn JavaScript and later, Python. Moreover, students will learn how to run Flask servers in which different users can login to view different webpages. Lastly, they will learn how to make HTML templates for similar webpages using Jinja.</p>
+        <p>This course is an introductory lesson into web design that will teach students how to utilize html and css in a basic way that will allow them to use
+        more advanced frameworks later on. This class is a prerequisite for our other web design classes, but those that have a background in web design will be
+        able to bypass this requirement.</p>
+        <p><b>Prerequisites: </b>None</p>
+        <p><b>Requirements:</b>A computer with an ability to run a web browser and a github account</p>
     </div>
 
 </div>
@@ -250,9 +262,10 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p>This course is an introduction into the popular web framework known as flask, which is coded in Python. The students in this
+        course will utilize higher level programming techniques to make extremely interactive websites. </p>
+        <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
     </div>
 
 </div>
@@ -261,9 +274,11 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
-            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
-            is not recommended for those that already have a sense of logic</p>
+        <p>This course is an introduction into the popular web framework known as Django, which is coded in Python. The students in this
+            course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
+            made from the code that they created to make extremely impressive websites that are sure to excite. </p>
+        <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
     </div>
 
 </div>

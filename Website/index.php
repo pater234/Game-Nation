@@ -29,7 +29,8 @@
             them the <b>best education</b> to make up for what they have lost and hope that through us, they pick up <b>new interests</b> that will stay with them for the rest of their life.
             In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>young generation ready for their future</b>.
         And, to avoid cheapening and monetizing the quality of the classes that we deliver, <b>all of the proceeds will be delivered in the hands of charities, local
-                and international.</b></p>
+                and international. Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give through the Donate button in
+                the navigation.</b></p>
     </div>
     <hr class="homepageBreak">
     <section id="faq" class="faq">
