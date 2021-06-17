@@ -314,7 +314,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course will teach you the basics of python through fun projects and lectures.
+        <p>This course will teach you the basics of <b>Python Programming</b> through fun projects and lectures.
             Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
         Following this course, students will be adept at logically using python, and will be able to think about attending competitions
         related to coding.</p>
@@ -340,7 +340,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p><b>Exploring Our Universe</b> is a class on Physics and Astronomy</p>
+        <p><b>Exploring Our Universe</b> is a class on Astronomy and Cosmology </p>
     </div>
 
 </div>
@@ -359,7 +359,7 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>
-            This course will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
+            <b>3D Modeling</b> will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
     </div>
 
 </div>

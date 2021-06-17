@@ -43,6 +43,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
+    foreach (range(0, 12) as $i)
+    {
+        if ($classesChosen[$i] == 1)
+        {
+            $totalPrice += $classPrice[$i];
+        }
+    }
+
+
     if ($nameErr == "" && $emailErr == "")
     {
         $client = new Google_Client();
@@ -212,7 +221,7 @@ if ($alert)
             <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d">
             <label class="form-check-label" for="3d"> 3D Modeling</label><br>
             <input class="form-check-input" type="checkbox" id="pc" name="pc" value="pc">
-            <label class="form-check-label" for="pc"> PC</label><br><br>
+            <label class="form-check-label" for="pc"> World of PC</label><br><br>
             <div class="row">
                 <button type="submit" class="btn btn-primary" style="width: 30%;">Submit</button>
             </div>
