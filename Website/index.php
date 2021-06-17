@@ -30,13 +30,19 @@
             In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>young generation ready for their future</b>.
             And, to avoid cheapening and monetizing the quality of the classes that we deliver, <b>all of the proceeds will be delivered in the hands of charities, local
                 and international. Even if you cannot commit to attending our classes, we will accept any donations that you wish to give through the Donate button in
-                    the navigation.</b></p>
+                    the navigation bar.</b></p>
     </div>
     <hr class="homepageBreak">
     <div id="overview">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Overview</h2>
         <p style="padding-right: 10%; padding-left: 10%;">
-            Sup
+            At Classes56, we are offering <b>1-week summer camps</b> for young children of various ages.
+            These classes will be held at the same time through the week from Monday to Friday.
+            <b>Check out our <a href="/classes">View Classes</a></b> page for more information on individual classes including
+            timings, content, pricing, age recommendations, and more. These classes will be held
+            live, virtually over Google meets with our apt and experienced instructors.
+            Remember, that <b>ALL funds that we collect will go to charity.</b> Thank you and
+            we look forward to providing your children with the best experience of their lives!
         </p>
     </div>
     <hr class="homepageBreak">
