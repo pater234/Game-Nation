@@ -4,6 +4,10 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+    body {
+        background-color: lightblue;
+    }
+
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         width: 22rem;
@@ -75,12 +79,14 @@
         align-self: center;
     }
 
-    .btn {
+    .btn-view {
         background-color: rgba(220, 20, 60, 1);
         transition: all 0.3s ease 0s;
+        outline: none;
+        border: none;
     }
 
-    .btn:hover {
+    .btn-view:hover {
         background-color: rgba(220, 20, 60, 0.5);
     }
 
@@ -98,7 +104,7 @@
             <h1 class="card-title">Scratch</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to code in Scratch with us!</p>
-            <a class="btn btn-primary mt-auto"  id="scratchBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="scratchBtn">View more information</a>
         </div>
     </div>
 
@@ -108,7 +114,7 @@
             <h1 class="card-title">Java</h1>
             <p class="card-text">$7 per class. $35 for the whole course</p>
             <p class="card-text">Learn to code in Java with us!</p>
-            <a class="btn btn-primary mt-auto" id="javaBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="javaBtn">View more information</a>
         </div>
     </div>
 
@@ -118,7 +124,7 @@
             <h1 class="card-title">Game Design in Unreal Engine 4</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Learn to create games in UE4 and C++ with us!</p>
-            <a class="btn btn-primary mt-auto" id="ue4Btn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="ue4Btn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -127,7 +133,7 @@
             <h1 class="card-title">Basic Web Design</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Learn to create amazing webpages in HTML and CSS with us!</p>
-            <a class="btn btn-primary mt-auto" id="webBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="webBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -136,7 +142,7 @@
             <h1 class="card-title">Web Design with Flask</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to create an amazing backend for websites in Flask with us!</p>
-            <a class="btn btn-primary mt-auto"  id="flaskBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="flaskBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -145,7 +151,7 @@
             <h1 class="card-title">Web Design with Django</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to create an amazing backend for websites in Django with us!</p>
-            <a class="btn btn-primary mt-auto"  id="djangoBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="djangoBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -154,7 +160,7 @@
             <h1 class="card-title">Web Design with PHP</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to use PHP scripting for backends of websites with us!</p>
-            <a class="btn btn-primary mt-auto"  id="phpBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="phpBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -163,7 +169,7 @@
         <h1 class="card-title">Python Programming</h1>
         <p class="card-text">$7 per class. $35 for the whole course</p>
         <p class="card-text">Learn to code in Python to automate your life with us!</p>
-        <a class="btn btn-primary mt-auto" id="pythonBtn">View more information</a>
+        <a class="btn btn-primary mt-auto btn-view" id="pythonBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -172,7 +178,7 @@
             <h1 class="card-title">Coding Principles</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn the basics of coding with us!</p>
-            <a class="btn btn-primary mt-auto"  id="codingBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="codingBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -181,7 +187,7 @@
             <h1 class="card-title">Exploring Our Universe</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Explore the vast universe beyond Earth with us!</p>
-            <a class="btn btn-primary mt-auto"  id="exploringBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="exploringBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -190,7 +196,7 @@
             <h1 class="card-title">Entrepreneurship</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn about finances and entrepreneurship with us!</p>
-            <a class="btn btn-primary mt-auto"  id="entrepreneurshipBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="entrepreneurshipBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -199,7 +205,7 @@
             <h1 class="card-title">3D Modeling</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to create magnificent 3D models and designs with us!</p>
-            <a class="btn btn-primary mt-auto"  id="3dBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="3dBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -208,7 +214,7 @@
             <h1 class="card-title">World of PC</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Info about PC stuff</p>
-            <a class="btn btn-primary mt-auto" id="wopcBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="wopcBtn">View more information</a>
         </div>
     </div>
 </div>
@@ -224,6 +230,7 @@
         to that taught in our Coding Principles class.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -238,6 +245,7 @@
         compete in coding competitions.</p>
         <p><b>Prerequisites: </b>Have a basic knowledge of how to code (i.e. scratch)</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser and a github account for replit.com </p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -252,6 +260,7 @@
             By the end of this course, students will have understood the fundamentals of Unreal Engine and how to use its advantages to code a game in C++ and blueprints.</p>
         <p><b>Prerequisites: </b>Decent knowledge of coding</p>
         <p><b>Requirements:</b> A computer that can download and run Unreal Engine as well as Microsoft Visual Studio.  </p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -264,7 +273,8 @@
             more advanced frameworks later on. <b>Basic Web Design</b> ensures that the student is able to properly utilize the web design principles that will be necessary for them to know no matter what they do afterwards.
         This class is a prerequisite for our other web design classes, but those that have a background in web design will be able to bypass this requirement.</p>
         <p><b>Prerequisites: </b>None</p>
-        <p><b>Requirements:</b>A computer with an ability to run a web browser and a github account</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser and a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -278,6 +288,7 @@
         course will utilize higher level programming techniques to make extremely interactive websites. </p>
         <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -289,8 +300,7 @@
         <p><b>Django</b> is a popular web development framework coded in python. The students in this
             course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
             made from the code that they created to make extremely impressive websites that are sure to excite. </p>
-
-
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -305,6 +315,7 @@
 
         <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -320,6 +331,7 @@
         related to coding.</p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -331,6 +343,7 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p></p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -341,6 +354,7 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p><b>Exploring Our Universe</b> is a class on Astronomy and Cosmology </p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -350,6 +364,7 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>In this course, we will learn the basics of Business such as the 5 P's, Finance and many more! We will also learn what techinques companies use to catch the eye of the customers. We will also have a mini-project based on a company which you make yourself!</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>
@@ -358,10 +373,9 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>
-            <b>3D Modeling</b> will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
+        <p><b>3D Modeling</b> will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
-
 </div>
 
 <div id="pcModal" class="modal">
@@ -375,6 +389,7 @@
             related to coding.</p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
 </div>

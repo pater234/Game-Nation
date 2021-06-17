@@ -96,6 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $body,
             $params
         );
+
     }
     else
     {
@@ -123,12 +124,19 @@ function test_input($data): string
 
 if ($alert)
 {
-    echo "<script>alertUser()</script>";
+    echo "<script>alertUser();</script>";
 }
 
 ?>
 
+
+
 <style>
+
+    body {
+        background-color: lightblue;
+    }
+
     .mainForm {
         font-family: Montserrat, sans-serif;
         background-color: #ffffff;
@@ -166,6 +174,11 @@ if ($alert)
             width: 21rem;
             max-width: 21rem;
         }
+    }
+
+    #title {
+        font-size: 30px;
+        text-align: center;
     }
 </style>
 
