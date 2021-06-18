@@ -8,13 +8,13 @@ $nameErr = $emailErr = $classErr = "";
 $name = $email = "";
 $classesChosen = array();
 $className = array(
-       "scratch", "java", "ue4", "web", "flask", "django", "php", "python", "coding", "exploring", "entrepreneurship", "3d", "pc",
+       "scratch", "web", "coding", "exploring", "java", "python", "entrepreneurship", "3d", "ue4", "flask", "django", "php", "apPhysics", "unity", "iot",
 );
 
 $classPrice = array(
-        30, 35, 48, 48, 30, 30, 30, 35, 30, 30, 30, 30, 30,
+        30, 30, 30, 30, 30, 30, 30, 30, 48, 35, 35, 35, 35, 35, 30,
 );
-$totalPrice = intval(0);
+$totalPrice = 0;
 
 $alert = false;
 
@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $valuesGet = $response->getValues();
         $length = strval(count($valuesGet) + 1);
 
-        $range = 'A' . $length . ':' . 'P' . $length;
+        $range = 'A' . $length . ':' . 'R' . $length;
 
         $innerValues = [$name, $email];
 
@@ -162,10 +162,10 @@ if ($alert)
 
     }
 
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1000px) and (max-width: 1299px) {
         .mainForm {
-            width: 26rem;
-            max-width: 26rem;
+            width: 29rem;
+            max-width: 29rem;
         }
     }
 
@@ -183,6 +183,13 @@ if ($alert)
         }
     }
 
+    @media only screen and (min-width: 1300px) {
+        .mainForm {
+            width: 33rem;
+            max-width: 33rem;
+        }
+    }
+
     #title {
         font-size: 30px;
         text-align: center;
@@ -195,6 +202,10 @@ if ($alert)
     .red
     {
         color: red;
+    }
+
+    .blue {
+        color: #007bff;
     }
 </style>
 
@@ -227,32 +238,40 @@ if ($alert)
             <br>
             <br>
             <p class="classes">Classes <span class="red">*</span> :</p>
+            <p class="blue">Week 1</p>
             <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch">
-            <label class="form-check-label" for="scratch"> Scratch</label><br>
-            <input class="form-check-input" type="checkbox" id="java" name="java" value="java">
-            <label class="form-check-label" for="java"> Java</label><br>
-            <input class="form-check-input" type="checkbox" id="ue4" name="ue4" value="ue4">
-            <label id="ue4Label" class="form-check-label" for="ue4"> Game Design in Unreal Engine 4</label><br>
+            <label class="form-check-label" for="scratch"> Scratch ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="web" name="web" value="web">
-            <label class="form-check-label" for="web"> Basic Web Design</label><br>
-            <input class="form-check-input" type="checkbox" id="flask" name="flask" value="flask">
-            <label class="form-check-label" for="flask"> Web Design with Flask</label><br>
-            <input class="form-check-input" type="checkbox" id="django" name="django" value="django">
-            <label class="form-check-label" for="django"> Web Design with Django</label><br>
-            <input class="form-check-input" type="checkbox" id="php" name="php" value="php">
-            <label class="form-check-label" for="php"> Web Design with PHP</label><br>
-            <input class="form-check-input" type="checkbox" id="python" name="python" value="python">
-            <label class="form-check-label" for="python"> Python Programming</label><br>
+            <label class="form-check-label" for="web"> Basic Web Design ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="coding" name="coding" value="coding">
-            <label class="form-check-label" for="coding"> Coding Principles</label><br>
+            <label class="form-check-label" for="coding"> Coding Principles ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="exploring" name="exploring" value="exploring">
-            <label class="form-check-label" for="exploring"> Exploring Our Universe</label><br>
+            <label class="form-check-label" for="exploring"> Exploring Our Universe ($30)</label><br><br>
+            <p class="blue">Week 2</p>
+            <input class="form-check-input" type="checkbox" id="java" name="java" value="java">
+            <label class="form-check-label" for="java"> Java ($30)</label><br>
+            <input class="form-check-input" type="checkbox" id="python" name="python" value="python">
+            <label class="form-check-label" for="python"> Python Programming ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="entrepreneurship" name="entrepreneurship" value="entrepreneurship">
-            <label class="form-check-label" for="entrepreneurship"> Entrepreneurship</label><br>
+            <label class="form-check-label" for="entrepreneurship"> Entrepreneurship ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d">
-            <label class="form-check-label" for="3d"> 3D Modeling</label><br>
-            <input class="form-check-input" type="checkbox" id="pc" name="pc" value="pc">
-            <label class="form-check-label" for="pc"> World of PC</label><br><br>
+            <label class="form-check-label" for="3d"> 3D Modeling ($30)</label><br><br>
+            <p class="blue">Week 3</p>
+            <input class="form-check-input" type="checkbox" id="ue4" name="ue4" value="ue4">
+            <label class="form-check-label" for="ue4"> Game Design in Unreal Engine 4 ($Undecided)</label><br>
+            <input class="form-check-input" type="checkbox" id="flask" name="flask" value="flask">
+            <label class="form-check-label" for="flask"> Web Design with Flask ($35)</label><br>
+            <input class="form-check-input" type="checkbox" id="django" name="django" value="django">
+            <label class="form-check-label" for="django"> Web Design with Django ($35)</label><br>
+            <input class="form-check-input" type="checkbox" id="php" name="php" value="php">
+            <label class="form-check-label" for="php"> Web Design with PHP ($35)</label><br><br>
+            <p class="blue">Week 4</p>
+            <input class="form-check-input" type="checkbox" id="apPhysics" name="apPhysics" value="apPhysics">
+            <label class="form-check-label" for="apPhysics"> AP Physics 1 Crash Course ($35)</label><br>
+            <input class="form-check-input" type="checkbox" id="unity" name="unity" value="unity">
+            <label class="form-check-label" for="unity"> Game Design in Unity ($35)</label><br>
+            <input class="form-check-input" type="checkbox" id="iot" name="iot" value="iot">
+            <label class="form-check-label" for="iot"> Internet of Things ($30)</label><br><br>
             <div class="row">
                 <button type="submit" class="btn btn-primary" style="width: 30%;">Submit</button>
             </div>
