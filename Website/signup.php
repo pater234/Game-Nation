@@ -14,19 +14,19 @@ $className = array(
 $classPrice = array(
         30, 35, 48, 48, 30, 30, 30, 35, 30, 30, 30, 30, 30,
 );
-$totalPrice = 0;
+$totalPrice = intval(0);
 
 $alert = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
-        $nameErr = "Name is required";
+        $nameErr = "Name is required!";
     } else {
         $name = test_input($_POST["name"]);
     }
 
     if (empty($_POST["email"])) {
-        $emailErr = "Email is required";
+        $emailErr = "Email is required!";
     } else {
         $email = test_input($_POST["email"]);
     }
@@ -43,6 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
+
     foreach (range(0, 12) as $i)
     {
         if ($classesChosen[$i] == 1)
@@ -51,8 +52,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
+    if ($totalPrice == 0)
+    {
+        $classErr = "Please select at least one class!";
+    }
 
-    if ($nameErr == "" && $emailErr == "")
+    if ($nameErr == "" && $emailErr == "" && $classErr == "")
     {
         $client = new Google_Client();
         $client->setApplicationName('Google Sheets and PHP');
@@ -116,7 +121,8 @@ function test_input($data): string
         {
             var jsEmailErr = <?php echo(json_encode($emailErr)); ?>;
             var jsNameErr = <?php echo(json_encode($nameErr)); ?>;
-            alert(jsNameErr + "\n"  + jsEmailErr);
+            var jsClassErr = <?php echo(json_encode($classErr)); ?>;
+            alert(jsNameErr + "\n"  + jsEmailErr + "\n" + jsClassErr);
         }
     </script>
 
@@ -153,6 +159,7 @@ if ($alert)
         min-width: 0;
         width: 20px;
         display: inline;
+
     }
 
     @media only screen and (min-width: 1000px) {
@@ -180,6 +187,15 @@ if ($alert)
         font-size: 30px;
         text-align: center;
     }
+
+    #classes {
+        font-size: 30px;
+        text-align: left;
+    }
+    .red
+    {
+        color: red;
+    }
 </style>
 
 <body class="body" style="position: relative; top: 0px">
@@ -197,18 +213,20 @@ if ($alert)
         <form class="form-check signupForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
-                    <span class="input-group-text" id="addon-wrapping">Name*</span>
+                    <span class="input-group-text" id="addon-wrapping">Name <p class="red">*</p></span>
                     <input name="name" type="text" class="form-control form-control-inline" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
-                    <span class="input-group-text" id="addon-wrapping">Email*</span>
+                    <span class="input-group-text" id="addon-wrapping">Email <p class="red">*</p></span>
                     <input name="email" type="text" class="form-control form-control-inline" placeholder="example@gmail.com" aria-label="Email" aria-describedby="addon-wrapping">
                 </div>
             </div>
-            <br><br>
+            <br>
+            <br>
+            <p class="classes">Classes <span class="red">*</span> :</p>
             <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch">
             <label class="form-check-label" for="scratch"> Scratch</label><br>
             <input class="form-check-input" type="checkbox" id="java" name="java" value="java">

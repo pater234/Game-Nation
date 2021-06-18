@@ -66,7 +66,7 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong>No, the classes are not free.</strong> For each class that we conduct, we ask for a small price. All proceeds from these classes will go towards
-                                    charity. The specific charity that we are supporting is called Sewa and you can find more about them <a href="https://sewausa.org">here</a>.
+                                    charity. The specific charity that we are supporting is called Sewa and you can find more about them <a href="https://sewausa.org" target="_blank" rel="noreferrer noopener">here</a>.
                                 </div>
                             </div>
                         </div>

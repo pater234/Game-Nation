@@ -342,7 +342,12 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p></p>
+        <p><b>Coding Principles</b> is an introductory class designed to introduce absolute beginners to coding logic and ideas.
+        There will be no teaching of languages in this class; rather the people taking the class will be taught using pseudocode and other resources.
+        This course can be be followed up with our other basic coding classes, where they will learn languages that will build upon the
+        logic learned in this class and put it to practical use.</p>
+        <p><b>Prerequisites: </b>None</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
