@@ -93,21 +93,56 @@
     .card-title {
         font-size: 33px;
     }
+    .week {
+        text-align: center;
+    }
 </style>
 <body class="body" style="position: relative; top: 0px">
-
-
+<br>
+<h1 class="week">Week of July 5th through July 9th</h1>
 <div id="card">
     <div class="card">
         <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Scratch</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Learn to code in Scratch with us!</p>
+            <p class="card-text">Learn to code in Scratch with us! Code games, scripts, and more! Learn the basics of coding while having fun!</p>
             <a class="btn btn-primary mt-auto btn-view"  id="scratchBtn">View more information</a>
         </div>
     </div>
 
+    <div class="card">
+        <img src="https://lh3.googleusercontent.com/Vs0cE-ieN6iLyVX9EI-jS_9xlxkdcZepsU7-9e8PoeIbdnRbpLGcsMNLqO7tDdDeGKPpZ1otT_97vyGZCga8KZz8XtkvdTeUibcmZ-b-QU86GH9mPLEFVaqndE_WMdWV6wiTM3D5EdcF9gCv" alt="Web Design" class="card-img-top" id="webdesign" style="width: 50% !important;">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">Basic Web Design</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Learn to create amazing webpages in HTML and CSS with us!</p>
+            <a class="btn btn-primary mt-auto btn-view" id="webBtn">View more information</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://www.multidots.com/wp-content/uploads/2020/01/code-quality-standard.png?quality=90" alt="Coding" height=auto class="card-img-top">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">Coding Principles</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Learn the basics of coding with us!</p>
+            <a class="btn btn-primary mt-auto btn-view"  id="codingBtn">View more information</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmPh6qDE8DvQ9Knd0VkOusKCgXCdpGQlOdJw&usqp=CAU" alt="Universe" height=25% class="card-img-top">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">Exploring Our Universe</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Explore the vast universe beyond Earth with us!</p>
+            <a class="btn btn-primary mt-auto btn-view"  id="exploringBtn">View more information</a>
+        </div>
+    </div>
+</div>
+<br>
+<h1 class="week">Week of July 12th through July 16th</h1>
+<div id="card">
     <div class="card">
         <img src="https://lh4.googleusercontent.com/iG45IIL1N3-zSSLPsqz__qEd9nMxNCohpDTMI_M9dfJmB3L9c1y37XGCo60AWrmjZRu-Utcnbw3h0o5eIo71Z3h-7OxgmM8FmidKROc9wLBTtGqMYr0eLWfdJH7s6EFOnAJesTOTT0iy3DRs" alt="Java" class="card-img-top">
         <div class="card-body d-flex flex-column">
@@ -119,21 +154,45 @@
     </div>
 
     <div class="card">
+        <img src="https://lh4.googleusercontent.com/CRE9G0Ektvehxu5A2fKR7O8FONaFntdmQOHJvzaeujlO4tOkMTEC_8DizzAijuRHzQAa6TuSWAGaZPkB17CKqJ3oW7rMSx6qLSyna2MWBPgTSuPK9he-68d5pG0iewp84INh2Py1rMWfvjAo" alt="Python Programming" class="card-img-top">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">Python Programming</h1>
+            <p class="card-text">$7 per class. $35 for the whole course</p>
+            <p class="card-text">Learn to code in Python to automate your life with us!</p>
+            <a class="btn btn-primary mt-auto btn-view" id="pythonBtn">View more information</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://www.cs.columbia.edu/wp-content/uploads/2017/03/entrepreneurship-banner.jpg" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">Entrepreneurship</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Learn about finances and entrepreneurship with us!</p>
+            <a class="btn btn-primary mt-auto btn-view"  id="entrepreneurshipBtn">View more information</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">3D Modeling</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Learn to create magnificent 3D models and designs with us!</p>
+            <a class="btn btn-primary mt-auto btn-view"  id="3dBtn">View more information</a>
+        </div>
+    </div>
+</div>
+<br>
+<h1 class="week">Week of July 19th through July 23rd</h1>
+<div id="card">
+    <div class="card">
         <img src="/othercontent/ue4.png" alt="Unreal Engine" class="card-img-top" id="ue4" style="width: 50%">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Game Design in Unreal Engine 4</h1>
             <p class="card-text">$8 per class. $48 for the whole course</p>
             <p class="card-text">Learn to create games in UE4 and C++ with us!</p>
             <a class="btn btn-primary mt-auto btn-view" id="ue4Btn">View more information</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="https://lh3.googleusercontent.com/Vs0cE-ieN6iLyVX9EI-jS_9xlxkdcZepsU7-9e8PoeIbdnRbpLGcsMNLqO7tDdDeGKPpZ1otT_97vyGZCga8KZz8XtkvdTeUibcmZ-b-QU86GH9mPLEFVaqndE_WMdWV6wiTM3D5EdcF9gCv" alt="Web Design" class="card-img-top" id="webdesign" style="width: 50% !important;">
-        <div class="card-body d-flex flex-column">
-            <h1 class="card-title">Basic Web Design</h1>
-            <p class="card-text">$8 per class. $48 for the whole course</p>
-            <p class="card-text">Learn to create amazing webpages in HTML and CSS with us!</p>
-            <a class="btn btn-primary mt-auto btn-view" id="webBtn">View more information</a>
         </div>
     </div>
     <div class="card">
@@ -163,62 +222,40 @@
             <a class="btn btn-primary mt-auto btn-view"  id="phpBtn">View more information</a>
         </div>
     </div>
+</div>
+<br>
+<h1 class="week">Week of July 26th through July 30th</h1>
+<div id="card">
     <div class="card">
-        <img src="https://lh4.googleusercontent.com/CRE9G0Ektvehxu5A2fKR7O8FONaFntdmQOHJvzaeujlO4tOkMTEC_8DizzAijuRHzQAa6TuSWAGaZPkB17CKqJ3oW7rMSx6qLSyna2MWBPgTSuPK9he-68d5pG0iewp84INh2Py1rMWfvjAo" alt="Python Programming" class="card-img-top">
+        <img src="https://debrabell.com/wp-content/uploads/2015/12/AP-Physics1.jpg" alt="AP Physics 1" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
         <div class="card-body d-flex flex-column">
-        <h1 class="card-title">Python Programming</h1>
-        <p class="card-text">$7 per class. $35 for the whole course</p>
-        <p class="card-text">Learn to code in Python to automate your life with us!</p>
-        <a class="btn btn-primary mt-auto btn-view" id="pythonBtn">View more information</a>
+            <h1 class="card-title">AP Physics 1 Crash Course</h1>
+            <p class="card-text">$6 per class. $30 for the whole course</p>
+            <p class="card-text">Prepare for AP Physics 1 with our crash course!</p>
+            <a class="btn btn-primary mt-auto btn-view" id="apPhysicsBtn">View more information</a>
         </div>
     </div>
+
     <div class="card">
-        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
+        <img src="https://debrabell.com/wp-content/uploads/2015/12/AP-Physics1.jpg" alt="AP Physics 1" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
         <div class="card-body d-flex flex-column">
-            <h1 class="card-title">Coding Principles</h1>
-            <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Learn the basics of coding with us!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="codingBtn">View more information</a>
+            <h1 class="card-title">Game Design in Unity</h1>
+            <p class="card-text">$7 per class. $35 for the whole course</p>
+            <p class="card-text">Learn to create amazing and interactive games in Unity and C# with us!</p>
+            <a class="btn btn-primary mt-auto btn-view" id="unityBtn">View more information</a>
         </div>
     </div>
+
     <div class="card">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmPh6qDE8DvQ9Knd0VkOusKCgXCdpGQlOdJw&usqp=CAU" alt="Scratch" height=25% class="card-img-top">
+        <img src="https://debrabell.com/wp-content/uploads/2015/12/AP-Physics1.jpg" alt="AP Physics 1" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
         <div class="card-body d-flex flex-column">
-            <h1 class="card-title">Exploring Our Universe</h1>
+            <h1 class="card-title">Internet of Things</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Explore the vast universe beyond Earth with us!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="exploringBtn">View more information</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="https://www.cs.columbia.edu/wp-content/uploads/2017/03/entrepreneurship-banner.jpg" alt="Scratch" height=auto class="card-img-top">
-        <div class="card-body d-flex flex-column">
-            <h1 class="card-title">Entrepreneurship</h1>
-            <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Learn about finances and entrepreneurship with us!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="entrepreneurshipBtn">View more information</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
-        <div class="card-body d-flex flex-column">
-            <h1 class="card-title">3D Modeling</h1>
-            <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Learn to create magnificent 3D models and designs with us!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="3dBtn">View more information</a>
-        </div>
-    </div>
-    <div class="card">
-        <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top">
-        <div class="card-body d-flex flex-column">
-            <h1 class="card-title">World of PC</h1>
-            <p class="card-text">$6 per class. $30 for the whole course</p>
-            <p class="card-text">Info about PC stuff</p>
-            <a class="btn btn-primary mt-auto btn-view" id="wopcBtn">View more information</a>
+            <p class="card-text">Learn about the vast world of the internet and how it all works with us!</p>
+            <a class="btn btn-primary mt-auto btn-view" id="iotBtn">View more information</a>
         </div>
     </div>
 </div>
-
 <div id="scratchModal" class="modal">
 
     <!-- Modal content -->
@@ -230,6 +267,48 @@
         to that taught in our Coding Principles class.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+
+</div>
+
+<div id="webModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This course is an introductory lesson into web design that will teach students how to utilize html and css in a basic way that will allow them to use
+            more advanced frameworks later on. <b>Basic Web Design</b> ensures that the student is able to properly utilize the web design principles that will be necessary for them to know no matter what they do afterwards.
+            This class is a prerequisite for our other web design classes, but those that have a background in web design will be able to bypass this requirement.</p>
+        <p><b>Prerequisites: </b>None</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser and a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+
+</div>
+
+<div id="codingModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Coding Principles</b> is an introductory class designed to introduce absolute beginners to coding logic and ideas.
+            There will be no teaching of languages in this class; rather the people taking the class will be taught using pseudocode and other resources.
+            This course can be be followed up with our other basic coding classes, where they will learn languages that will build upon the
+            logic learned in this class and put it to practical use.</p>
+        <p><b>Prerequisites: </b>None</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+
+</div>
+
+<div id="exploringModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>Exploring Our Universe</b> is a class on Astronomy and Cosmology </p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -249,6 +328,44 @@
     </div>
 
 </div>
+
+<div id="pythonModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This course will teach you the basics of <b>Python Programming</b> through fun projects and lectures.
+            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
+            Following this course, students will be adept at logically using python, and will be able to think about attending competitions
+            related to coding.</p>
+        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+
+</div>
+
+<div id="entrepreneurshipModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>In this course, we will learn the basics of Business such as the 5 P's, Finance and many more! We will also learn what techinques companies use to catch the eye of the customers. We will also have a mini-project based on a company which you make yourself!</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+
+</div>
+
+<div id="3dModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>3D Modeling</b> will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+</div>
+
 <div id="ue4Modal" class="modal">
 
     <!-- Modal content -->
@@ -264,20 +381,7 @@
     </div>
 
 </div>
-<div id="webModal" class="modal">
 
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>This course is an introductory lesson into web design that will teach students how to utilize html and css in a basic way that will allow them to use
-            more advanced frameworks later on. <b>Basic Web Design</b> ensures that the student is able to properly utilize the web design principles that will be necessary for them to know no matter what they do afterwards.
-        This class is a prerequisite for our other web design classes, but those that have a background in web design will be able to bypass this requirement.</p>
-        <p><b>Prerequisites: </b>None</p>
-        <p><b>Requirements:</b> A computer with an ability to run a web browser and a GitHub account</p>
-        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
-    </div>
-
-</div>
 
 <div id="flaskModal" class="modal">
 
@@ -320,70 +424,7 @@
 
 </div>
 
-<div id="pythonModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>This course will teach you the basics of <b>Python Programming</b> through fun projects and lectures.
-            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
-        Following this course, students will be adept at logically using python, and will be able to think about attending competitions
-        related to coding.</p>
-        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
-        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
-        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
-    </div>
-
-</div>
-
-
-<div id="codingModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p><b>Coding Principles</b> is an introductory class designed to introduce absolute beginners to coding logic and ideas.
-        There will be no teaching of languages in this class; rather the people taking the class will be taught using pseudocode and other resources.
-        This course can be be followed up with our other basic coding classes, where they will learn languages that will build upon the
-        logic learned in this class and put it to practical use.</p>
-        <p><b>Prerequisites: </b>None</p>
-        <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
-        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
-    </div>
-
-</div>
-
-<div id="exploringModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p><b>Exploring Our Universe</b> is a class on Astronomy and Cosmology </p>
-        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
-    </div>
-
-</div>
-<div id="entrepreneurshipModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>In this course, we will learn the basics of Business such as the 5 P's, Finance and many more! We will also learn what techinques companies use to catch the eye of the customers. We will also have a mini-project based on a company which you make yourself!</p>
-        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
-    </div>
-
-</div>
-<div id="3dModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p><b>3D Modeling</b> will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
-        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
-    </div>
-</div>
-
-<div id="pcModal" class="modal">
+<div id="apPhysicsModal" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
@@ -399,47 +440,86 @@
 
 </div>
 
+<div id="unityModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This course will teach you the basics of python through fun projects and lectures.
+            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
+            Following this course, students will be adept at logically using python, and will be able to think about attending competitions
+            related to coding.</p>
+        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+
+</div>
+
+<div id="iotModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>This course will teach you the basics of python through fun projects and lectures.
+            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
+            Following this course, students will be adept at logically using python, and will be able to think about attending competitions
+            related to coding.</p>
+        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
+
+</div>
+
+
 </body>
 <script>
     var modal1 = document.getElementById("scratchModal");
     var btn1 = document.getElementById("scratchBtn");
     var span1 = document.getElementsByClassName("close")[0];
-    var modal2 = document.getElementById("javaModal")
-    var btn2 = document.getElementById("javaBtn");
+    var modal2 = document.getElementById("webModal")
+    var btn2 = document.getElementById("webBtn");
     var span2 = document.getElementsByClassName("close")[1];
-    var modal3 = document.getElementById("ue4Modal");
-    var btn3 = document.getElementById("ue4Btn");
+    var modal3 = document.getElementById("codingModal");
+    var btn3 = document.getElementById("codingBtn");
     var span3 = document.getElementsByClassName("close")[2];
-    var modal4 = document.getElementById("webModal");
-    var btn4 = document.getElementById("webBtn");
+    var modal4 = document.getElementById("exploringModal");
+    var btn4 = document.getElementById("exploringBtn");
     var span4 = document.getElementsByClassName("close")[3];
-    var modal5 = document.getElementById("flaskModal");
-    var btn5 = document.getElementById("flaskBtn");
+    var modal5 = document.getElementById("javaModal");
+    var btn5 = document.getElementById("javaBtn");
     var span5 = document.getElementsByClassName("close")[4]
-    var modal6 = document.getElementById("djangoModal");
-    var btn6 = document.getElementById("djangoBtn");
+    var modal6 = document.getElementById("pythonModal");
+    var btn6 = document.getElementById("pythonBtn");
     var span6 = document.getElementsByClassName("close")[5]
-    var modal7 = document.getElementById("phpModal");
-    var btn7 = document.getElementById("phpBtn");
+    var modal7 = document.getElementById("entrepreneurshipModal");
+    var btn7 = document.getElementById("entrepreneurshipBtn");
     var span7 = document.getElementsByClassName("close")[6]
-    var modal8 = document.getElementById("pythonModal");
-    var btn8 = document.getElementById("pythonBtn");
+    var modal8 = document.getElementById("3dModal");
+    var btn8 = document.getElementById("3dBtn");
     var span8 = document.getElementsByClassName("close")[7];
-    var modal9 = document.getElementById("codingModal");
-    var btn9 = document.getElementById("codingBtn");
+    var modal9 = document.getElementById("ue4Modal");
+    var btn9 = document.getElementById("ue4Btn");
     var span9 = document.getElementsByClassName("close")[8]
-    var modal10 = document.getElementById("exploringModal");
-    var btn10 = document.getElementById("exploringBtn");
+    var modal10 = document.getElementById("flaskModal");
+    var btn10 = document.getElementById("flaskBtn");
     var span10 = document.getElementsByClassName("close")[9]
-    var modal11 = document.getElementById("entrepreneurshipModal");
-    var btn11 = document.getElementById("entrepreneurshipBtn");
+    var modal11 = document.getElementById("djangoModal");
+    var btn11 = document.getElementById("djangoBtn");
     var span11 = document.getElementsByClassName("close")[10]
-    var modal12 = document.getElementById("3dModal");
-    var btn12 = document.getElementById("3dBtn");
+    var modal12 = document.getElementById("phpModal");
+    var btn12 = document.getElementById("phpBtn");
     var span12 = document.getElementsByClassName("close")[11];
-    var modal13 = document.getElementById("pcModal");
-    var btn13 = document.getElementById("wopcBtn");
+    var modal13 = document.getElementById("apPhysicsModal");
+    var btn13 = document.getElementById("apPhysicsBtn");
     var span13 = document.getElementsByClassName("close")[12]
+    var modal14 = document.getElementById("unityModal");
+    var btn14 = document.getElementById("unityBtn");
+    var span14 = document.getElementsByClassName("close")[13]
+    var modal15 = document.getElementById("iotModal");
+    var btn15 = document.getElementById("iotBtn");
+    var span15 = document.getElementsByClassName("close")[14]
 
     btn1.onclick = function() {
         modal1.style.display = "block";
@@ -556,6 +636,24 @@
     // When the user clicks on <span> (x), close the modal
     span13.onclick = function() {
         modal13.style.display = "none";
+    }
+
+    btn14.onclick = function() {
+        modal14.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span14.onclick = function() {
+        modal14.style.display = "none";
+    }
+
+    btn15.onclick = function() {
+        modal15.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span15.onclick = function() {
+        modal15.style.display = "none";
     }
 
 
