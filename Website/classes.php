@@ -237,7 +237,7 @@
     </div>
 
     <div class="card">
-        <img src="https://debrabell.com/wp-content/uploads/2015/12/AP-Physics1.jpg" alt="AP Physics 1" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
+        <img src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png" alt="Unity" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Game Design in Unity</h1>
             <p class="card-text">$7 per class. $35 for the whole course</p>
@@ -247,7 +247,7 @@
     </div>
 
     <div class="card">
-        <img src="https://debrabell.com/wp-content/uploads/2015/12/AP-Physics1.jpg" alt="AP Physics 1" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
+        <img src="https://images.idgesg.net/images/article/2018/10/spinning-globe_smart-city_iot_skyscrapers_city-scape_internet_digital-transformation-100777501-large.jpg" alt="AP Physics 1" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Internet of Things</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
