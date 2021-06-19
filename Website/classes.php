@@ -1,6 +1,5 @@
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/layout.php"); ?>
 
-
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
@@ -114,7 +113,7 @@
     <div class="card">
         <img src="https://lh3.googleusercontent.com/Vs0cE-ieN6iLyVX9EI-jS_9xlxkdcZepsU7-9e8PoeIbdnRbpLGcsMNLqO7tDdDeGKPpZ1otT_97vyGZCga8KZz8XtkvdTeUibcmZ-b-QU86GH9mPLEFVaqndE_WMdWV6wiTM3D5EdcF9gCv" alt="Web Design" class="card-img-top" id="webdesign" style="width: 50% !important; border-radius: inherit">
         <div class="card-body d-flex flex-column">
-            <h1 class="card-title">Basic Web Design</h1>
+            <h1 class="card-title">Web Design Fundamentals</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to create amazing webpages in HTML and CSS with us!</p>
             <a class="btn btn-primary mt-auto btn-view" id="webBtn">View more information</a>
@@ -281,7 +280,7 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>This course is an introductory lesson into web design that will teach students how to utilize HTML and CSS in a basic way that will allow them to use
-            more advanced frameworks later on. <b>Basic Web Design</b> ensures that the student is able to properly utilize the web design principles that will be necessary for them to know no matter what they do afterwards.
+            more advanced frameworks later on. <b>Web Design Fundamentals</b> ensures that the student is able to properly utilize the web design principles that will be necessary for them to know no matter what they do afterwards.
             This class is a prerequisite for our other web design classes, but those that have a background in web design will be able to bypass this requirement.</p>
         <p>By the end of this course, students will be able to design simple and static webpages using HTML and styling them with color, spacing, and layout with CSS. </p>
         <p><b>Prerequisites: </b>None</p>
@@ -418,7 +417,7 @@
         can maintain web applications by providing usable code and extensions for common operations.</p>
         <p>By the end of this course, students will be able to create a fully interactive website that is able to send and receive data from a server. This skill is extremely useful especially in the era where
         everything is online.</p>
-        <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
+        <p><b>Prerequisites: </b>Web Design Fundamentals course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
@@ -435,7 +434,7 @@
             spotify web app is built using Django. The students in this course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
             made from the code that they created to make extremely impressive websites that are sure to excite. </p>
         <p>By the end of this course, students will be able to create a fully interactive website using the Django framework in Python.</p>
-        <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
+        <p><b>Prerequisites: </b>Web Design Fundamentals course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
@@ -454,7 +453,7 @@
         world use PHP as its backend programming language.</p>
         <p>By the end of this course, students will be able to utilize a PHP to create interactive webpages that can manage backend server side processing for
             managing data input in forms, managing accounts, etc.</p>
-        <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
+        <p><b>Prerequisites: </b>Web Design Fundamentals course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>

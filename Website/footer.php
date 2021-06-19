@@ -60,6 +60,7 @@
                     <a href="#" class="fa fa-facebook"></a>
                 </div>
             </div>
+            <p>Learn more about Sewa International by visiting <a href="https://sewausa.org">this link</a></p>
             <hr class="mb-4">
         </div>
     </div>

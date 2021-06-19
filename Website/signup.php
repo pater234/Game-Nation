@@ -18,6 +18,8 @@ $totalPrice = 0;
 
 $alert = false;
 
+$success = false;
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
         $nameErr = "Name is required!";
@@ -101,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $body,
             $params
         );
-
+        $success = true;
     }
     else
     {
@@ -214,6 +216,8 @@ if ($alert)
         <?php echo $nameErr;?>
         <br>
         <?php echo $emailErr;?>
+        <br>
+        <?php echo $classErr;?>
     </div>
     <div class="mainForm">
         <div style="text-align: center;">
@@ -242,7 +246,7 @@ if ($alert)
             <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch">
             <label class="form-check-label" for="scratch"> Scratch ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="web" name="web" value="web">
-            <label class="form-check-label" for="web"> Basic Web Design ($30)</label><br>
+            <label class="form-check-label" for="web"> Web Design Fundamentals ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="coding" name="coding" value="coding">
             <label class="form-check-label" for="coding"> Coding Principles ($30)</label><br>
             <input class="form-check-input" type="checkbox" id="exploring" name="exploring" value="exploring">

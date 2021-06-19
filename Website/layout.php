@@ -1,20 +1,5 @@
 <?php
 session_start();
-
-include ($_SERVER["DOCUMENT_ROOT"] . "/connection.php");
-include($_SERVER["DOCUMENT_ROOT"] . "/functions.php");
-$user_data = check_login($con);
-if ($user_data == null or !isset($user_data))
-{
-    $button1 = array("Log In", "/Login");
-    $button2 = array("Sign Up", "/signup");
-}
-else
-{
-    $button1 = array("Account Information", "/accountinformation");
-    $button2 = array("Log Out", "/logout");
-}
-
 ?>
 
 <!doctype html>
@@ -62,10 +47,6 @@ else
                         <a class="nav-link" href="/donate">Donate</a>
                     </li>
                 </ul>
-                <!--<ul>
-                    <a href="<?php echo $button1[1] ?>"><button class="btn" id="navbutton"><?php echo $button1[0] ?></button></a>
-                    <a href="<?php echo $button2[1] ?>"><button class="btn" id="navbutton"><?php echo $button2[0] ?></button></a>
-                </ul>-->
             </div>
         </div>
     </nav>
