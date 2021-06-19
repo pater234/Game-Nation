@@ -7,8 +7,8 @@
 
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        width: 25rem;
-        height: 30rem;
+        width: 22rem;
+        height: 29rem;
         margin-top: 20px;
         text-align: center;
         font-family: "Montserrat", sans-serif;

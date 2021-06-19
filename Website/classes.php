@@ -265,6 +265,8 @@
             that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
             is not recommended for those that already have a sense of logic when it comes to programming. The programming taught in this class will be equal
         to that taught in our Coding Principles class.</p>
+        <p>By the end of this course, young aspiring students will learn how to think algorithmically and will understand the basic concepts of coding through scratch.
+        This way, when they want to learn a new language, they just have to learn the syntax as they already understand the overarching concepts.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
         <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. EDT</p>
@@ -299,6 +301,8 @@
             There will be no teaching of languages in this class; rather the people taking the class will be taught using pseudocode and other resources.
             This course can be be followed up with our other basic coding classes, where they will learn languages that will build upon the
             logic learned in this class and put it to practical use.</p>
+        <p>By the end of this course, students will be proficient in coding concepts such as lists, arrays, loops and functions which will allow them
+            to pick up on new programming languages with greater ease.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
         <p><b>Timings: </b>July 5th to July 9th at 4 P.M. to 5 P.M. EDT</p>
@@ -308,11 +312,13 @@
 </div>
 
 <div id="exploringModal" class="modal">
-
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p><b>Exploring Our Universe</b> is a class on Astronomy and Cosmology </p>
+        <p><b>Exploring Our Universe</b> is a class on Astronomy and Cosmology in which we aim to excite younger kids about the vastness of space and the
+        mesmerizing and deadly celestial objects that are present. Students will learn about galaxies, black holes, stars, neutron stars, quasars and many other aspects of the universe</p>
+        <p>By the end of this course, we hope that the students leave this course with an interest in science and astronomy. Many of the instructors at Classes56 have been inspired to look
+        at STEM related fields because of an early interest in space that piqued their curiosity.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> None (An interest in science!)</p>
         <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. EDT</p>
@@ -322,13 +328,13 @@
 </div>
 
 <div id="javaModal" class="modal">
-
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>This Java course will give you an understanding into the basics of Java with simple lessons and well designed projects. At the end of the course,
         students will have the knowledge about syntax and sequence that will allow students the ability to solve many algorithmic problems and potentially
         compete in coding competitions.</p>
+        <p>By the end of this course, we want students to know how to use a powerful tool such as Java to tackle problems that can be solved by writing code.</p>
         <p><b>Prerequisites: </b>Have a basic knowledge of how to code (i.e. scratch)</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser and a github account for replit.com </p>
         <p><b>Timings: </b>July 12th to July 16th at 3 P.M. to 4 P.M. EDT</p>
@@ -338,7 +344,6 @@
 </div>
 
 <div id="pythonModal" class="modal">
-
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
@@ -346,16 +351,17 @@
             Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
             Following this course, students will be adept at logically using python, and will be able to think about attending competitions
             related to coding.</p>
+        <p>By the end of this course, we want students to have learnt how to apply Python to their lives to automate simple tasks. We also hope that they gain an interest in
+        coding that they might wish to pursue in the future. In the 21st century where everything revolves around computers, it is almost essential to be adept at coding in at
+        least one language as it is used everywhere.</p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 12th to July 16th at 4:30 P.M. to 5:30 P.M. EDT</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
-
 </div>
 
 <div id="entrepreneurshipModal" class="modal">
-
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
@@ -370,11 +376,13 @@
 </div>
 
 <div id="3dModal" class="modal">
-
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p><b>3D Modeling</b> will give an introduction to creating sketches and 3d parts in OnShape. You will learn about the different tools and features available.</p>
+        <p><b>3D Modeling</b> will give an introduction to creating sketches and 3d parts in OnShape. Students will learn about the different tools and features that
+            OnShape offers to help them create 3D parts and assemblies. Video Games and Computer Generated Graphics (CGI) in movies always aim to increase the visual quality to make it seem life-like.
+        Although we would not be teaching 3D modeling as advanced as that, students will gain an interest in creating models that may lead to a promising career in 3D modeling.</p>
+        <p>By the end of this course, students will be able to design basic objects and assemblies in OnShape using the tools provided. A skill such as 3D modeling can never go to waste.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with the ability to run a web browser</p>
         <p><b>Timings: </b>July 12th to July 16th at 4.30 P.M. to 5.30 P.M. EDT</p>
@@ -383,7 +391,6 @@
 </div>
 
 <div id="ue4Modal" class="modal">
-
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
@@ -406,7 +413,11 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>This course is an introduction into the popular web framework known as <b>Flask</b>, which is coded in Python. The students in this
-        course will utilize higher level programming techniques to make extremely interactive websites. </p>
+        course will utilize higher level programming techniques to make extremely interactive websites. Using flask, students will be able to connect to SQL databases
+        and manage webpages to make them interactive with greater efficiency. They will also be able to create HTML templates using Jinja for future use. Flask makes web design easier, scalable, efficient and
+        can maintain web applications by providing usable code and extensions for common operations.</p>
+        <p>By the end of this course, students will be able to create a fully interactive website that is able to send and receive data from a server. This skill is extremely useful especially in the era where
+        everything is online.</p>
         <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
@@ -419,9 +430,11 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p><b>Django</b> is a popular web development framework coded in python. The students in this
-            course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
+        <p><b>Django</b> is a popular web development framework coded in python. Django helps website builders create pragmatic, maintainable, clean and secure websites.
+            Although this has a bit of a steeper learning curve than using Flask, Django allows for more scalability with more features than Flask. For example, the
+            spotify web app is built using Django. The students in this course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
             made from the code that they created to make extremely impressive websites that are sure to excite. </p>
+        <p>By the end of this course, students will be able to create a fully interactive website using the Django framework in Python.</p>
         <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
@@ -435,9 +448,12 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p><b>PHP</b> is a scripting language that has been increasing in popularity in relation to utilizing python for Web Design backend. Students will
-        have an easier time utilizing PHP as compared to Flask and Django, and html is integrated in PHP files.</p>
-
+        <p><b>PHP</b> is a backend scripting language that has been increasing in popularity in relation to utilizing python for Web Design. Students will
+        have an easier time utilizing PHP as compared to Flask and Django, and html is integrated in PHP files. PHP is quick, cross platform, has pre-written scrips and has amazing
+        integration with databases such as MySQL, or MariaDB. For example, Facebook uses PHP as its backend and it is one of the most popular websites that is visited. Around 78.9% of websites in the
+        world use PHP as its backend programming language.</p>
+        <p>By the end of this course, students will be able to utilize a PHP to create interactive webpages that can manage backend server side processing for
+            managing data input in forms, managing accounts, etc.</p>
         <p><b>Prerequisites: </b>Basic Web Design course/understanding of the topics in the web design course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
@@ -451,10 +467,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course will teach you the basics of python through fun projects and lectures.
-            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
-            Following this course, students will be adept at logically using python, and will be able to think about attending competitions
-            related to coding.</p>
+        <p></p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 26th to July 30th at 2:30 P.M. to 3:30 P.M. EDT</p>
@@ -486,8 +499,11 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>Have you ever wondered how the internet works? This course will teach you what makes the internet tick and why it is so important.
-            Students will learn how data is transferred over the internet and how they are able to see their favorite websites like YouTube anywhere they have and internet connection</p>
-        <p>By the end of this course, students will have a deeper understanding about the exciting world of the internet and how it functions to serve and help us every single day.</p>
+            Students will learn how data is transferred over the internet and how they are able to see their favorite websites like YouTube anywhere they have an internet connection.
+        They will understand the importance of protocols such as UDP and TCP and what http and https means when they visit a website. Additionally, they will also learn about risks that
+        the internet poses to us through viruses and malware. They will learn to recognize different types of malware and how to avoid them.</p>
+        <p>By the end of this course, students will have a deeper understanding about the exciting world of the internet and how it functions to serve and help us every single day while remaining
+            safe and cautious.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> None</p>
         <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. EDT</p>
