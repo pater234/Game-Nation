@@ -5,7 +5,7 @@ require "../vendor/autoload.php";
 error_reporting(0);
 
 $nameErr = $emailErr = $classErr = "";
-$name = $email = "";
+$name = $email = $pNumber = "";
 $classesChosen = array();
 $className = array(
        "scratch", "web", "coding", "exploring", "java", "python", "entrepreneurship", "3d", "ue4", "flask", "django", "php", "apPhysics", "unity", "iot",
@@ -31,6 +31,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $emailErr = "Email is required!";
     } else {
         $email = test_input($_POST["email"]);
+    }
+
+    if (empty($_POST["pNumber"]))
+    {
+        $pNumber = "";
+    }
+    else
+    {
+        $pNumber = test_input($_POST["pNumber"]);
     }
 
     foreach ($className as &$item)
@@ -77,9 +86,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $valuesGet = $response->getValues();
         $length = strval(count($valuesGet) + 1);
 
-        $range = 'A' . $length . ':' . 'R' . $length;
+        $range = 'A' . $length . ':' . 'S' . $length;
 
-        $innerValues = [$name, $email];
+        $innerValues = [$name, $email, $pNumber];
 
         foreach ($classesChosen as &$item)
         {
@@ -229,7 +238,7 @@ if ($alert)
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
                     <span class="input-group-text" id="addon-wrapping">Name <p class="red">*</p></span>
-                    <input name="name" type="text" class="form-control form-control-inline" placeholder="Name" aria-label="Name" aria-describedby="addon-wrapping">
+                    <input name="name" type="text" class="form-control form-control-inline" placeholder="John Doe" aria-label="Name" aria-describedby="addon-wrapping">
                 </div>
             </div>
             <br>
@@ -237,6 +246,13 @@ if ($alert)
                 <div class="input-group flex-nowrap" style="width: 90%">
                     <span class="input-group-text" id="addon-wrapping">Email <p class="red">*</p></span>
                     <input name="email" type="text" class="form-control form-control-inline" placeholder="example@gmail.com" aria-label="Email" aria-describedby="addon-wrapping">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="input-group flex-nowrap" style="width: 90%">
+                    <span class="input-group-text" id="addon-wrapping">Phone Number</span>
+                    <input name="pNumber" type="text" class="form-control form-control-inline" placeholder="1234567890" aria-label="pNumber" aria-describedby="addon-wrapping">
                 </div>
             </div>
             <br>
