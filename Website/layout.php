@@ -15,6 +15,7 @@ session_start();
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://kit.fontawesome.com/7aa84ac1ab.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/CSSFiles/styles.css">
+    <link rel="icon" href="/othercontent/Logo.ico">
 </head>
 <header>
     <nav class="navbar navbar-expand-md fixed-top">

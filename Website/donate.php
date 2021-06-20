@@ -22,7 +22,7 @@
 <div id="mission">
     <h2 style="text-align: center;" class="display-5 fw-bold text-uppercase">Why you should donate</h2>
     <p style="padding-right: 10%; padding-left: 10%">Please consider donating if you cannot commit to any classes, as we need all the funds we can get to aid
-    our efforts to raise money for the charities we donate to. Any amount that you donate will greatly help us and we will forever be grateful for your contribution</p>
+    our efforts to raise money for the charities we donate to. Any amount that you donate will greatly help us and we will forever be grateful for your contribution.</p>
     <hr class="homepageBreak">
     <h2 style="text-align: center;" class="display-5 fw-bold text-uppercase">How to donate?</h2>
     <h5 style="text-align: center; padding-right: 10%; padding-left: 10%"><b>If possible, in the comments of your payment, please type in that you are donating money for Classes56.

@@ -25,22 +25,22 @@
 
     <div id="mission">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Our Mission</h2>
-        <p style="padding-right: 10%; padding-left: 10%">The pandemic has caused many students to miss out on <b>exciting opportunities</b> to explore their interests. We here at Classes56 strive to give
+        <p style="padding-right: 10%; padding-left: 10%">The pandemic has caused many students to <b>miss out</b> on exciting opportunities to explore their interests. We here at Classes56 strive to give
             them the <b>best education</b> to make up for what they have lost and hope that through us, they pick up <b>new interests</b> that will stay with them for the rest of their life.
-            In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>young generation ready for their future</b>.
-            And, to avoid cheapening and monetizing the quality of the classes that we deliver, <b>all of the proceeds will be delivered in the hands of charities, local
-                and international. Even if you cannot commit to attending our classes, we will accept any donations that you wish to give through the Donate button in
-                    the navigation bar.</b></p>
+            In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>youth ready for their future</b>.
+            To avoid cheapening and monetizing the quality of the classes that we deliver, <b>all proceeds we collect will go towards charity</b>, local
+            and international. Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give</b>. Click <a href="/donate">this link</a> to
+            donate. Thank you!</p>
     </div>
     <hr class="homepageBreak">
     <div id="overview">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Overview</h2>
         <p style="padding-right: 10%; padding-left: 10%;">
             At Classes56, we are offering <b>1-week summer camps</b> for young children of various ages.
-            These classes will be held at the same time through the week from Monday to Friday.
+            These classes will be held at the same time through the week from <b>Monday to Friday</b> with <b>hour-long sessions</b>.
             <b>Check out our <a href="/classes">View Classes</a></b> page for more information on individual classes including
-            timings, content, pricing, age recommendations, and more. These classes will be held
-            live, virtually over Google meets with our apt and experienced instructors.
+            timings, content, pricing, age recommendations, and more. These <b>classes will be held
+                live, virtually</b> over Google Meet with our apt and experienced instructors paired with <b>small groups of students</b>.
             Remember, that <b>ALL funds that we collect will go to charity.</b> Thank you and
             we look forward to providing your children with the best experience of their lives!
         </p>
@@ -66,7 +66,7 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <strong>No, the classes are not free.</strong> For each class that we conduct, we ask for a small price. All proceeds from these classes will go towards
-                                    charity. The specific charity that we are supporting is called Sewa and you can find more about them <a href="https://sewausa.org" target="_blank" rel="noreferrer noopener">here</a>.
+                                    charity. The specific charity that we are supporting is called Sewa International and you can find more about them <a href="https://sewausa.org" target="_blank" rel="noreferrer noopener">here</a>.
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,35 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                              <div class="accordion-body">
                                  <strong>Payment is done through PayPal and other online payment services. </strong>After you sign up for a class, you will get an email
-                                 within 1 - 2 business days with payment information and further specifics regarding the class that you signed up for.
+                                 within 1-2 business days with payment information and further specifics regarding the class that you signed up for. Learn more about our
+                                 payment options by clicking <a href="/donate">this link</a>.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    When does registration close for the camps?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <b>Registration for a summer camp closes 5 days before the first class</b>. We will send payment information to you as quickly as possible
+                                    and you are required to pay 1 day before the first class. This is so we have ample time to provide you with Google Classroom invite and other
+                                    information.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Can I get a refund if I am not able to attend?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <b>No, we do not offer refunds</b> as we guarantee the charity that money. This prevents us from providing refunds as we are unable to break
+                                    that contract. Thank you for understanding.
                                 </div>
                             </div>
                         </div>

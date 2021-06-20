@@ -4,7 +4,7 @@ require "../vendor/autoload.php";
 
 error_reporting(0);
 
-$nameErr = $emailErr = $classErr = "";
+$nameErr = $emailErr = $classErr = "false";
 $name = $email = $pNumber = "";
 $classesChosen = array();
 $className = array(
@@ -22,13 +22,13 @@ $success = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
-        $nameErr = "Name is required!";
+        $nameErr = "true";
     } else {
         $name = test_input($_POST["name"]);
     }
 
     if (empty($_POST["email"])) {
-        $emailErr = "Email is required!";
+        $emailErr = "true";
     } else {
         $email = test_input($_POST["email"]);
     }
@@ -65,10 +65,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($totalPrice == 0)
     {
-        $classErr = "Please select at least one class!";
+        $classErr = "true";
     }
 
-    if ($nameErr == "" && $emailErr == "" && $classErr == "")
+    if ($nameErr == "false" && $emailErr == "false" && $classErr == "false")
     {
         $client = new Google_Client();
         $client->setApplicationName('Google Sheets and PHP');
@@ -112,12 +112,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $body,
             $params
         );
-        $success = true;
+        $fields = array('pass' => urlencode("classes56"));
     }
     else
     {
-        $alert = true;
+        $fields = array(
+                'pass' => urlencode("none"),
+                'nameErr' => urlencode($nameErr),
+                'emailErr' => urlencode($emailErr),
+                'classErr' => urlencode($classErr),
+        );
     }
+    $url = 'http://classes56.com:801/result';
+    $fields_string = http_build_query($fields);
+    $ch = curl_init();
+    curl_setopt($ch,CURLOPT_URL, $url);
+    curl_setopt($ch,CURLOPT_POST, count($fields));
+    curl_setopt($ch,CURLOPT_POSTFIELDS, $fields_string);
+    $result = curl_exec($ch);
+    curl_close($ch);
 }
 
 function test_input($data): string
@@ -234,7 +247,7 @@ if ($alert)
             <p id="title">Sign Up</p>
         </div>
         <br>
-        <form class="form-check signupForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        <form class="form-check signupForm" method="post">
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
                     <span class="input-group-text" id="addon-wrapping">Name <p class="red">*</p></span>
@@ -258,40 +271,41 @@ if ($alert)
             <br>
             <br>
             <p class="classes">Classes <span class="red">*</span> :</p>
-            <p class="blue">Week 1</p>
-            <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch">
-            <label class="form-check-label" for="scratch"> Scratch ($30)</label><br>
-            <input class="form-check-input" type="checkbox" id="web" name="web" value="web">
-            <label class="form-check-label" for="web"> Web Design Fundamentals ($30)</label><br>
+            <p class="blue">Week of July 5th</p>
             <input class="form-check-input" type="checkbox" id="coding" name="coding" value="coding">
-            <label class="form-check-label" for="coding"> Coding Principles ($30)</label><br>
+            <label class="form-check-label" for="coding"> <b>Coding Principles</b> ($30) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="web" name="web" value="web">
+            <label class="form-check-label" for="web"> <b>Web Design Fundamentals</b> ($30) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch">
+            <label class="form-check-label" for="scratch"> <b>Scratch</b> ($30) - 5:30pm to 6:30pm</label><br>
             <input class="form-check-input" type="checkbox" id="exploring" name="exploring" value="exploring">
-            <label class="form-check-label" for="exploring"> Exploring Our Universe ($30)</label><br><br>
-            <p class="blue">Week 2</p>
-            <input class="form-check-input" type="checkbox" id="java" name="java" value="java">
-            <label class="form-check-label" for="java"> Java ($30)</label><br>
-            <input class="form-check-input" type="checkbox" id="python" name="python" value="python">
-            <label class="form-check-label" for="python"> Python Programming ($30)</label><br>
+            <label class="form-check-label" for="exploring"> <b>Exploring Our Universe</b> ($30) - 5:30pm to 6:30pm</label><br><br>
+            <p class="blue">Week of July 12th</p>
             <input class="form-check-input" type="checkbox" id="entrepreneurship" name="entrepreneurship" value="entrepreneurship">
-            <label class="form-check-label" for="entrepreneurship"> Entrepreneurship ($30)</label><br>
+            <label class="form-check-label" for="entrepreneurship"> <b>Entrepreneurship</b> ($30) - 3pm to 4pm</label><br>
+            <input class="form-check-input" type="checkbox" id="java" name="java" value="java">
+            <label class="form-check-label" for="java"> <b>Java</b> ($30) - 3pm to 4pm</label><br>
             <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d">
-            <label class="form-check-label" for="3d"> 3D Modeling ($30)</label><br><br>
-            <p class="blue">Week 3</p>
+            <label class="form-check-label" for="3d"> <b>3D Modeling</b> ($30) - 4:30pm to 5:30pm</label><br>
+            <input class="form-check-input" type="checkbox" id="python" name="python" value="python">
+            <label class="form-check-label" for="python"> <b>Python</b> ($30) - 4:30pm to 5:30pm</label><br><br>
+            <p class="blue">Week of July 19th</p>
             <input class="form-check-input" type="checkbox" id="ue4" name="ue4" value="ue4">
-            <label class="form-check-label" for="ue4"> Game Design in Unreal Engine 4 ($Undecided)</label><br>
+            <label class="form-check-label" for="ue4"> <b>Game Design in Unreal Engine 4</b> ($35) - 2:30pm to 3:30pm</label><br>
             <input class="form-check-input" type="checkbox" id="flask" name="flask" value="flask">
-            <label class="form-check-label" for="flask"> Web Design with Flask ($35)</label><br>
+            <label class="form-check-label" for="flask"> <b>Web Design with Flask</b> ($35) - 4pm to 5pm</label><br>
             <input class="form-check-input" type="checkbox" id="django" name="django" value="django">
-            <label class="form-check-label" for="django"> Web Design with Django ($35)</label><br>
+            <label class="form-check-label" for="django"> <b>Web Design with Django</b> ($35) - 4pm to 5pm</label><br>
             <input class="form-check-input" type="checkbox" id="php" name="php" value="php">
-            <label class="form-check-label" for="php"> Web Design with PHP ($35)</label><br><br>
-            <p class="blue">Week 4</p>
+            <label class="form-check-label" for="php"> <b>Web Design with PHP</b> ($35) - 4pm to 5pm</label><br><br>
+            <p class="blue">Week of July 26th</p>
             <input class="form-check-input" type="checkbox" id="apPhysics" name="apPhysics" value="apPhysics">
-            <label class="form-check-label" for="apPhysics"> AP Physics 1 Crash Course ($35)</label><br>
-            <input class="form-check-input" type="checkbox" id="unity" name="unity" value="unity">
-            <label class="form-check-label" for="unity"> Game Design in Unity ($35)</label><br>
+            <label class="form-check-label" for="apPhysics"> <b>AP Physics 1 Crash Course</b> ($35) - 2:30pm to 3:30pm</label><br>
             <input class="form-check-input" type="checkbox" id="iot" name="iot" value="iot">
-            <label class="form-check-label" for="iot"> Internet of Things ($30)</label><br><br>
+            <label class="form-check-label" for="iot"> <b>Internet of Things</b> ($30) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="unity" name="unity" value="unity">
+            <label class="form-check-label" for="unity"> <b>Game Design in Unity</b> ($35) - 4pm to 5pm</label><br><br>
+            <p><b>IMPORTANT NOTE: All timings are in Eastern Time</b></p>
             <div class="row">
                 <button type="submit" class="btn btn-primary" style="width: 30%;">Submit</button>
             </div>

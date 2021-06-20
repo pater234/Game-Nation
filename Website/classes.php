@@ -155,7 +155,7 @@
     <div class="card">
         <img src="https://lh4.googleusercontent.com/CRE9G0Ektvehxu5A2fKR7O8FONaFntdmQOHJvzaeujlO4tOkMTEC_8DizzAijuRHzQAa6TuSWAGaZPkB17CKqJ3oW7rMSx6qLSyna2MWBPgTSuPK9he-68d5pG0iewp84INh2Py1rMWfvjAo" alt="Python Programming" class="card-img-top">
         <div class="card-body d-flex flex-column">
-            <h1 class="card-title">Python Programming</h1>
+            <h1 class="card-title">Python</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to code in Python to automate your life with us!</p>
             <a class="btn btn-primary mt-auto btn-view" id="pythonBtn">View more information</a>
@@ -268,7 +268,7 @@
         This way, when they want to learn a new language, they just have to learn the syntax as they already understand the overarching concepts.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
-        <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. EDT</p>
+        <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -285,7 +285,7 @@
         <p>By the end of this course, students will be able to design simple and static webpages using HTML and styling them with color, spacing, and layout with CSS. </p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser and a GitHub account</p>
-        <p><b>Timings: </b>July 5th to July 9th at 4 P.M. to 5 P.M. EDT</p>
+        <p><b>Timings: </b>July 5th to July 9th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -304,7 +304,7 @@
             to pick up on new programming languages with greater ease.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
-        <p><b>Timings: </b>July 5th to July 9th at 4 P.M. to 5 P.M. EDT</p>
+        <p><b>Timings: </b>July 5th to July 9th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -320,7 +320,7 @@
         at STEM related fields because of an early interest in space that piqued their curiosity.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> None (An interest in science!)</p>
-        <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. EDT</p>
+        <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -336,7 +336,7 @@
         <p>By the end of this course, we want students to know how to use a powerful tool such as Java to tackle problems that can be solved by writing code.</p>
         <p><b>Prerequisites: </b>Have a basic knowledge of how to code (i.e. scratch)</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser and a github account for replit.com </p>
-        <p><b>Timings: </b>July 12th to July 16th at 3 P.M. to 4 P.M. EDT</p>
+        <p><b>Timings: </b>July 12th to July 16th at 3 P.M. to 4 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -355,7 +355,7 @@
         least one language as it is used everywhere.</p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
-        <p><b>Timings: </b>July 12th to July 16th at 4:30 P.M. to 5:30 P.M. EDT</p>
+        <p><b>Timings: </b>July 12th to July 16th at 4:30 P.M. to 5:30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 </div>
@@ -368,7 +368,7 @@
             learn what techinques companies use to catch the eye of the customers. We will also have a mini-project based on a company which you make yourself!</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> None</p>
-        <p><b>Timings: </b>July 12th to July 16th at 3 P.M. to 4 P.M. EDT</p>
+        <p><b>Timings: </b>July 12th to July 16th at 3 P.M. to 4 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -384,7 +384,7 @@
         <p>By the end of this course, students will be able to design basic objects and assemblies in OnShape using the tools provided. A skill such as 3D modeling can never go to waste.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with the ability to run a web browser</p>
-        <p><b>Timings: </b>July 12th to July 16th at 4.30 P.M. to 5.30 P.M. EDT</p>
+        <p><b>Timings: </b>July 12th to July 16th at 4.30 P.M. to 5.30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 </div>
@@ -396,10 +396,12 @@
         <p>This course will give an introduction to <b>Game Design in Unreal Engine 4</b>. Games in Unreal Engine can be coded in C++ or in Unreal's visual scripting system called Blueprints.
             Many people debate on whether it is better to use C++ or blueprints. However, the correct answer is to use both because it makes coding games easier and more efficient.
             We will be using both of them in tandem to code a simple game. You will learn about their strengths and weaknesses and how to gain the most out of them.
-            By the end of this course, students will have understood the fundamentals of Unreal Engine and how to use its advantages to code a game in C++ and blueprints.</p>
-        <p><b>Prerequisites: </b>Decent knowledge of coding</p>
-        <p><b>Requirements:</b> A computer that can download and run Unreal Engine as well as Microsoft Visual Studio.  </p>
-        <p><b>Timings: </b>July 19th to July 23th at 2.30 P.M. to 3.30 P.M. EDT</p>
+        </p>
+        <p>By the end of this course, students will have understood the fundamentals of Unreal Engine and how to use its advantages to code a game in C++ and blueprints.
+        Coding a game, although is challenging, will allow students to learn new coding concepts and have fun while doing so.</p>
+        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it </p>
+        <p><b>Requirements:</b> A computer that can download and run Unreal Engine 4 as well as Microsoft Visual Studio.</p>
+        <p><b>Timings: </b>July 19th to July 23th at 2.30 P.M. to 3.30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -417,9 +419,9 @@
         can maintain web applications by providing usable code and extensions for common operations.</p>
         <p>By the end of this course, students will be able to create a fully interactive website that is able to send and receive data from a server. This skill is extremely useful especially in the era where
         everything is online.</p>
-        <p><b>Prerequisites: </b>Web Design Fundamentals course/understanding of the topics in the web design course</p>
+        <p><b>Prerequisites: </b>Completion of the Web Design Fundamentals course or intermediate/advanced knowledge of HTML and CSS and understanding of the topics in the web design fundamentals course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
-        <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
+        <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -434,9 +436,9 @@
             spotify web app is built using Django. The students in this course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
             made from the code that they created to make extremely impressive websites that are sure to excite. </p>
         <p>By the end of this course, students will be able to create a fully interactive website using the Django framework in Python.</p>
-        <p><b>Prerequisites: </b>Web Design Fundamentals course/understanding of the topics in the web design course</p>
+        <p><b>Prerequisites: </b>Completion of the Web Design Fundamentals course or intermediate/advanced knowledge of HTML and CSS and understanding of the topics in the web design fundamentals course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
-        <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
+        <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -453,9 +455,9 @@
         world use PHP as its backend programming language.</p>
         <p>By the end of this course, students will be able to utilize a PHP to create interactive webpages that can manage backend server side processing for
             managing data input in forms, managing accounts, etc.</p>
-        <p><b>Prerequisites: </b>Web Design Fundamentals course/understanding of the topics in the web design course</p>
+        <p><b>Prerequisites: </b>Completion of the Web Design Fundamentals course or intermediate/advanced knowledge of HTML and CSS and understanding of the topics in the web design fundamentals course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
-        <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. EDT</p>
+        <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -466,10 +468,14 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p></p>
-        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
-        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
-        <p><b>Timings: </b>July 26th to July 30th at 2:30 P.M. to 3:30 P.M. EDT</p>
+        <p><b>AP Physics 1</b> is a class that provides an accelerated, condensed version of the course for those wishing to take the AP Physics
+        1 Exam provided by College Board. Concepts will be quickly described to students taking the class, and those that take the course
+        will have a full understanding of the basic topics covered in the exam. <b>Please note that this is an extremely condensed version of
+        AP Physics 1 and should not be considered a replacement of the course or any self-study materials. This is primarily an introduction crash course
+        that will help students earn a 5 along with other materials.</b></p>
+        <p><b>Prerequisites: </b>Knowledge of basic principles in physics recommended</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
+        <p><b>Timings: </b>July 26th to July 30th at 2:30 P.M. to 3:30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -486,7 +492,7 @@
             related to coding.</p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
-        <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. EDT</p>
+        <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
@@ -505,7 +511,7 @@
             safe and cautious.</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> None</p>
-        <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. EDT</p>
+        <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
