@@ -4,7 +4,7 @@ require "../vendor/autoload.php";
 
 error_reporting(0);
 
-$nameErr = $emailErr = $classErr = "false";
+$nameErr = $emailErr = $classErr = false;
 $name = $email = $pNumber = "";
 $classesChosen = array();
 $className = array(
@@ -18,17 +18,16 @@ $totalPrice = 0;
 
 $alert = false;
 
-$success = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["name"])) {
-        $nameErr = "true";
+        $nameErr = true;
     } else {
         $name = test_input($_POST["name"]);
     }
 
     if (empty($_POST["email"])) {
-        $emailErr = "true";
+        $emailErr = true;
     } else {
         $email = test_input($_POST["email"]);
     }
@@ -65,10 +64,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($totalPrice == 0)
     {
-        $classErr = "true";
+        $classErr = true;
     }
 
-    if ($nameErr == "false" && $emailErr == "false" && $classErr == "false")
+    if (!$nameErr && !$emailErr && !$classErr)
     {
         $client = new Google_Client();
         $client->setApplicationName('Google Sheets and PHP');
@@ -112,25 +111,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $body,
             $params
         );
-        $fields = array('pass' => urlencode("classes56"));
+        echo '
+<div class="alert alert-success">
+    Thank you for signing up! You will get an email with further information within 1 - 2 business days!
+</div>';
     }
     else
     {
-        $fields = array(
-                'pass' => urlencode("none"),
-                'nameErr' => urlencode($nameErr),
-                'emailErr' => urlencode($emailErr),
-                'classErr' => urlencode($classErr),
-        );
+        if ($nameErr)
+        {
+            echo '
+<div class="alert alert-danger" role="alert">
+    Please enter a valid name!
+</div>';
+        }
+        if ($emailErr)
+        {
+            echo '
+<div class="alert alert-danger" role="alert">
+    Please enter a valid email address!
+</div>';
+        }
+        if ($classErr)
+        {
+            echo '
+<div class="alert alert-danger" role="alert">
+    Please select at least 1 class!
+</div>';
+        }
     }
-    $url = 'http://classes56.com:801/result';
-    $fields_string = http_build_query($fields);
-    $ch = curl_init();
-    curl_setopt($ch,CURLOPT_URL, $url);
-    curl_setopt($ch,CURLOPT_POST, count($fields));
-    curl_setopt($ch,CURLOPT_POSTFIELDS, $fields_string);
-    $result = curl_exec($ch);
-    curl_close($ch);
 }
 
 function test_input($data): string
@@ -140,26 +149,6 @@ function test_input($data): string
     $data = htmlspecialchars($data);
     return $data;
 } ?>
-    <script>
-        function alertUser()
-        {
-            var jsEmailErr = <?php echo(json_encode($emailErr)); ?>;
-            var jsNameErr = <?php echo(json_encode($nameErr)); ?>;
-            var jsClassErr = <?php echo(json_encode($classErr)); ?>;
-            alert(jsNameErr + "\n"  + jsEmailErr + "\n" + jsClassErr);
-        }
-    </script>
-
-<?php
-
-if ($alert)
-{
-    echo "<script>alertUser();</script>";
-}
-
-?>
-
-
 
 <style>
 
