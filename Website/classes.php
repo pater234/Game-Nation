@@ -503,7 +503,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>Have you ever wondered how the internet works? This course will teach you what makes the internet tick and why it is so important.
+        <p>Have you ever wondered how the internet works? <b>Internet of Things</b> will teach you what makes the internet tick and why it is so important.
             Students will learn how data is transferred over the internet and how they are able to see their favorite websites like YouTube anywhere they have an internet connection.
         They will understand the importance of protocols such as UDP and TCP and what http and https means when they visit a website. Additionally, they will also learn about risks that
         the internet poses to us through viruses and malware. They will learn to recognize different types of malware and how to avoid them.</p>
