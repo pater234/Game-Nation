@@ -189,7 +189,7 @@
         <img src="/othercontent/ue4.png" alt="Unreal Engine" class="card-img-top" id="ue4" style="width: 50%; align-self: center">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Game Design in Unreal Engine 4</h1>
-            <p class="card-text">$8 per class. $48 for the whole course</p>
+            <p class="card-text">$7 per class. $35 for the whole course</p>
             <p class="card-text">Learn to create games in UE4 and C++ with us!</p>
             <a class="btn btn-primary mt-auto btn-view" id="ue4Btn">View more information</a>
         </div>
