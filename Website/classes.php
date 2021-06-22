@@ -501,12 +501,13 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>This course will teach you the basics of python through fun projects and lectures.
-            Once complete with the course you will be able to automate simple tasks with python, and make anything you desire.
-            Following this course, students will be adept at logically using python, and will be able to think about attending competitions
-            related to coding.</p>
-        <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
-        <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
+        <p><b>Game Design with Unity</b>In this class, we will learn about Unity is and how we can use it! Unity gives users the ability to create games and experiences in both 2D and 3D.
+            There are many games which are created using Unity such as Temple Run, Crossey Road and many more!
+            There are two ways which one can run programs in Unity: Code Blocks or with C#. Most games are usually created through C#.
+            In this course we will learn how to code in C# and make our games run really smooth</p>
+        <p><b>Age Requirements: </b>7th Grade and up</p>
+        <p><b>Prerequisites: </b>To know some or little coding. </p>
+        <p><b>Requirements:</b> Able to download programs and can run Unity</p>
         <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
