@@ -266,7 +266,7 @@
         to that taught in our Coding Principles class.</p>
         <p>By the end of this course, young aspiring students will learn how to think algorithmically and will understand the basic concepts of coding through scratch.
         This way, when they want to learn a new language, they just have to learn the syntax as they already understand the overarching concepts.</p>
-        <p><b>Prerequisites: </b>None</p>
+        <p><b>Age Requirements: </b>2nd Grade and up</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
         <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
@@ -283,6 +283,7 @@
             more advanced frameworks later on. <b>Web Design Fundamentals</b> ensures that the student is able to properly utilize the web design principles that will be necessary for them to know no matter what they do afterwards.
             This class is a prerequisite for our other web design classes, but those that have a background in web design will be able to bypass this requirement.</p>
         <p>By the end of this course, students will be able to design simple and static webpages using HTML and styling them with color, spacing, and layout with CSS. </p>
+        <p><b>Age Requirements: </b>4th Grade and up</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser and a GitHub account</p>
         <p><b>Timings: </b>July 5th to July 9th at 4 P.M. to 5 P.M. ET</p>
@@ -302,6 +303,7 @@
             logic learned in this class and put it to practical use.</p>
         <p>By the end of this course, students will be proficient in coding concepts such as lists, arrays, loops and functions which will allow them
             to pick up on new programming languages with greater ease.</p>
+        <p><b>Age Requirements: </b>2nd Grade and up</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
         <p><b>Timings: </b>July 5th to July 9th at 4 P.M. to 5 P.M. ET</p>
@@ -318,6 +320,7 @@
         mesmerizing and deadly celestial objects that are present. Students will learn about galaxies, black holes, stars, neutron stars, quasars and many other aspects of the universe</p>
         <p>By the end of this course, we hope that the students leave this course with an interest in science and astronomy. Many of the instructors at Classes56 have been inspired to look
         at STEM related fields because of an early interest in space that piqued their curiosity.</p>
+        <p><b>Age Requirements: </b>3rd Grade and up</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> None (An interest in science!)</p>
         <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. ET</p>
@@ -334,6 +337,7 @@
         students will have the knowledge about syntax and sequence that will allow students the ability to solve many algorithmic problems and potentially
         compete in coding competitions.</p>
         <p>By the end of this course, we want students to know how to use a powerful tool such as Java to tackle problems that can be solved by writing code.</p>
+        <p><b>Age Requirements: </b>4th Grade and up</p>
         <p><b>Prerequisites: </b>Have a basic knowledge of how to code (i.e. scratch)</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser and a github account for replit.com </p>
         <p><b>Timings: </b>July 12th to July 16th at 3 P.M. to 4 P.M. ET</p>
@@ -353,6 +357,7 @@
         <p>By the end of this course, we want students to have learnt how to apply Python to their lives to automate simple tasks. We also hope that they gain an interest in
         coding that they might wish to pursue in the future. In the 21st century where everything revolves around computers, it is almost essential to be adept at coding in at
         least one language as it is used everywhere.</p>
+        <p><b>Age Requirements: </b>3rd Grade and up</p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 12th to July 16th at 4:30 P.M. to 5:30 P.M. ET</p>
@@ -364,10 +369,13 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p>In this course, we will learn the basics of Business such as the 5 P's, Finance and many more! We will also
-            learn what techinques companies use to catch the eye of the customers. We will also have a mini-project based on a company which you make yourself!</p>
+        <p>In this course, we will learn the basics of Business such as the 5 P's, Finance and many more! Students will also learn about the planning required
+            behind running a success business. We will also learn what techniques companies use to catch the eye of the customers. All of this will allow the
+            students to learn how to start their own business, market their products, and potentially learn to make money off of their own hard work.
+            We will also have a mini-project on a company which you make yourself!</p>
+        <p><b>Age Requirements: </b>3rd Grade and up</p>
         <p><b>Prerequisites: </b>None</p>
-        <p><b>Requirements:</b> None</p>
+        <p><b>Requirements:</b> A computer with the ability to run a web browser</p>
         <p><b>Timings: </b>July 12th to July 16th at 3 P.M. to 4 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
@@ -382,6 +390,7 @@
             OnShape offers to help them create 3D parts and assemblies. Video Games and Computer Generated Graphics (CGI) in movies always aim to increase the visual quality to make it seem life-like.
         Although we would not be teaching 3D modeling as advanced as that, students will gain an interest in creating models that may lead to a promising career in 3D modeling.</p>
         <p>By the end of this course, students will be able to design basic objects and assemblies in OnShape using the tools provided. A skill such as 3D modeling can never go to waste.</p>
+        <p><b>Age Requirements: </b>5th Grade and up</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> A computer with the ability to run a web browser</p>
         <p><b>Timings: </b>July 12th to July 16th at 4.30 P.M. to 5.30 P.M. ET</p>
@@ -399,6 +408,7 @@
         </p>
         <p>By the end of this course, students will have understood the fundamentals of Unreal Engine and how to use its advantages to code a game in C++ and blueprints.
         Coding a game, although is challenging, will allow students to learn new coding concepts and have fun while doing so.</p>
+        <p><b>Age Requirements: </b>7th Grade and up</p>
         <p><b>Prerequisites: </b>Coding Principles Course/Understanding of the topics discussed in it </p>
         <p><b>Requirements:</b> A computer that can download and run Unreal Engine 4 as well as Microsoft Visual Studio.</p>
         <p><b>Timings: </b>July 19th to July 23th at 2.30 P.M. to 3.30 P.M. ET</p>
@@ -419,6 +429,8 @@
         can maintain web applications by providing usable code and extensions for common operations.</p>
         <p>By the end of this course, students will be able to create a fully interactive website that is able to send and receive data from a server. This skill is extremely useful especially in the era where
         everything is online.</p>
+
+
         <p><b>Prerequisites: </b>Completion of the Web Design Fundamentals course or intermediate/advanced knowledge of HTML and CSS and understanding of the topics in the web design fundamentals course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. ET</p>
@@ -436,6 +448,7 @@
             spotify web app is built using Django. The students in this course will utilize higher level programming techniques to make extremely interactive websites, and also see example websites
             made from the code that they created to make extremely impressive websites that are sure to excite. </p>
         <p>By the end of this course, students will be able to create a fully interactive website using the Django framework in Python.</p>
+        <p><b>Age Requirements: </b>6th Grade and up</p>
         <p><b>Prerequisites: </b>Completion of the Web Design Fundamentals course or intermediate/advanced knowledge of HTML and CSS and understanding of the topics in the web design fundamentals course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. ET</p>
@@ -455,6 +468,7 @@
         world use PHP as its backend programming language.</p>
         <p>By the end of this course, students will be able to utilize a PHP to create interactive webpages that can manage backend server side processing for
             managing data input in forms, managing accounts, etc.</p>
+        <p><b>Age Requirements: </b>6th Grade and up</p>
         <p><b>Prerequisites: </b>Completion of the Web Design Fundamentals course or intermediate/advanced knowledge of HTML and CSS and understanding of the topics in the web design fundamentals course</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser, a GitHub account</p>
         <p><b>Timings: </b>July 19th to July 23th at 4 P.M. to 5 P.M. ET</p>
@@ -473,6 +487,7 @@
         will have a full understanding of the basic topics covered in the exam. <b>Please note that this is an extremely condensed version of
         AP Physics 1 and should not be considered a replacement of the course or any self-study materials. This is primarily an introduction crash course
         that will help students earn a 5 along with other materials.</b></p>
+        <p><b>Age Requirements: </b>9th Grade and up</p>
         <p><b>Prerequisites: </b>Knowledge of basic principles in physics recommended</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
         <p><b>Timings: </b>July 26th to July 30th at 2:30 P.M. to 3:30 P.M. ET</p>
@@ -509,6 +524,7 @@
         the internet poses to us through viruses and malware. They will learn to recognize different types of malware and how to avoid them.</p>
         <p>By the end of this course, students will have a deeper understanding about the exciting world of the internet and how it functions to serve and help us every single day while remaining
             safe and cautious.</p>
+        <p><b>Age Requirements: </b>2nd Grade and up</p>
         <p><b>Prerequisites: </b>None</p>
         <p><b>Requirements:</b> None</p>
         <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. ET</p>
