@@ -16,6 +16,32 @@
     #contactinfo {
         margin-bottom: 3%;
     }
+    table {
+        width:75%;
+        align-content: center;
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 15px;
+        text-align: center;
+    }
+    #t01 tr:nth-child(even) {
+        background-color: #926aa6;
+    }
+    #t01 tr:nth-child(odd) {
+        background-color: #92a8d1;
+    }
+    #t01 th {
+        background-color: #0072b5;
+        color: white;
+    }
 </style>
 
 <body class="body" style="position: relative; top: 0px">
@@ -33,6 +59,16 @@
             donate. Thank you!</p>
     </div>
     <hr class="homepageBreak">
+    <div id="Announcement">
+        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">One-on-One Tutoring</h2>
+        <p style="padding-right: 10%; padding-left: 10%">Classes56 will offer one-one-one tutoring on demand for a greater
+        amount of money per class. To enquire about one-on-one tutoring for your children please email <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a>.
+        In your email please describe: the class for which you are enquiring for tutoring (we can only tutor for our current classes), the amount of time
+        for which you will be interested in tutoring, a phone number at which you can be contacted at, and an appropriate time for one of our representatives to
+        contact you about your child's education. <b>Using the Signup tab in the navigation bar <u>will not</u> result in one-on-one tutoring for your child.
+        You <u>must</u> email us to be contacted about tutoring.</b></p>
+    </div>
+    <hr class="homepageBreak">
     <div id="overview">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Overview (Regular Classes)</h2>
         <p style="padding-right: 10%; padding-left: 10%;">
@@ -45,6 +81,52 @@
             we look forward to providing your children with the best experience of their lives!
         </p>
     </div>
+    <hr class="homepageBreak">
+    <section id="tabletop" class="contactinfo">
+        <div id="table">
+            <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Classes and Minimum Age Requirements</h2>
+            <table class="center" id="t01">
+                <tr>
+                    <th>Age</th>
+                    <th>Classes Available</th>
+                </tr>
+                <tr>
+                    <td>2nd Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things</td>
+                </tr>
+                <tr>
+                    <td>3rd Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python</td>
+                </tr>
+                <tr>
+                    <td>4th Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                    Java</td>
+                </tr>
+                <tr>
+                    <td>5th Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                        Java, 3D Modeling</td>
+                </tr>
+                <tr>
+                    <td>6th Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                    Java, 3D Modeling, Flask, Django, PHP</td>
+                </tr>
+                <tr>
+                    <td>7th Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                    Java, 3D Modeling, Flask, Django, PHP, Unreal Engine 4, Unity</td>
+                </tr>
+
+                <tr>
+                    <td>9th Grade and above</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                    Java, 3D Modeling, Flask, Django, PHP, Unreal Engine 4, Unity, AP Physics 1 Crash Course</td>
+                </tr>
+            </table>
+        </div>
+    </section>
     <hr class="homepageBreak">
     <section id="faq" class="faq">
         <div class="container">

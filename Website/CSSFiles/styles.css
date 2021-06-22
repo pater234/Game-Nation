@@ -43,6 +43,11 @@ body {
     color: rgba(237, 240, 241, 0.5);
 }
 
+.navbar-expand-lg {
+    padding-right: 10rem;
+    padding-left: 3rem;
+}
+
 #navbutton {
     border: none;
     border-radius: 0.75rem;

@@ -98,6 +98,7 @@
 </style>
 <body class="body" style="position: relative; top: 0px">
 <br>
+
 <h1 class="week">Week of July 5th through July 9th</h1>
 <div id="card">
     <div class="card">
@@ -501,7 +502,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <p><b>Game Design with Unity</b>In this class, we will learn about Unity is and how we can use it! Unity gives users the ability to create games and experiences in both 2D and 3D.
+        <p>In <b>Game Design with Unity</b> we will learn about Unity is and how we can use it! Unity gives users the ability to create games and experiences in both 2D and 3D.
             There are many games which are created using Unity such as Temple Run, Crossey Road and many more!
             There are two ways which one can run programs in Unity: Code Blocks or with C#. Most games are usually created through C#.
             In this course we will learn how to code in C# and make our games run really smooth</p>

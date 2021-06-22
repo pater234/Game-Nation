@@ -30,7 +30,7 @@
     <br>
     <ul style="padding-right: 10%; padding-left: 10%">
         <li><b>PayPal: </b>When using Paypal, please select the "Friends and Family" option presented to you within Paypal as Paypal deducts the money
-            we receive and harms our cause. <a href="https://www.paypal.com/paypalme/vickykaushal99?locale.x=en_US">Here</a> is the link for the PayPal.</li>
+            we receive and harms our cause. <a href="https://www.paypal.com/paypalme/vickykaushal99?locale.x=en_US" target="_blank" rel="noopener noreferrer">Here</a> is the link for the PayPal.</li>
         <li><b>Venmo: </b>Please send the payment to <b>vipulshah9876</b></li>
         <li><b>Zelle: </b>Please send the payment to <b>vipulkshah@gmail.com</b></li>
     </ul>

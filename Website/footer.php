@@ -56,11 +56,11 @@
                 <div>
                     <a href="mailto:classes56official@gmail.com" class="fa fa-google"></a>
                     <a href="#" class="fa fa-instagram"></a>
-                    <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw" class="fa fa-youtube"></a>
+                    <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw" target="_blank" rel="noopener noreferrer" class="fa fa-youtube"></a>
                     <a href="#" class="fa fa-facebook"></a>
                 </div>
             </div>
-            <p>Learn more about Sewa International by visiting <a href="https://sewausa.org">this link</a></p>
+            <p>Learn more about Sewa International by visiting <a href="https://sewausa.org" target="_blank" rel="noopener noreferrer">this link</a></p>
             <hr class="mb-4">
         </div>
     </div>
