@@ -305,9 +305,9 @@ function test_input($data): string
 </body>
 
 <script>
-    $(document).ready(centerForm());
+    $(document).ready(function () {return centerForm()});
 
-    $(window).resize(centerForm());
+    $(window).resize(function () {return centerForm()});
 
      function centerForm()
      {

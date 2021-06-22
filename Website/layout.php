@@ -18,7 +18,7 @@ session_start();
     <link rel="icon" href="/othercontent/Logo.ico">
 </head>
 <header>
-    <nav class="navbar navbar-expand-md fixed-top">
+    <nav class="navbar navbar-expand-xl fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Classes56 <img src="/othercontent/Logo.png" width=25% ></a>
             <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
