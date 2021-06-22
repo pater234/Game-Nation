@@ -61,9 +61,8 @@
     <hr class="homepageBreak">
     <div id="Announcement">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">One-on-One Tutoring</h2>
-        <p style="padding-right: 10%; padding-left: 10%">Classes56 will offer one-one-one tutoring on demand for a greater
-        amount of money per class. To enquire about one-on-one tutoring for your children please email <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a>.
-        In your email please describe: the class for which you are enquiring for tutoring (we can only tutor for our current classes), the amount of time
+        <p style="padding-right: 10%; padding-left: 10%">Classes56 will offer one-one-one tutoring on demand. To inquire about one-on-one tutoring for your children please email <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a>.
+        In your email please describe: the class for which you are inquiring for tutoring (we can only tutor for our current classes), the amount of time
         for which you will be interested in tutoring, a phone number at which you can be contacted at, and an appropriate time for one of our representatives to
         contact you about your child's education. <b>Using the Signup tab in the navigation bar <u>will not</u> result in one-on-one tutoring for your child.
         You <u>must</u> email us to be contacted about tutoring.</b></p>
