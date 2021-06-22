@@ -182,10 +182,14 @@
                 <h2 class="card-text">Qualifications</h2>
                 <ul style="text-align: left;">
                     <li>Learning Logistics in Supply Chain Management</li>
+                    <li>Learnt Business Management, Marketing, Entrepreneurship and International Business in Business course</li>
                     <li>Self-Learnt Unity through the Internet</li>
+                    <li>Learnt AI and Deep Learning from Stanford. </li>
                     <li>4 years of experience in the Scratch Course</li>
+                    <li>Took an AI course and learning Machine learning from IBM</li>
                     <li>Took multiple Java courses on how to build applications and how to build websites.</li>
                     <li>Has 2 years of Robotics Experience and went to Robotics camp</li>
+                    <li>Doing Unity Advance course from Unity</li>
                     <li>Competing member in DECA</li>
                     <li>Taught at a Summer course for elementary school children</li>
                     <li>Volunteers for homework help monthly</li>
