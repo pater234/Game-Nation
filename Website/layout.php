@@ -24,8 +24,8 @@ session_start();
             <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
                 <i class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbar">
-                <ul class="navbar-nav m-lg-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse justify-content-between mx-auto" id="navbar">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>

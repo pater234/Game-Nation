@@ -102,6 +102,7 @@
                             courses and classes from reputable organizations</li>
                     <li>Completed IBM's Introduction to Machine Learning in Python</li>
                     <li>Currently taking the Unreal Multiplayer Master: Video Game Dev in C++ course</li>
+                    <li>Currently taking the Machine Learning A-Z: Hands-On-Python and R In Data Science course</li>
                     <li>Volunteers for homework help monthly</li>
                     <li>Placed 24th nationally in the Engineering MySo Science Olympiad</li>
                 </ul>

@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = test_input($_POST["name"]);
     }
 
-    if (empty($_POST["email"])) {
+    if (empty($_POST["email"]) || !filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
         $emailErr = true;
     } else {
         $email = test_input($_POST["email"]);
@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $valuesGet = $response->getValues();
         $length = strval(count($valuesGet) + 1);
 
-        $range = 'A' . $length . ':' . 'S' . $length;
+        $range = 'A' . $length . ':' . 'T' . $length;
 
         $innerValues = [$name, $email, $pNumber];
 
@@ -95,6 +95,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         array_push($innerValues, $totalPrice);
+
+        array_push($innerValues, 0);
 
         $values = [
             $innerValues
@@ -113,7 +115,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         );
         echo '
 <div class="alert alert-success">
-    Thank you for signing up! You will get an email with further information within 1 - 2 business days!
+    Thank you for signing up! You will get an email with further information within 1 business day!
 </div>';
     }
     else
@@ -239,7 +241,7 @@ function test_input($data): string
         <form class="form-check signupForm" method="post">
             <div class="row">
                 <div class="input-group flex-nowrap" style="width: 90%">
-                    <span class="input-group-text" id="addon-wrapping">Name <p class="red">*</p></span>
+                    <span class="input-group-text" id="addon-wrapping">Student Name <p class="red">*</p></span>
                     <input name="name" type="text" class="form-control form-control-inline" placeholder="John Doe" aria-label="Name" aria-describedby="addon-wrapping">
                 </div>
             </div>

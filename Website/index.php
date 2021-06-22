@@ -34,7 +34,7 @@
     </div>
     <hr class="homepageBreak">
     <div id="overview">
-        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Overview</h2>
+        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Overview (Regular Classes)</h2>
         <p style="padding-right: 10%; padding-left: 10%;">
             At Classes56, we are offering <b>1-week summer camps</b> for young children of various ages.
             These classes will be held at the same time through the week from <b>Monday to Friday</b> with <b>hour-long sessions</b>.
