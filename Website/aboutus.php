@@ -93,6 +93,7 @@
                 </ul>
                 <h2 class="card-text">Qualifications</h2>
                 <ul style="text-align: left;">
+                    <li>Studies in the Academy for Mathematics, Science and Engineering</li>
                     <li>Participated in the TSA Video Game Design with a game created in
                             Unreal Engine 4 with C++</li>
                     <li>Taking an Academy CAD Honors course in the AMSE</li>
@@ -125,6 +126,7 @@
                 </ul>
                 <h2 class="card-text">Qualifications</h2>
                 <ul style="text-align: left;">
+                    <li>Studies in the Academy for Mathematics, Science and Engineering</li>
                     <li>Currently taking a college course in marketing and
                             States Qualifier in DECA</li>
                     <li>Exploring Our Universe</li>
@@ -156,6 +158,7 @@
                 </ul>
                 <h2 class="card-text">Qualifications</h2>
                 <ul style="text-align: left;">
+                    <li>Studies in the Morris Hills Magnet Program for Math and Science</li>
                     <li>Completed Harvard's CS50 Introduction to Computer
                         Science course which included C, Python, web design, and more</li>
                     <li>Received a <a href="https://drive.google.com/file/d/1-0T0QwBHEQsQxGmyad0tBXczlfdHfHIr/view">verified certificate</a> for the completion of the Course</li>
@@ -181,6 +184,7 @@
                 </ul>
                 <h2 class="card-text">Qualifications</h2>
                 <ul style="text-align: left;">
+                    <li>Studies in the Academy of Finance and Supply Chain Management</li>
                     <li>Learning Logistics in Supply Chain Management</li>
                     <li>Learnt Business Management, Marketing, Entrepreneurship and International Business in Business course</li>
                     <li>Self-Learnt Unity through the Internet</li>

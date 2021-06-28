@@ -42,6 +42,57 @@
         background-color: #0072b5;
         color: white;
     }
+
+    td a {
+        text-decoration: none;
+        color: white;
+        transition: all 0.3s ease 0s;
+    }
+
+    td a:hover {
+        color: #3f4455;
+    }
+
+
+    .table-info {
+        color: white;
+        border: 1px solid black;
+    }
+
+    #summerCamp {
+        border-radius: 5%;
+        width: 90%;
+    }
+
+    @media only screen and (min-width: 615px) and (max-width: 750px){
+        #summerCamp {
+            width: 80%;
+        }
+    }
+
+    @media only screen and (min-width: 751px) and (max-width: 900px){
+        #summerCamp {
+            width: 70%;
+        }
+    }
+
+    @media only screen and (min-width: 901px) and (max-width: 1200px){
+        #summerCamp {
+            width: 60%;
+        }
+    }
+
+    @media only screen and (min-width: 1201px) and (max-width: 1500px){
+        #summerCamp {
+            width: 50%;
+        }
+    }
+
+    @media only screen and (min-width: 1501px){
+        #summerCamp {
+            width: 40%;
+        }
+    }
 </style>
 
 <body class="body" style="position: relative; top: 0px">
@@ -52,7 +103,7 @@
     <div id="mission">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Our Mission</h2>
         <p style="padding-right: 10%; padding-left: 10%">The pandemic has caused many students to <b>miss out</b> on exciting opportunities to explore their interests. We here at Classes56 strive to give
-            them the <b>best education</b> to make up for what they have lost and hope that through us, they pick up <b>new interests</b> that will stay with them for the rest of their life.
+            them the <b>best educational opportunities</b> to make up for what they have lost and hope that through us, they pick up <b>new interests</b> that will stay with them for the rest of their lives.
             In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>youth ready for their future</b>.
             To avoid cheapening and monetizing the quality of the classes that we deliver, <b>all proceeds we collect will go towards charity</b>, local
             and international. Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give</b>. Click <a href="/donate">this link</a> to
@@ -81,56 +132,20 @@
         </p>
     </div>
     <hr class="homepageBreak">
-    <section id="tabletop" class="contactinfo">
-        <div id="table">
-            <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Classes and Minimum Age Requirements</h2>
-            <table class="center" id="t01">
-                <tr>
-                    <th>Age</th>
-                    <th>Classes Available</th>
-                </tr>
-                <tr>
-                    <td>2nd Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things</td>
-                </tr>
-                <tr>
-                    <td>3rd Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python</td>
-                </tr>
-                <tr>
-                    <td>4th Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                    Java</td>
-                </tr>
-                <tr>
-                    <td>5th Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                        Java, 3D Modeling</td>
-                </tr>
-                <tr>
-                    <td>6th Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                    Java, 3D Modeling, Flask, Django, PHP</td>
-                </tr>
-                <tr>
-                    <td>7th Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                    Java, 3D Modeling, Flask, Django, PHP, Unreal Engine 4, Unity</td>
-                </tr>
-
-                <tr>
-                    <td>9th Grade and above</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                    Java, 3D Modeling, Flask, Django, PHP, Unreal Engine 4, Unity, AP Physics 1 Crash Course</td>
-                </tr>
-            </table>
-        </div>
-    </section>
+    <div id="Announcement">
+        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">One-on-One Tutoring</h2>
+        <p style="padding-right: 10%; padding-left: 10%">Another program run by Classes56 is our One-on-One Tutoring section. One-on-One Tutoring will result in a student being the only one in a class
+            and having the full, undivided attention of the tutor. This will result in a personalized lesson plan and a pace of learning that will move with the student.
+            To inquire about one-on-one tutoring for your children please email <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a>.
+            In your email please describe the class for which you are inquiring for tutoring and provide a phone number at which it is appropriate for one
+            of our representatives to contact you at.<b>Using the Signup tab in the navigation bar <u>will not</u> result in one-on-one tutoring for your child.
+            You <u>must</u> email us to be contacted about tutoring.</b></p>
+    </div>
     <hr class="homepageBreak">
     <section id="faq" class="faq">
         <div class="container">
             <div class="row text-center">
-                    <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+                <h1 class="display-3 fw-bold text-uppercase">faq</h1>
                 <div class="heading-line"></div>
                 <p class="lead">Frequently asked questions, get knowledge beforehand</p>
 
@@ -146,7 +161,7 @@
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>No, the classes are not free.</strong> For each class that we conduct, we ask for a small price. All proceeds from these classes will go towards
+                                    <strong>The classes are not free.</strong> For each class that we conduct, we ask for a small price. All proceeds from these classes will go towards
                                     charity. The specific charity that we are supporting is called Sewa International and you can find more about them <a href="https://sewausa.org" target="_blank" rel="noreferrer noopener">here</a>.
                                 </div>
                             </div>
@@ -172,10 +187,10 @@
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                             <div class="accordion-body">
-                                 <strong>Payment is done through PayPal and other online payment services. </strong>After you sign up for a class, you will get an email
-                                 within 1-2 business days with payment information and further specifics regarding the class that you signed up for. Learn more about our
-                                 payment options by clicking <a href="/donate">this link</a>.
+                                <div class="accordion-body">
+                                    <strong>Payment is done through PayPal and other online payment services. </strong>After you sign up for a class, you will get an email
+                                    within 1-2 business days with payment information and further specifics regarding the class that you signed up for. Learn more about our
+                                    payment options by clicking <a href="/donate">this link</a>.
                                 </div>
                             </div>
                         </div>
@@ -187,7 +202,7 @@
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <b>Registration for a summer camp closes 5 days before the first class</b>. We will send payment information to you as quickly as possible
+                                    <b>Registration for a summer camp closes 3 days before the first class</b>. We will send payment information to you as quickly as possible
                                     and you are required to pay 1 day before the first class. This is so we have ample time to provide you with Google Classroom invite and other
                                     information.
                                 </div>
@@ -201,7 +216,7 @@
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <b>No, we do not offer refunds</b> as we guarantee the charity that money. This prevents us from providing refunds as we are unable to break
+                                    <b>We do not offer refunds</b> as we guarantee the charity that money. This prevents us from providing refunds as we are unable to break
                                     that contract. Thank you for understanding.
                                 </div>
                             </div>
@@ -212,6 +227,53 @@
         </div>
     </section>
     <hr class="homepageBreak">
+    <section id="tabletop" class="contactinfo">
+        <div id="table">
+            <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Age Recommendations</h2>
+            <div class="row text-center">
+                <p class="lead">Click on the class name to be redirected to the information for the specific class</p>
+            </div>
+            <table class="center" id="t01">
+                <tr>
+                    <th>Age</th>
+                    <th>Classes Available</th>
+                </tr>
+                <tr>
+                    <td class="table-info">2nd Grade and up</td>
+                    <td class="table-info"><a href="/classes?modal=coding">Coding Principles</a>, <a href="/classes?modal=scratch">Scratch</a>, <a href="/classes?modal=iot">Internet of Things</a></td>
+                </tr>
+                <tr>
+                    <td class="table-info">3rd Grade and up</td>
+                    <td class="table-info"><a href="/classes?modal=exploring">Exploring the Universe</a>, <a href="/classes?modal=entrepreneurship">Entrepreneurship</a>, <a href="/classes?modal=python">Python</a></td>
+                </tr>
+                <tr>
+                    <td>4th Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                    Java</td>
+                </tr>
+                <tr>
+                    <td>5th Grade</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                        Java, 3D Modeling</td>
+                </tr>
+                <tr>
+                    <td class="table-info">6th Grade and up</td>
+                    <td class="table-info"><a href="/classes?modal=flask">Flask</a>, <a href="/classes?modal=django">Django</a>, <a href="/classes?modal=php">PHP</a></td>
+                </tr>
+                <tr>
+                    <td class="table-info">7th Grade and up</td>
+                    <td class="table-info"><a href="/classes?modal=ue4">Unreal Engine 4</a>, <a href="/classes?modal=unity">Unity</a></td>
+                </tr>
+
+                <tr>
+                    <td>9th Grade and above</td>
+                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
+                    Java, 3D Modeling, Flask, Django, PHP, Unreal Engine 4, Unity, AP Physics 1 Crash Course</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <hr class="homepageBreak">
     <section id="contactinfo" class="contactinfo">
         <div class="contactinformation">
             <div class="row text-center">
@@ -219,6 +281,7 @@
                 <h1 class="display-7"><b>Contact us by email:</b> </h1>
                 <ul>
                     <li><b>Main business email</b> - <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a></li>
+                    <li><b>Ask us a question</b> - Visit <a target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=isDjhI1WBUaKLG_rjQwJoXVRRTPodnNPux8MOe4nzhRUMkVSMDVBREtOMDA0N0lZMkFSUE5TVVVESC4u">this</a> link to ask us a question</li>
                 </ul>
 
                 <h1 class="display-7"><b>Social Media Handles</b></h1>

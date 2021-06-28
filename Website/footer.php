@@ -48,7 +48,7 @@
         <div class="row text-center text-md-left">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h5 class="text-uppercase mb-4 font-weight-bold" style="font-family: Montserrat, sans-serif; color: lightskyblue">Classes56</h5>
-                <p style="font-family: Montserrat, sans-serif">We here at Classes56 strive to give you the best education we can along with giving back to the community</p>
+                <p style="font-family: Montserrat, sans-serif">We strive to provide your child with an enriched experience that they will treasure their whole lives.</p>
             </div>
 
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 contactinfo" style="font-family: Montserrat, sans-serif; color: lightskyblue">
