@@ -25,7 +25,8 @@
         margin-right: auto;
     }
     table, th, td {
-        border: 1px solid black;
+
+        border: 1px white;
         border-collapse: collapse;
     }
     th, td {
@@ -33,10 +34,12 @@
         text-align: center;
     }
     #t01 tr:nth-child(even) {
-        background-color: #926aa6;
+        background-color: #d64161;
+        color: white;
     }
     #t01 tr:nth-child(odd) {
-        background-color: #92a8d1;
+        background-color: #ff7b25;
+        color: white;
     }
     #t01 th {
         background-color: #0072b5;
@@ -106,21 +109,15 @@
             them the <b>best educational opportunities</b> to make up for what they have lost and hope that through us, they pick up <b>new interests</b> that will stay with them for the rest of their lives.
             In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>youth ready for their future</b>.
             To avoid cheapening and monetizing the quality of the classes that we deliver, <b>all proceeds we collect will go towards charity</b>, local
-            and international. Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give</b>. Click <a href="/donate">this link</a> to
+            and international. Our current focus is aiding the 501(c) Nonprofit <a href="https://sewausa.org" target="_blank" rel="noreferrer noopener">Sewa International</a>, an organization dedicated towards serving humanity in distress.
+            Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give</b>. Click <a href="/donate">this link</a> to
             donate. Thank you!</p>
     </div>
     <hr class="homepageBreak">
-    <div id="Announcement">
-        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">One-on-One Tutoring</h2>
-        <p style="padding-right: 10%; padding-left: 10%">Classes56 will offer one-one-one tutoring on demand. To inquire about one-on-one tutoring for your children please email <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a>.
-        In your email please describe: the class for which you are inquiring for tutoring (we can only tutor for our current classes), the amount of time
-        for which you will be interested in tutoring, a phone number at which you can be contacted at, and an appropriate time for one of our representatives to
-        contact you about your child's education. <b>Using the Signup tab in the navigation bar <u>will not</u> result in one-on-one tutoring for your child.
-        You <u>must</u> email us to be contacted about tutoring.</b></p>
-    </div>
-    <hr class="homepageBreak">
     <div id="overview">
-        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Overview (Regular Classes)</h2>
+        <div style="text-align: center"><img id="summerCamp" alt="Summer Camp" src="https://cdn.cdnparenting.com/articles/2019/04/01163339/Summer-Camp-for-Kids-519357010.jpg"></div>
+        <br>
+        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Summer Camp Overview</h2>
         <p style="padding-right: 10%; padding-left: 10%;">
             At Classes56, we are offering <b>1-week summer camps</b> for young children of various ages.
             These classes will be held at the same time through the week from <b>Monday to Friday</b> with <b>hour-long sessions</b>.
@@ -235,8 +232,8 @@
             </div>
             <table class="center" id="t01">
                 <tr>
-                    <th>Age</th>
-                    <th>Classes Available</th>
+                    <th class="table-info">Age</th>
+                    <th class="table-info">Classes Available</th>
                 </tr>
                 <tr>
                     <td class="table-info">2nd Grade and up</td>
@@ -247,14 +244,12 @@
                     <td class="table-info"><a href="/classes?modal=exploring">Exploring the Universe</a>, <a href="/classes?modal=entrepreneurship">Entrepreneurship</a>, <a href="/classes?modal=python">Python</a></td>
                 </tr>
                 <tr>
-                    <td>4th Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                    Java</td>
+                    <td class="table-info">4th Grade and up</td>
+                    <td class="table-info"><a href="/classes?modal=web">Web Design Fundamentals</a>, <a href="/classes?modal=java">Java</a></td>
                 </tr>
                 <tr>
-                    <td>5th Grade</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                        Java, 3D Modeling</td>
+                    <td class="table-info">5th Grade and up</td>
+                    <td class="table-info"><a href="/classes?modal=3d">3D Modeling</a></td>
                 </tr>
                 <tr>
                     <td class="table-info">6th Grade and up</td>
@@ -266,9 +261,8 @@
                 </tr>
 
                 <tr>
-                    <td>9th Grade and above</td>
-                    <td>Coding Principles, Scratch, Internet of Things, Exploring the Universe, Entrepreneurship, Python, Web Design Fundamentals,
-                    Java, 3D Modeling, Flask, Django, PHP, Unreal Engine 4, Unity, AP Physics 1 Crash Course</td>
+                    <td class="table-info">9th Grade and up</td>
+                    <td class="table-info"><a href="/classes?modal=apPhysics">AP Physics 1 Crash Course</a></td>
                 </tr>
             </table>
         </div>

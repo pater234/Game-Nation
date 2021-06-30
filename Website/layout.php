@@ -48,7 +48,7 @@ session_start();
                         <a class="nav-link" href="/donate">Donate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#tabletop">Age Requirements</a>
+                        <a class="nav-link" href="/#tabletop">Age Recommendations</a>
                     </li>
                 </ul>
             </div>
