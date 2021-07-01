@@ -604,6 +604,7 @@
     // When the user clicks on <span> (x), close the modal
     span1.onclick = function() {
         modal1.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn2.onclick = function() {
@@ -614,6 +615,7 @@
     // When the user clicks on <span> (x), close the modal
     span2.onclick = function() {
         modal2.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn3.onclick = function() {
