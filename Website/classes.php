@@ -537,6 +537,7 @@
 
 </body>
 <script>
+    const body = document.querySelector("body");
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const modalvar = urlParams.get('modal');
@@ -547,6 +548,7 @@
         var ID = document.getElementById(modalvar);
         ID.scrollIntoView();
         modal.style.display = "block";
+        body.style.overflow = "hidden";
     }
     var modal1 = document.getElementById("scratchModal");
     var btn1 = document.getElementById("scratchBtn");
@@ -596,6 +598,7 @@
 
     btn1.onclick = function() {
         modal1.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
@@ -605,6 +608,7 @@
 
     btn2.onclick = function() {
         modal2.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
@@ -614,119 +618,145 @@
 
     btn3.onclick = function() {
         modal3.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span3.onclick = function() {
         modal3.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn4.onclick = function() {
         modal4.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span4.onclick = function() {
         modal4.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn5.onclick = function() {
         modal5.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span5.onclick = function() {
         modal5.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn6.onclick = function() {
         modal6.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span6.onclick = function() {
         modal6.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn7.onclick = function() {
         modal7.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span7.onclick = function() {
         modal7.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn8.onclick = function() {
         modal8.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span8.onclick = function() {
         modal8.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn9.onclick = function() {
         modal9.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span9.onclick = function() {
         modal9.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn10.onclick = function() {
         modal10.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span10.onclick = function() {
         modal10.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn11.onclick = function() {
         modal11.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span11.onclick = function() {
         modal11.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn12.onclick = function() {
         modal12.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span12.onclick = function() {
         modal12.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn13.onclick = function() {
         modal13.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span13.onclick = function() {
         modal13.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn14.onclick = function() {
         modal14.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span14.onclick = function() {
         modal14.style.display = "none";
+        body.style.overflow = "auto";
     }
 
     btn15.onclick = function() {
         modal15.style.display = "block";
+        body.style.overflow = "hidden";
     }
 
     // When the user clicks on <span> (x), close the modal
     span15.onclick = function() {
         modal15.style.display = "none";
+        body.style.overflow = "auto";
     }
 
 </script>

@@ -12,11 +12,17 @@
     #mission {
         margin-top: 3%;
     }
+
+    @media only screen and (max-width: 400px) {
+        #donateImg {
+            width: 95%;
+        }
+    }
 </style>
 
 <body class="body" style="position: relative; top: 0px">
-<div style="background: linear-gradient(-45deg, #ddecff 50%, #ffffff 50%)">
-    <h1 style="text-align: center; padding-top: 50px; padding-bottom: 50px; font-size: 60px; text-decoration: underline; text-decoration-color: #007bff;">Please Donate to Classes56</h1>
+<div style="background: linear-gradient(-45deg, #ddecff 50%, #ffffff 50%); text-align: center; padding-top: 20px; padding-bottom: 20px">
+    <img id="donateImg" style="border-radius: 20px; height: auto" src="https://i0.wp.com/www.waysmeetcenter.org/wp-content/uploads/2019/11/donatebutton.png" alt="donate">
 </div>
 
 <div id="mission">
