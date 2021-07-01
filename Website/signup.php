@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
 
-    foreach (range(0, 12) as $i)
+    foreach (range(0, count($classesChosen) - 1) as $i)
     {
         if ($classesChosen[$i] == 1)
         {
