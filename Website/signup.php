@@ -4,7 +4,7 @@ require "../vendor/autoload.php";
 
 error_reporting(0);
 
-$nameErr = $emailErr = $classErr = false;
+$nameErr = $emailErr = $classErr = $signupFilled =  false;
 $name = $email = $pNumber = "";
 $classesChosen = array();
 $className = array(
@@ -59,6 +59,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($classesChosen[$i] == 1)
         {
             $totalPrice += $classPrice[$i];
+            if ($className[$i] == "scratch" || $className[$i] == "web" || $className[$i] == "exploring" || $className[$i] == "coding" || $className[$i] == "entrepreneurship" || $className[$i] == "java" || $className[$i] == "3d" || $className[$i] == "python")
+            {
+                $signupFilled = true;
+                break;
+            }
         }
     }
 
@@ -67,7 +72,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $classErr = true;
     }
 
-    if (!$nameErr && !$emailErr && !$classErr)
+    if ($signupFilled)
+    {
+        $classErr = false;
+    }
+
+    if (!$nameErr && !$emailErr && !$classErr && !$signupFilled)
     {
         $client = new Google_Client();
         $client->setApplicationName('Google Sheets and PHP');
@@ -141,6 +151,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     Please select at least 1 class!
 </div>';
         }
+        if ($signupFilled)
+        {
+            echo '
+<div class="alert alert-danger" role="alert">
+    Signups for Week 1 and Week 2 have already been filled! Please select another class from another week!
+</div>';
+        }
     }
 }
 
@@ -148,8 +165,7 @@ function test_input($data): string
 {
     $data = trim($data);
     $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
+    return htmlspecialchars($data);
 } ?>
 
 <style>
@@ -222,6 +238,10 @@ function test_input($data): string
     .blue {
         color: #007bff;
     }
+
+    .grey {
+        color: #7d7d7d;
+    }
 </style>
 
 <body class="body" style="position: relative; top: 0px">
@@ -262,24 +282,24 @@ function test_input($data): string
             <br>
             <br>
             <p class="classes">Classes <span class="red">*</span> :</p>
-            <p class="blue">Week of July 5th</p>
-            <input class="form-check-input" type="checkbox" id="coding" name="coding" value="coding">
-            <label class="form-check-label" for="coding"> <b>Coding Principles</b> ($30) - 4pm to 5pm</label><br>
-            <input class="form-check-input" type="checkbox" id="web" name="web" value="web">
-            <label class="form-check-label" for="web"> <b>Web Design Fundamentals</b> ($30) - 4pm to 5pm</label><br>
-            <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch">
-            <label class="form-check-label" for="scratch"> <b>Scratch</b> ($30) - 5:30pm to 6:30pm</label><br>
-            <input class="form-check-input" type="checkbox" id="exploring" name="exploring" value="exploring">
-            <label class="form-check-label" for="exploring"> <b>Exploring Our Universe</b> ($30) - 5:30pm to 6:30pm</label><br><br>
-            <p class="blue">Week of July 12th</p>
-            <input class="form-check-input" type="checkbox" id="entrepreneurship" name="entrepreneurship" value="entrepreneurship">
-            <label class="form-check-label" for="entrepreneurship"> <b>Entrepreneurship</b> ($30) - 3pm to 4pm</label><br>
-            <input class="form-check-input" type="checkbox" id="java" name="java" value="java">
-            <label class="form-check-label" for="java"> <b>Java</b> ($30) - 3pm to 4pm</label><br>
-            <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d">
-            <label class="form-check-label" for="3d"> <b>3D Modeling</b> ($30) - 4:30pm to 5:30pm</label><br>
-            <input class="form-check-input" type="checkbox" id="python" name="python" value="python">
-            <label class="form-check-label" for="python"> <b>Python</b> ($30) - 4:30pm to 5:30pm</label><br><br>
+            <p class="blue">Week of July 5th - <b class="text-uppercase red">No signups being accepted for this week!</b></p>
+            <input class="form-check-input" type="checkbox" id="coding" name="coding" value="coding" onclick="return false;">
+            <label class="form-check-label grey" for="coding"> <b>Coding Principles</b> ($30) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="web" name="web" value="web" onclick="return false;">
+            <label class="form-check-label grey" for="web"> <b>Web Design Fundamentals</b> ($30) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="scratch" name="scratch" value="scratch" onclick="return false;">
+            <label class="form-check-label grey" for="scratch"> <b>Scratch</b> ($30) - 5:30pm to 6:30pm</label><br>
+            <input class="form-check-input" type="checkbox" id="exploring" name="exploring" value="exploring" onclick="return false;">
+            <label class="form-check-label grey" for="exploring"> <b>Exploring Our Universe</b> ($30) - 5:30pm to 6:30pm</label><br><br>
+            <p class="blue">Week of July 12th - <b class="text-uppercase red">No signups being accepted for this week!</b></p>
+            <input class="form-check-input" type="checkbox" id="entrepreneurship" name="entrepreneurship" value="entrepreneurship" onclick="return false;">
+            <label class="form-check-label grey" for="entrepreneurship"> <b>Entrepreneurship</b> ($30) - 3pm to 4pm</label><br>
+            <input class="form-check-input" type="checkbox" id="java" name="java" value="java" onclick="return false;">
+            <label class="form-check-label grey" for="java"> <b>Java</b> ($30) - 3pm to 4pm</label><br>
+            <input class="form-check-input" type="checkbox" id="3d" name="3d" value="3d" onclick="return false;">
+            <label class="form-check-label grey" for="3d"> <b>3D Modeling</b> ($30) - 4:30pm to 5:30pm</label><br>
+            <input class="form-check-input" type="checkbox" id="python" name="python" value="python" onclick="return false;">
+            <label class="form-check-label grey" for="python"> <b>Python</b> ($30) - 4:30pm to 5:30pm</label><br><br>
             <p class="blue">Week of July 19th</p>
             <input class="form-check-input" type="checkbox" id="ue4" name="ue4" value="ue4">
             <label class="form-check-label" for="ue4"> <b>Game Design in Unreal Engine 4</b> ($35) - 2:30pm to 3:30pm</label><br>

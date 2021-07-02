@@ -101,9 +101,7 @@
                             and went to the Quarknet Masterclass presented by Rutgers and Fermilab</li>
                     <li>Self studied Java, C++, Python and Web Design through the Internet and other
                             courses and classes from reputable organizations</li>
-                    <li>Completed IBM's Introduction to Machine Learning in Python</li>
                     <li>Currently taking the Unreal Multiplayer Master: Video Game Dev in C++ course</li>
-                    <li>Currently taking the Machine Learning A-Z: Hands-On-Python and R In Data Science course</li>
                     <li>Volunteers for homework help monthly</li>
                     <li>Placed 24th nationally in the Engineering MySo Science Olympiad</li>
                 </ul>
@@ -117,9 +115,7 @@
                     <li>Coding Principles</li>
                     <li>Exploring Our Universe</li>
                     <li>Java</li>
-                    <li>Python Programming</li>
                     <li>Entrepreneurship</li>
-                    <li>3D Modeling</li>
                     <li>Web Design with Django</li>
                     <li>AP Physics 1 Crash Course</li>
                     <li>Internet of Things</li>
@@ -129,7 +125,6 @@
                     <li>Studies in the Academy for Mathematics, Science and Engineering</li>
                     <li>Currently taking a college course in marketing and
                             States Qualifier in DECA</li>
-                    <li>Exploring Our Universe</li>
                     <li>Taking an Academy CAD Honors course in the AMSE</li>
                     <li>Taking AP Physics 1 and participates in Modern Physics Club
                             and went to Quarknet Masterclass presented by Rutgers and Fermilab</li>
@@ -150,7 +145,6 @@
                 <ul style="text-align: left;">
                     <li>Scratch</li>
                     <li>Basic Web Design</li>
-                    <li>Coding Principles</li>
                     <li>Exploring Our Universe</li>
                     <li>Python Programming</li>
                     <li>Web Design with Flask</li>
@@ -164,7 +158,6 @@
                     <li>Received a <a href="https://drive.google.com/file/d/1-0T0QwBHEQsQxGmyad0tBXczlfdHfHIr/view">verified certificate</a> for the completion of the Course</li>
                     <li>Is part of a team that placed 3rd statewide in the Physics Olympics and attended a
                         Quarknet Masterclass provided by Rutgers and Fermilab</li>
-                    <li>Takes AP Physics 1</li>
                     <li>Python Programming</li>
                     <li>Completed a Machine Learning course in Python provided by IBM</li>
                     <li>Volunteers for homework help monthly</li>
@@ -178,7 +171,6 @@
                 <h2 class="card-text">Classes Taught</h2>
                 <ul style="text-align: left;">
                     <li>Scratch</li>
-                    <li>Coding Principles</li>
                     <li>Entrepreneurship</li>
                     <li>Game Design in Unity</li>
                 </ul>
@@ -188,12 +180,8 @@
                     <li>Learning Logistics in Supply Chain Management</li>
                     <li>Learnt Business Management, Marketing, Entrepreneurship and International Business in Business course</li>
                     <li>Self-Learnt Unity through the Internet</li>
-                    <li>Learnt AI and Deep Learning from Stanford. </li>
-                    <li>4 years of experience in the Scratch Course</li>
-                    <li>Took an AI course and learning Machine learning from IBM</li>
                     <li>Took multiple Java courses on how to build applications and how to build websites.</li>
-                    <li>Has 2 years of Robotics Experience and went to Robotics camp</li>
-                    <li>Doing Unity Advance course from Unity</li>
+                    <li>Doing Unity Advanced course from Unity</li>
                     <li>Competing member in DECA</li>
                     <li>Taught at a Summer course for elementary school children</li>
                     <li>Volunteers for homework help monthly</li>
