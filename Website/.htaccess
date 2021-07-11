@@ -6,25 +6,15 @@ Order allow,deny
 Deny from all
 </Files>
 
-<files layout.php>
-order allow,deny
-deny from all
-</files>
-
-<files functions.php>
-order allow,deny
-deny from all
-</files>
-
-<files connection.php>
-order allow,deny
-deny from all
-</files>
-
 <files credentials.json>
 order allow,deny
 deny from all
 </files>
+
+ErrorDocument 404 /404.php
+
+Redirect 404 /layout.php
+Redirect 404 /footer.php
 
 IndexIgnore *.png *.jpg
 

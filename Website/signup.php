@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($classesChosen[$i] == 1)
         {
             $totalPrice += $classPrice[$i];
-            if ($className[$i] == "scratch" || $className[$i] == "web" || $className[$i] == "exploring" || $className[$i] == "coding" || $className[$i] == "entrepreneurship" || $className[$i] == "java" || $className[$i] == "3d" || $className[$i] == "python")
+            if ($className[$i] == "scratch" || $className[$i] == "web" || $className[$i] == "exploring" || $className[$i] == "coding" || $className[$i] == "entrepreneurship" || $className[$i] == "java" || $className[$i] == "3d" || $className[$i] == "python" || $className[$i] == "ue4" || $className[$i] == "flask" || $className[$i] == "django" || $className[$i] == "php")
             {
                 $signupFilled = true;
                 break;
@@ -300,15 +300,15 @@ function test_input($data): string
             <label class="form-check-label grey" for="3d"> <b>3D Modeling</b> ($30) - 4:30pm to 5:30pm</label><br>
             <input class="form-check-input" type="checkbox" id="python" name="python" value="python" onclick="return false;">
             <label class="form-check-label grey" for="python"> <b>Python</b> ($30) - 4:30pm to 5:30pm</label><br><br>
-            <p class="blue">Week of July 19th</p>
-            <input class="form-check-input" type="checkbox" id="ue4" name="ue4" value="ue4">
-            <label class="form-check-label" for="ue4"> <b>Game Design in Unreal Engine 4</b> ($35) - 2:30pm to 3:30pm</label><br>
-            <input class="form-check-input" type="checkbox" id="flask" name="flask" value="flask">
-            <label class="form-check-label" for="flask"> <b>Web Design with Flask</b> ($35) - 4pm to 5pm</label><br>
-            <input class="form-check-input" type="checkbox" id="django" name="django" value="django">
-            <label class="form-check-label" for="django"> <b>Web Design with Django</b> ($35) - 4pm to 5pm</label><br>
-            <input class="form-check-input" type="checkbox" id="php" name="php" value="php">
-            <label class="form-check-label" for="php"> <b>Web Design with PHP</b> ($35) - 4pm to 5pm</label><br><br>
+            <p class="blue">Week of July 19th - <b class="text-uppercase red">No signups being accepted for this week!</b></p>
+            <input class="form-check-input" type="checkbox" id="ue4" name="ue4" value="ue4" onclick="return false;">
+            <label class="form-check-label grey" for="ue4"> <b>Game Design in Unreal Engine 4</b> ($35) - 2:30pm to 3:30pm</label><br>
+            <input class="form-check-input" type="checkbox" id="flask" name="flask" value="flask" onclick="return false;">
+            <label class="form-check-label grey" for="flask"> <b>Web Design with Flask</b> ($35) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="django" name="django" value="django" onclick="return false;">
+            <label class="form-check-label grey" for="django"> <b>Web Design with Django</b> ($35) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="php" name="php" value="php" onclick="return false;">
+            <label class="form-check-label grey" for="php"> <b>Web Design with PHP</b> ($35) - 4pm to 5pm</label><br><br>
             <p class="blue">Week of July 26th</p>
             <input class="form-check-input" type="checkbox" id="apPhysics" name="apPhysics" value="apPhysics">
             <label class="form-check-label" for="apPhysics"> <b>AP Physics 1 Crash Course</b> ($35) - 2:30pm to 3:30pm</label><br>
