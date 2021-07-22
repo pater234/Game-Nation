@@ -20,7 +20,7 @@ session_start();
 <header>
     <nav class="navbar navbar-expand-xl fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">Classes56 <img src="/othercontent/Logo.png" width=25% ></a>
+            <a class="navbar-brand" href="/">Classes56 <img "float: right; padding-left: 50px;" src="/othercontent/Logo.png" width=25% ></a>
             <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
                 <i class="fas fa-bars"></i>
             </button>
@@ -30,25 +30,25 @@ session_start();
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="/aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/classes">View Classes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/aboutus">About Us</a>
+                        <a class="nav-link" href="/one-on-one">One-on-One Tutoring</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/#contactinfo">Contact Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#faq">FAQ</a>
+                        <a class="nav-link" href="/faq">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/signup">Sign Up</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/donate">Donate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#tabletop">Age Recommendations</a>
                     </li>
                 </ul>
             </div>

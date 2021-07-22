@@ -115,6 +115,7 @@
                     <li>Coding Principles</li>
                     <li>Exploring Our Universe</li>
                     <li>Java</li>
+                    <li>3D Modeling</li>
                     <li>Entrepreneurship</li>
                     <li>Web Design with Django</li>
                     <li>AP Physics 1 Crash Course</li>

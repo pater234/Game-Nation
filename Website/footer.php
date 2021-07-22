@@ -59,6 +59,9 @@
                     <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw" target="_blank" rel="noopener noreferrer" class="fa fa-youtube"></a>
                     <a href="#" class="fa fa-facebook"></a>
                 </div>
+                <div>
+                    <a href="tel:862-245-2792">‪(862) 245-2792‬</a></li>
+                </div>
             </div>
             <p>Learn more about Sewa International by visiting <a href="https://sewausa.org" target="_blank" rel="noopener noreferrer">this link</a></p>
             <hr class="mb-4">
