@@ -24,4 +24,18 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 
 RewriteRule ^(.*)$ $1.php [NC,L]
 
-ErrorDocument 404 /404.php
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RedirectMatch 404 ^/classes/.*$
+
+RedirectMatch 404 ^/one-on-one/.*$
+
+RedirectMatch 404 ^/aboutus/.*$
+
+RedirectMatch 404 ^/faq/.*$
+
+RedirectMatch 404 ^/signup/.*$
+
+RedirectMatch 404 ^/donate/.*$

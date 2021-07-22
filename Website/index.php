@@ -340,7 +340,7 @@
         <div class="meter">
             <div class="meter-outside">
                 <div class="meter-inside">
-                    <p id="meter-current">$1346</p>
+                    <p id="meter-current">$1316</p>
                 </div>
             </div>
             <div class="meter-goal-box">
@@ -442,7 +442,7 @@
                     <li><b>Main business email</b> - <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a></li>
                 </ul>
                 <h1 class="display-7"><b>Call us:</b> </h1>
-                <li><b>Phone Number</b> - <a href="tel:862-245-2792">‪(862) 245-2792‬</a></li>
+                <b>Phone Number</b> - <a href="tel:862-245-2792">‪(862) 245-2792‬</a>
 
                 <h1 class="display-7"><b>Social Media Handles</b></h1>
                 <ul>

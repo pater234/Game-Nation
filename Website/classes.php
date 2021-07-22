@@ -90,7 +90,7 @@
     }
 
     .card-title {
-        font-size: 33px;
+        font-size: 31px;
     }
     .week {
         text-align: center;
@@ -121,7 +121,7 @@
     </div>
 
     <div class="card" id="coding">
-        <img src="https://www.multidots.com/wp-content/uploads/2020/01/code-quality-standard.png?quality=90" alt="Coding" height=auto class="card-img-top" style="width: 90%; align-self: center; border-radius: inherit">
+        <img src="https://www.multidots.com/wp-content/uploads/2020/01/code-quality-standard.png?quality=90" alt="Coding" height=auto class="card-img-top" style="width: 75%; align-self: center; border-radius: inherit">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Coding Principles</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
@@ -143,7 +143,7 @@
 <h1 class="week">Week of July 12th through July 16th</h1><br>
 <div id="card">
     <div class="card" id="java">
-        <img src="https://lh4.googleusercontent.com/iG45IIL1N3-zSSLPsqz__qEd9nMxNCohpDTMI_M9dfJmB3L9c1y37XGCo60AWrmjZRu-Utcnbw3h0o5eIo71Z3h-7OxgmM8FmidKROc9wLBTtGqMYr0eLWfdJH7s6EFOnAJesTOTT0iy3DRs" alt="Java" class="card-img-top">
+        <img src="https://lh4.googleusercontent.com/iG45IIL1N3-zSSLPsqz__qEd9nMxNCohpDTMI_M9dfJmB3L9c1y37XGCo60AWrmjZRu-Utcnbw3h0o5eIo71Z3h-7OxgmM8FmidKROc9wLBTtGqMYr0eLWfdJH7s6EFOnAJesTOTT0iy3DRs" alt="Java" class="card-img-top" style="width: 90%; align-self: center;">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Java</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
@@ -173,7 +173,7 @@
     </div>
 
     <div class="card" id="3d">
-        <img src="/othercontent/3dmodeling.png" alt="3DModeling" height=auto class="card-img-top" style="width: 80%; align-self: center; border-radius: inherit">
+        <img src="/othercontent/3dmodeling.png" alt="3DModeling" height=auto class="card-img-top" style="width: 70%; align-self: center; border-radius: inherit">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">3D Modeling</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>

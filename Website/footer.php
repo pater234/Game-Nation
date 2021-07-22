@@ -47,11 +47,11 @@
     <div class="container text-center text-md-left">
         <div class="row text-center text-md-left">
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold" style="font-family: Montserrat, sans-serif; color: lightskyblue">Classes56</h5>
-                <p style="font-family: Montserrat, sans-serif">We strive to provide your child with an enriched experience that they will treasure their whole lives.</p>
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color: lightskyblue">Classes56</h5>
+                <p>We strive to provide your child with an enriched experience that they will treasure their whole lives.</p>
             </div>
 
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 contactinfo" style="font-family: Montserrat, sans-serif; color: lightskyblue">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 contactinfo" style="color: lightskyblue">
                 <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
                 <div>
                     <a href="mailto:classes56official@gmail.com" class="fa fa-google"></a>
