@@ -373,7 +373,8 @@
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Summer Camp Overview</h2>
         <p style="padding-right: 10%; padding-left: 10%;">
             At Classes56, we are offering <b>1-week summer camps</b> for young children of various ages.
-            These classes will be held at the same time through the week from <b>Monday to Friday</b> with <b>hour-long sessions</b>.
+            These classes will be held at the same time through the week from <b>Monday to Friday</b> with <b>hour-long sessions</b>. <b>All classes
+            </b> are taught by volunteers that have demonstrated <b>some level of mastery</b> over the subjects that they are teaching.
             <b>Check out our <a href="/classes">View Classes</a></b> page for more information on individual classes including
             timings, content, pricing, age recommendations, and more. These <b>classes will be held
                 live, virtually</b> over Google Meet with our apt and experienced instructors paired with <b>small groups of students</b>.

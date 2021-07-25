@@ -486,7 +486,8 @@
         1 Exam provided by College Board. Concepts will be quickly described to students taking the class, and those that take the course
         will have a full understanding of the basic topics covered in the exam. <b>Please note that this is an extremely condensed version of
         AP Physics 1 and should not be considered a replacement of the course or any self-study materials. This is primarily an introduction crash course
-        that will help students earn a 5 along with other materials.</b></p>
+        that will help students earn a 5 along with other materials.</b><strong> All classes are taught by teachers who have scored a perfect 5 in the
+        AP Physics 1 exam administered by College Board.</strong></p>
         <p><b>Age Requirements: </b>9th Grade and up</p>
         <p><b>Prerequisites: </b>Knowledge of basic principles in physics recommended</p>
         <p><b>Requirements:</b> A computer with an ability to run a web browser</p>
@@ -502,7 +503,7 @@
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>In <b>Game Design with Unity</b> we will learn about Unity is and how we can use it! Unity gives users the ability to create games and experiences in both 2D and 3D.
-            There are many games which are created using Unity such as Temple Run, Crossey Road and many more!
+            There are many games which are created using Unity such as Temple Run, Crossy Road and many more!
             There are two ways which one can run programs in Unity: Code Blocks or with C#. Most games are usually created through C#.
             In this course we will learn how to code in C# and make our games run really smooth</p>
         <p><b>Age Requirements: </b>7th Grade and up</p>
