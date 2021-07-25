@@ -309,16 +309,16 @@ function test_input($data): string
             <label class="form-check-label grey" for="django"> <b>Web Design with Django</b> ($35) - 4pm to 5pm</label><br>
             <input class="form-check-input" type="checkbox" id="php" name="php" value="php" onclick="return false;">
             <label class="form-check-label grey" for="php"> <b>Web Design with PHP</b> ($35) - 4pm to 5pm</label><br><br>
-            <p class="blue">Week of July 26th</p>
-            <input class="form-check-input" type="checkbox" id="apPhysics" name="apPhysics" value="apPhysics">
-            <label class="form-check-label" for="apPhysics"> <b>AP Physics 1 Crash Course</b> ($35) - 2:30pm to 3:30pm</label><br>
-            <input class="form-check-input" type="checkbox" id="iot" name="iot" value="iot">
-            <label class="form-check-label" for="iot"> <b>Internet of Things</b> ($30) - 4pm to 5pm</label><br>
-            <input class="form-check-input" type="checkbox" id="unity" name="unity" value="unity">
-            <label class="form-check-label" for="unity"> <b>Game Design in Unity</b> ($35) - 4pm to 5pm</label><br><br>
+            <p class="blue">Week of July 26th - <b class="text-uppercase red">No signups being accepted for this week!</b></p>
+            <input class="form-check-input" type="checkbox" id="apPhysics" name="apPhysics" value="apPhysics" onclick="return false;">
+            <label class="form-check-label grey" for="apPhysics"> <b>AP Physics 1 Crash Course</b> ($35) - 2:30pm to 3:30pm</label><br>
+            <input class="form-check-input" type="checkbox" id="iot" name="iot" value="iot" onclick="return false;">
+            <label class="form-check-label grey" for="iot"> <b>Internet of Things</b> ($30) - 4pm to 5pm</label><br>
+            <input class="form-check-input" type="checkbox" id="unity" name="unity" value="unity" onclick="return false;">
+            <label class="form-check-label grey" for="unity"> <b>Game Design in Unity</b> ($35) - 4pm to 5pm</label><br><br>
             <p><b>IMPORTANT NOTE: All timings are in Eastern Time</b></p>
             <div class="row">
-                <button type="submit" class="btn btn-primary" style="width: 30%;">Submit</button>
+                <button type="submit" class="btn btn-primary" style="width: 30%;" onclick="return false;">Submit</button>
             </div>
         </form>
     </div>
