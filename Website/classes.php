@@ -98,7 +98,7 @@
 </style>
 <body class="body" style="position: relative; top: 0px">
 <br>
-<h1 class="week">Week of July 5th through July 9th</h1>
+<h1 class="week">Winter Batch Classes</h1>
 <div id="card">
     <div class="card" id="scratch">
         <img src="https://lh4.googleusercontent.com/U09g2Up48XFV18fZN3-Fk0pH6l3HeDiKyh63Zf8ZtA162LhLtElmZkPqT4wa52TFR7XeDv3LbgQG5XMxV8PBj2c9VI1ISHnStqdJVagyBUl1MmsqR9tgoHD1SckjyuEBJcIf9d6z1jWGVr7C" alt="Scratch" height=auto class="card-img-top" style="border-radius: inherit">
@@ -107,6 +107,16 @@
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to code in Scratch with us! Code games, scripts, and more! Learn the basics of coding while having fun!</p>
             <a class="btn btn-primary mt-auto btn-view"  id="scratchBtn">View more information</a>
+        </div>
+    </div>
+
+    <div class="card" id="ml">
+        <img src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png" alt="Unity" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">ML</h1>
+            <p class="card-text">$7 per class. $35 for the whole course</p>
+            <p class="card-text">Learn to create amazing and interactive games in Unity and C# with us!</p>
+            <a class="btn btn-primary mt-auto btn-view" id="mlBtn">View more information</a>
         </div>
     </div>
 
@@ -140,7 +150,6 @@
     </div>
 </div>
 <br>
-<h1 class="week">Week of July 12th through July 16th</h1><br>
 <div id="card">
     <div class="card" id="java">
         <img src="https://lh4.googleusercontent.com/iG45IIL1N3-zSSLPsqz__qEd9nMxNCohpDTMI_M9dfJmB3L9c1y37XGCo60AWrmjZRu-Utcnbw3h0o5eIo71Z3h-7OxgmM8FmidKROc9wLBTtGqMYr0eLWfdJH7s6EFOnAJesTOTT0iy3DRs" alt="Java" class="card-img-top" style="width: 90%; align-self: center;">
@@ -183,7 +192,6 @@
     </div>
 </div>
 <br>
-<h1 class="week">Week of July 19th through July 23rd</h1><br>
 <div id="card">
     <div class="card" id="ue4">
         <img src="/othercontent/ue4.png" alt="Unreal Engine" class="card-img-top" id="ue4Img" style="width: 50%; align-self: center">
@@ -223,7 +231,6 @@
     </div>
 </div>
 <br>
-<h1 class="week">Week of July 26th through July 30th</h1><br>
 <div id="card">
     <div class="card" id="apPhysics">
         <img src="https://debrabell.com/wp-content/uploads/2015/12/AP-Physics1.jpg" alt="AP Physics 1" height=auto class="card-img-top" style="width: 70% !important; align-self: center; border-radius: inherit">
@@ -235,13 +242,23 @@
         </div>
     </div>
 
-    <div class="card" id="unity">
+    <!--<div class="card" id="unity">
         <img src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png" alt="Unity" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">Game Design in Unity</h1>
             <p class="card-text">$7 per class. $35 for the whole course</p>
             <p class="card-text">Learn to create amazing and interactive games in Unity and C# with us!</p>
             <a class="btn btn-primary mt-auto btn-view" id="unityBtn">View more information</a>
+        </div>
+    </div>-->
+
+    <div class="card" id="c">
+        <img src="https://unity3d.com/profiles/unity3d/themes/unity/images/pages/branding_trademarks/unity-masterbrand-black.png" alt="Unity" height=auto class="card-img-top" style="width: 70% !important; align-self: center;">
+        <div class="card-body d-flex flex-column">
+            <h1 class="card-title">Game Design in Unity</h1>
+            <p class="card-text">$7 per class. $35 for the whole course</p>
+            <p class="card-text">Learn to create amazing and interactive games in Unity and C# with us!</p>
+            <a class="btn btn-primary mt-auto btn-view" id="cBtn">View more information</a>
         </div>
     </div>
 
@@ -256,8 +273,6 @@
     </div>
 </div>
 <div id="scratchModal" class="modal">
-
-    <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>Scratch is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
@@ -271,7 +286,22 @@
         <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
+</div>
 
+<div id="mlModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>ML is a class designed to be an introductory course into coding logic. Students will <u>not</u> learn a language
+            that will be beneficial to them in the future. Rather, they will be introduced to programming in a fun and interactive way. This class
+            is not recommended for those that already have a sense of logic when it comes to programming. The programming taught in this class will be equal
+            to that taught in our Coding Principles class.</p>
+        <p>By the end of this course, young aspiring students will learn how to think algorithmically and will understand the basic concepts of coding through scratch.
+            This way, when they want to learn a new language, they just have to learn the syntax as they already understand the overarching concepts.</p>
+        <p><b>Age Requirements: </b>2nd Grade and up</p>
+        <p><b>Requirements:</b> A computer with an ability to run a web browser </p>
+        <p><b>Timings: </b>July 5th to July 9th at 5:30 P.M. to 6:30 P.M. ET</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
 </div>
 
 <div id="webModal" class="modal">
@@ -497,9 +527,7 @@
 
 </div>
 
-<div id="unityModal" class="modal">
-
-    <!-- Modal content -->
+<!--<div id="unityModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>In <b>Game Design with Unity</b> we will learn about Unity is and how we can use it! Unity gives users the ability to create games and experiences in both 2D and 3D.
@@ -512,7 +540,21 @@
         <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
+</div>-->
 
+<div id="cModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>In <b>Computer Programming in C</b> we will learn about Unity is and how we can use it! Unity gives users the ability to create games and experiences in both 2D and 3D.
+            There are many games which are created using Unity such as Temple Run, Crossy Road and many more!
+            There are two ways which one can run programs in Unity: Code Blocks or with C#. Most games are usually created through C#.
+            In this course we will learn how to code in C# and make our games run really smooth</p>
+        <p><b>Age Requirements: </b>7th Grade and up</p>
+        <p><b>Prerequisites: </b>To know some or little coding. </p>
+        <p><b>Requirements:</b> Able to download programs and can run Unity</p>
+        <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. ET</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
 </div>
 
 <div id="iotModal" class="modal">
@@ -551,51 +593,58 @@
         modal.style.display = "block";
         body.style.overflow = "hidden";
     }
+
     var modal1 = document.getElementById("scratchModal");
     var btn1 = document.getElementById("scratchBtn");
     var span1 = document.getElementsByClassName("close")[0];
-    var modal2 = document.getElementById("webModal")
-    var btn2 = document.getElementById("webBtn");
+    var modal2 = document.getElementById("mlModal");
+    var btn2 = document.getElementById("mlBtn");
     var span2 = document.getElementsByClassName("close")[1];
-    var modal3 = document.getElementById("codingModal");
-    var btn3 = document.getElementById("codingBtn");
+    var modal3 = document.getElementById("webModal")
+    var btn3 = document.getElementById("webBtn");
     var span3 = document.getElementsByClassName("close")[2];
-    var modal4 = document.getElementById("exploringModal");
-    var btn4 = document.getElementById("exploringBtn");
+    var modal4 = document.getElementById("codingModal");
+    var btn4 = document.getElementById("codingBtn");
     var span4 = document.getElementsByClassName("close")[3];
-    var modal5 = document.getElementById("javaModal");
-    var btn5 = document.getElementById("javaBtn");
-    var span5 = document.getElementsByClassName("close")[4]
-    var modal6 = document.getElementById("pythonModal");
-    var btn6 = document.getElementById("pythonBtn");
+    var modal5 = document.getElementById("exploringModal");
+    var btn5 = document.getElementById("exploringBtn");
+    var span5 = document.getElementsByClassName("close")[4];
+    var modal6 = document.getElementById("javaModal");
+    var btn6 = document.getElementById("javaBtn");
     var span6 = document.getElementsByClassName("close")[5]
-    var modal7 = document.getElementById("entrepreneurshipModal");
-    var btn7 = document.getElementById("entrepreneurshipBtn");
+    var modal7 = document.getElementById("pythonModal");
+    var btn7 = document.getElementById("pythonBtn");
     var span7 = document.getElementsByClassName("close")[6]
-    var modal8 = document.getElementById("3dModal");
-    var btn8 = document.getElementById("3dBtn");
-    var span8 = document.getElementsByClassName("close")[7];
-    var modal9 = document.getElementById("ue4Modal");
-    var btn9 = document.getElementById("ue4Btn");
-    var span9 = document.getElementsByClassName("close")[8]
-    var modal10 = document.getElementById("flaskModal");
-    var btn10 = document.getElementById("flaskBtn");
+    var modal8 = document.getElementById("entrepreneurshipModal");
+    var btn8 = document.getElementById("entrepreneurshipBtn");
+    var span8 = document.getElementsByClassName("close")[7]
+    var modal9 = document.getElementById("3dModal");
+    var btn9 = document.getElementById("3dBtn");
+    var span9 = document.getElementsByClassName("close")[8];
+    var modal10 = document.getElementById("ue4Modal");
+    var btn10 = document.getElementById("ue4Btn");
     var span10 = document.getElementsByClassName("close")[9]
-    var modal11 = document.getElementById("djangoModal");
-    var btn11 = document.getElementById("djangoBtn");
+    var modal11 = document.getElementById("flaskModal");
+    var btn11 = document.getElementById("flaskBtn");
     var span11 = document.getElementsByClassName("close")[10]
-    var modal12 = document.getElementById("phpModal");
-    var btn12 = document.getElementById("phpBtn");
-    var span12 = document.getElementsByClassName("close")[11];
-    var modal13 = document.getElementById("apPhysicsModal");
-    var btn13 = document.getElementById("apPhysicsBtn");
-    var span13 = document.getElementsByClassName("close")[12]
-    var modal14 = document.getElementById("unityModal");
-    var btn14 = document.getElementById("unityBtn");
+    var modal12 = document.getElementById("djangoModal");
+    var btn12 = document.getElementById("djangoBtn");
+    var span12 = document.getElementsByClassName("close")[11]
+    var modal13 = document.getElementById("phpModal");
+    var btn13 = document.getElementById("phpBtn");
+    var span13 = document.getElementsByClassName("close")[12];
+    var modal14 = document.getElementById("apPhysicsModal");
+    var btn14 = document.getElementById("apPhysicsBtn");
     var span14 = document.getElementsByClassName("close")[13]
-    var modal15 = document.getElementById("iotModal");
-    var btn15 = document.getElementById("iotBtn");
+    /*var modal14 = document.getElementById("unityModal");
+    var btn14 = document.getElementById("unityBtn");
+    var span14 = document.getElementsByClassName("close")[13]*/
+    var modal15 = document.getElementById("cModal");
+    var btn15 = document.getElementById("cBtn");
     var span15 = document.getElementsByClassName("close")[14]
+    var modal16 = document.getElementById("iotModal");
+    var btn16 = document.getElementById("iotBtn");
+    var span16 = document.getElementsByClassName("close")[15]
 
     btn1.onclick = function() {
         modal1.style.display = "block";
@@ -759,6 +808,17 @@
     // When the user clicks on <span> (x), close the modal
     span15.onclick = function() {
         modal15.style.display = "none";
+        body.style.overflow = "auto";
+    }
+
+    btn16.onclick = function() {
+        modal16.style.display = "block";
+        body.style.overflow = "hidden";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span16.onclick = function() {
+        modal16.style.display = "none";
         body.style.overflow = "auto";
     }
 

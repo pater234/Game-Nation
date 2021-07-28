@@ -68,6 +68,15 @@
         color: white;
     }
 
+    .circular--landscape {
+        display: inline-block;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
 </style>
 
 <body class="body" style="position: relative; top: 0px">
@@ -80,17 +89,9 @@
         <div class="card" id="rishit">
             <div class="card-body card-rish">
                 <h1 class="card-title">Rishit</h1>
-                <h2 class="card-text">Classes Taught</h2>
-                <ul class="list-group" style="text-align: left;">
-                    <li class="list-group-item" style="text-align: center;">Coding Principles</li>
-                    <li class="list-group-item" style="text-align: center;">Exploring Our Universe</li>
-                    <li class="list-group-item" style="text-align: center;">Java</li>
-                    <li class="list-group-item" style="text-align: center;">3D Modeling</li>
-                    <li class="list-group-item" style="text-align: center;">Game Design in Unreal Engine 4</li>
-                    <li class="list-group-item" style="text-align: center;">Web Design in PHP</li>
-                    <li class="list-group-item" style="text-align: center;">AP Physics 1 Crash Course</li>
-                    <li class="list-group-item" style="text-align: center;">Internet of Things</li>
-                </ul>
+                <div class="circular--landscape">
+                    <img src="othercontent/Rishit.jpeg" alt="Rishit Profile Picture" style="width: 150%; margin-left: -40px; margin-top: -40px">
+                </div>
                 <br>
                 <h2 class="card-text">Qualifications</h2>
                 <ul class="list-group list-group-flush" style="text-align: left;">
@@ -196,19 +197,5 @@
     </div>
 </body>
 
-<script>
-    var heightStr1 =  $(".card-rish").css('height');
-    $("#rishit").css('height', heightStr1);
-
-    var heightStr2 =  $(".card-prath").css('height');
-    $("#prathamesh").css('height', heightStr2);
-
-    var heightStr3 =  $(".card-darsh").css('height');
-    $("#darsh").css('height', heightStr3);
-
-    var heightStr4 =  $(".card-shrey").css('height');
-    $("#shreyas").css('height', heightStr4);
-
-</script>
 
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>

@@ -425,7 +425,7 @@
         };
     </script>
 
-    <hr class="homepageBreak">
+    <!--<hr class="homepageBreak">
     <div class="donation-progress">
         <div style="background-color: #ffb400; width: fit-content; left: 50%; position: relative; transform: translate(-50%); padding: 10px; border-radius: 10px" ><h3 style="text-align: center; color: white">Current Donations</h3></div>
         <br style="line-height:1rem">
@@ -443,7 +443,7 @@
         <br style="line-height:20rem">
         <br style="line-height:20rem">
         <div style="text-align: center"><a class="btn btn-primary"  href="/donate" role="button">Donate Now!</a></div>
-    </div>
+    </div>-->
 
     <hr class="homepageBreak">
 
@@ -451,10 +451,7 @@
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Our Mission</h2>
         <p style="padding-right: 10%; padding-left: 10%">The pandemic has caused many students to <b>miss out</b> on exciting opportunities to explore their interests. We here at Classes56 strive to give
             them the <b>best educational opportunities</b> to make up for what they have lost and hope that through us, they pick up <b>new interests</b> that will stay with them for the rest of their lives.
-            In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>youth ready for their future</b>.
-            To avoid cheapening and monetizing the quality of the classes that we deliver, <b>all proceeds we collect will go towards charity</b>, local
-            and international. Our current focus is aiding the 501(c) Nonprofit <a href="https://sewausa.org" target="_blank" rel="noreferrer noopener">Sewa International</a>, an organization dedicated towards serving humanity in distress.
-            Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give</b>. Click <a href="/donate">this link</a> to
+            In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>youth ready for their future</b>. Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give</b>. Click <a href="/donate">this link</a> to
             donate. Thank you!</p>
     </div>
     <hr class="homepageBreak">
@@ -539,8 +536,8 @@
 
                 <h1 class="display-7"><b>Social Media Handles</b></h1>
                 <ul>
-                    <li><b>Facebook</b> - Coming Soon!</li>
-                    <li><b>Instagram</b> - Coming Soon!</li>
+                    <li><b>Twitter</b> - <a href="https://twitter.com/classes56">classes56</a></li>
+                    <li><b>Instagram</b> - <a href="https://www.instagram.com/classes56official/">classes56official</a></li>
                     <li><b>YouTube</b> - <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw">Classes56 Channel</a></li>
                 </ul>
             </div>

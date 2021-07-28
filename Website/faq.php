@@ -23,8 +23,7 @@
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>The classes are not free.</strong> For each class that we conduct, we ask for a small price. All proceeds from these classes will go towards
-                                charity. The specific charity that we are supporting is called Sewa International and you can find more about them <a href="https://sewausa.org" target="_blank" rel="noreferrer noopener">here</a>.
+                                <strong>The classes are not free.</strong> For each class that we conduct, we ask for a small price.
                             </div>
                         </div>
                     </div>

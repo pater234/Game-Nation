@@ -55,15 +55,14 @@
                 <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
                 <div>
                     <a href="mailto:classes56official@gmail.com" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="https://www.instagram.com/classes56official/" target="_blank" class="fa fa-instagram"></a>
                     <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw" target="_blank" rel="noopener noreferrer" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/classes56" target="_blank" class="fa fa-twitter"></a>
                 </div>
                 <div>
                     <a href="tel:862-245-2792">‪(862) 245-2792‬</a></li>
                 </div>
             </div>
-            <p>Learn more about Sewa International by visiting <a href="https://sewausa.org" target="_blank" rel="noopener noreferrer">this link</a></p>
             <hr class="mb-4">
         </div>
     </div>
