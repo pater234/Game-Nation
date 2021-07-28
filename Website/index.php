@@ -288,6 +288,32 @@
         border-color: transparent transparent #333 transparent;
     }
 
+    .typing-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    #feature-text {
+        margin-left: 8px;
+    }
+    .input-cursor {
+        display: inline-block;
+        width: 2px;
+        height: $size;
+        background-color: white;
+        margin-left: 8px;
+        animation: blink .6s linear infinite alternate;
+    }
+    }
+
+    @keyframes blink {
+        0% {opacity: 1;}
+        40% {opacity: 1;}
+        60% {opacity: 0;}
+        100% {opacity: 0;}
+    }
+    }
+
     @media only screen and (max-width: 725px) {
         .meter-goal-box {
             background-color: #3f4455;
@@ -334,6 +360,72 @@
         <h1 style="text-align: center; padding-top: 50px; padding-bottom: 50px; font-size: 60px; text-decoration: underline; text-decoration-color: #007bff;">Welcome to Classes56!</h1>
     </div>
     <br>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <h2 style="text-align: center; font-family: 'Raleway', sans-serif;">Learn to Master
+        <span
+                class="txt-rotate"
+                data-period="500"
+                data-rotate='[ "Coding", "Engineering", "Business"]'></span>
+    </h2>
+    <h3 style="text-align: center; font-family: 'Raleway', sans-serif;">Classes56 has your back</h3>
+    <script>
+        var TxtRotate = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+        TxtRotate.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+            var that = this;
+            var delta = 300 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('txt-rotate');
+            for (var i=0; i<elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-rotate');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtRotate(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+            document.body.appendChild(css);
+        };
+    </script>
+
+    <hr class="homepageBreak">
     <div class="donation-progress">
         <div style="background-color: #ffb400; width: fit-content; left: 50%; position: relative; transform: translate(-50%); padding: 10px; border-radius: 10px" ><h3 style="text-align: center; color: white">Current Donations</h3></div>
         <br style="line-height:1rem">
