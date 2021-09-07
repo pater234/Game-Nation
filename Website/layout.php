@@ -41,7 +41,7 @@ session_start();
                         <a class="nav-link" href="/classes">View Classes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/one-on-one">One-on-One Tutoring</a>
+                        <a class="nav-link" href="/private-tutoring">Private Tutoring</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/#contactinfo">Contact Information</a>

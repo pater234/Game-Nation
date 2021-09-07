@@ -68,6 +68,8 @@
     </div>
 </footer>
 
+
+
 <script>
     var h = $(".navbar").outerHeight();
     $(".body").css('top', h);
