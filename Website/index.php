@@ -457,7 +457,7 @@
     <hr class="homepageBreak">
 
     <div id="overview">
-        <div style="text-align: center"><img id="summerCamp" alt="Summer Camp" src="https://cdn.cdnparenting.com/articles/2019/04/01163339/Summer-Camp-for-Kids-519357010.jpg"></div>
+        <div style="text-align: center"><img id="summerCamp" alt="Summer Camp" src="https://www.exploreum.com/wp-content/uploads/2020/11/WinterCamps.jpg"></div>
         <br>
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Summer Camp Overview</h2>
         <p style="padding-right: 10%; padding-left: 10%;">
@@ -531,9 +531,9 @@
                 <ul>
                     <li><b>Main business email</b> - <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a></li>
                 </ul>
-                <h1 class="display-7"><b>Call us:</b> </h1>
-                <b>Phone Number</b> - <a href="tel:862-245-2792">‪(862) 245-2792‬</a>
-
+                <h1 class="display-7"><b>Phone Number:</b> </h1>
+                <a href="tel:862-245-2792">‪(862) 245-2792‬</a>
+                <br>
                 <h1 class="display-7"><b>Social Media Handles</b></h1>
                 <ul>
                     <li><b>Twitter</b> - <a href="https://twitter.com/classes56">classes56</a></li>

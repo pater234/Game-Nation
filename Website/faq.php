@@ -9,7 +9,7 @@
         <br>
         <div class="row text-center">
             <div class="heading-line"></div>
-            <p class="lead">Frequently asked questions, get knowledge beforehand</p>
+            <p class="lead">Here are some frequently asked questions from our customers. If you cannot find your question here, feel free to contact us at <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a>.</p>
 
         </div>
         <div class="row mt-5">
@@ -35,9 +35,8 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>The classes are taught by skilled volunteers who will not profit off of students.</strong> Classes56 is a volunteer run organization, so only there is no
-                                incentive for them to run the classes except for desire from their hearts. Students will be taught by teachers who have no other intention except providing students
-                                with quality lessons.
+                                <strong>The classes are taught by skilled high school students who will not profit off of students (Check out our <a href="/aboutus">About Us</a> page to learn more about our teachers and their qualifications.</strong>
+                                Classes56 is a volunteer run organization, so only there is no incentive for us to run the classes except for desire of our hearts.
                             </div>
                         </div>
                     </div>
@@ -49,7 +48,7 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>Payment is done through PayPal and other online payment services. </strong>After you sign up for a class, you will get an email
+                                <strong>Payment is done through either Zelle or Venmo. </strong>After you sign up for a class, you will get an email
                                 within 1-2 business days with payment information and further specifics regarding the class that you signed up for. Learn more about our
                                 payment options by clicking <a href="/donate">this link</a>.
                             </div>
@@ -63,8 +62,8 @@
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <b>Registration for a summer camp closes 3 days before the first class</b>. We will send payment information to you as quickly as possible
-                                and you are required to pay 1 day before the first class. This is so we have ample time to provide you with Google Classroom invite and other
+                                <b>Registration for our camp closes 3 days before the first class</b>. We will send payment information to you as quickly as possible
+                                and you are required to pay 1 day before the first class. This is so that we have ample time to provide you with a Google Classroom invite and other
                                 information.
                             </div>
                         </div>
@@ -72,13 +71,13 @@
                     <div class="accordion-item shadow mb-3">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Can I get a refund if I am not able to attend?
+                                Can I get a refund/makeup class if I am not able to attend?
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <b>We do not offer refunds</b> as we guarantee the charity that money. This prevents us from providing refunds as we are unable to break
-                                that contract. Thank you for understanding.
+                                <b>We do offer refunds</b> only if you are not able to attend ALL 5 CLASSES. However, we do offer a makeup class for only 1 missed class.
+                                Reach out to us if you want a makeup class and we can arrange a timing with you. Thank you for understanding.
                             </div>
                         </div>
                     </div>
