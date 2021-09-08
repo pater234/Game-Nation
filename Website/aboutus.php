@@ -31,14 +31,14 @@
 
     @media only screen and (max-width: 480px) and (min-width: 401px){
         .card {
-            width: 24rem;
+            width: 21rem;
             max-width: 24rem;
         }
     }
 
     @media only screen and (max-width: 400px) {
         .card {
-            width: 21rem;
+            width: 20rem;
             max-width: 21rem;
         }
     }
@@ -126,7 +126,7 @@
                             States Qualifier in DECA</li>
                     <li class="list-group-item" style="text-align: center;">Received a 5 on the AP Physics and the AP Computer Science Principles Exams</li>
                     <li class="list-group-item" style="text-align: center;">Self studied Java, Python and Machine Learning through the internet, along with other
-                            classes from reputable organizations (IBM, Pluralsight, etc)</li>
+                            classes from reputable organizations</li>
                     <li class="list-group-item" style="text-align: center;">Placed 13th nationally in the Structures MySo Science Olympiad</li>
                 </ul>
             </div>
@@ -141,11 +141,10 @@
                 <h2 class="card-text">Qualifications</h2>
                 <ul class="list-group list-group-flush" style="text-align: left;">
                     <li class="list-group-item" style="text-align: center;">Student in the Morris Hills Magnet Program for Math and Science</li>
-                    <li class="list-group-item" style="text-align: center;">Completed Harvard's CS50 Introduction to Computer
-                        Science course which included C, Python, web design, and more</li>
-                    <li class="list-group-item" style="text-align: center;">Received a <a href="https://drive.google.com/file/d/1-0T0QwBHEQsQxGmyad0tBXczlfdHfHIr/view">verified certificate</a> for the completion of the Course</li>
-                    <li class="list-group-item" style="text-align: center;">Received a 5 on the AP Computer Science Principles Exams</li>
-                    <li class="list-group-item" style="text-align: center;">A gold and bronze medalist in the Academic Decathlon regional competition.</li>
+                    <li class="list-group-item" style="text-align: center;">Received a <a href="https://drive.google.com/file/d/1-0T0QwBHEQsQxGmyad0tBXczlfdHfHIr/view">verified certificate</a>
+                        for completing Harvard's CS50 Introduction to Computer Science course which included C, Python, web design, and more</li>
+                    <li class="list-group-item" style="text-align: center;">Received a 5 on the AP Computer Science Principles Exam</li>
+                    <li class="list-group-item" style="text-align: center;">A gold and bronze medalist in the Academic Decathlon regional competition</li>
                     <li class="list-group-item" style="text-align: center;">Placed 19th nationally in the Engineering MySo Science Olympiad</li>
                 </ul>
             </div>
