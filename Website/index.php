@@ -353,6 +353,32 @@
         }
     }
 
+    .homepagePara {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    @media only screen and (min-width: 700px) and (max-width: 850px) {
+        .homepagePara {
+            padding-right: 15%;
+            padding-left: 15%;
+        }
+    }
+
+    @media only screen and (min-width: 851px) and (max-width: 1100px) {
+        .homepagePara {
+            padding-right: 20%;
+            padding-left: 20%;
+        }
+    }
+
+    @media only screen and (min-width: 1101px) {
+        .homepagePara {
+            padding-right: 22%;
+            padding-left: 22%;
+        }
+    }
+
 </style>
 
 <body class="body" style="position: relative; top: 0px">
@@ -449,7 +475,7 @@
 
     <div id="mission">
         <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Our Mission</h2>
-        <p style="padding-right: 10%; padding-left: 10%">The pandemic has caused many students to <b>miss out</b> on exciting opportunities to explore their interests. We here at Classes56 strive to give
+        <p class="homepagePara">The pandemic has caused many students to <b>miss out</b> on exciting opportunities to explore their interests. We here at Classes56 strive to give
             them the <b>best educational opportunities</b> to make up for what they have lost and hope that through us, they pick up <b>new interests</b> that will stay with them for the rest of their lives.
             In today's rapidly digitalizing world, coding is an essential skill that is required in many careers and we aim to get the <b>youth ready for their future</b>. Even if you cannot commit to attending our classes, <b>we will accept any donations that you wish to give</b>. Click <a href="/donate">this link</a> to
             donate. Thank you!</p>
@@ -459,90 +485,40 @@
     <div id="overview">
         <div style="text-align: center"><img id="summerCamp" alt="Summer Camp" src="https://www.exploreum.com/wp-content/uploads/2020/11/WinterCamps.jpg"></div>
         <br>
-        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Summer Camp Overview</h2>
-        <p style="padding-right: 10%; padding-left: 10%;">
-            At Classes56, we are offering <b>1-week summer camps</b> for young children of various ages.
+        <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Winter Camp Overview</h2>
+        <p class="homepagePara">
+            At Classes56, we are offering a <b>1-week long winter camp (December 27 - December 31)</b> for young children of various ages.
             These classes will be held at the same time through the week from <b>Monday to Friday</b> with <b>hour-long sessions</b>. <b>All classes
-            </b> are taught by volunteers that have demonstrated <b>some level of mastery</b> over the subjects that they are teaching.
+            </b> are taught by students that have demonstrated a <b>level of mastery</b> over the subjects that they are teaching.
             <b>Check out our <a href="/classes">View Classes</a></b> page for more information on individual classes including
             timings, content, pricing, age recommendations, and more. These <b>classes will be held
-                live, virtually</b> over Google Meet with our apt and experienced instructors paired with <b>small groups of students</b>.
-            Remember, that <b>ALL funds that we collect will go to charity.</b> Thank you and
+                live, virtually</b> over Google Meet with our apt and experienced instructors paired with <b>small groups of students</b>. Thank you and
             we look forward to providing your children with the best experience of their lives!
         </p>
     </div>
     <hr class="homepageBreak">
 
+<!--    <section id="contactinfo" class="contactinfo">-->
+<!--        <div class="contactinformation">-->
+<!--            <div class="row text-center">-->
+<!--                <h1 class="display-5 fw-bold text-uppercase">Contact Information</h1>-->
+<!--                <h1 class="display-7"><b>Contact us by email:</b> </h1>-->
+<!--                <ul>-->
+<!--                    <li><b>Main business email</b> - <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a></li>-->
+<!--                </ul>-->
+<!--                <h1 class="display-7"><b>Phone Number:</b> </h1>-->
+<!--                <a href="tel:862-245-2792">‪(862) 245-2792‬</a>-->
+<!--                <br>-->
+<!--                <h1 class="display-7"><b>Social Media Handles</b></h1>-->
+<!--                <ul>-->
+<!--                    <li><b>Twitter</b> - <a href="https://twitter.com/classes56">classes56</a></li>-->
+<!--                    <li><b>Instagram</b> - <a href="https://www.instagram.com/classes56official/">classes56official</a></li>-->
+<!--                    <li><b>YouTube</b> - <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw">Classes56 Channel</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
-
-
-
-
-
-    <!--<section id="tabletop" class="contactinfo">
-        <div id="table">
-            <h2 style="text-align: center;" class="display-3 fw-bold text-uppercase">Age Recommendations</h2>
-            <div class="row text-center">
-                <p class="lead">Click on the class name to be redirected to the information for the specific class</p>
-            </div>
-            <table class="center" id="t01">
-                <tr>
-                    <th class="table-info">Age</th>
-                    <th class="table-info">Classes Available</th>
-                </tr>
-                <tr>
-                    <td class="table-info">2nd Grade and up</td>
-                    <td class="table-info"><a href="/classes?modal=coding">Coding Principles</a>, <a href="/classes?modal=scratch">Scratch</a>, <a href="/classes?modal=iot">Internet of Things</a></td>
-                </tr>
-                <tr>
-                    <td class="table-info">3rd Grade and up</td>
-                    <td class="table-info"><a href="/classes?modal=exploring">Exploring the Universe</a>, <a href="/classes?modal=entrepreneurship">Entrepreneurship</a>, <a href="/classes?modal=python">Python</a></td>
-                </tr>
-                <tr>
-                    <td class="table-info">4th Grade and up</td>
-                    <td class="table-info"><a href="/classes?modal=web">Web Design Fundamentals</a>, <a href="/classes?modal=java">Java</a></td>
-                </tr>
-                <tr>
-                    <td class="table-info">5th Grade and up</td>
-                    <td class="table-info"><a href="/classes?modal=3d">3D Modeling</a></td>
-                </tr>
-                <tr>
-                    <td class="table-info">6th Grade and up</td>
-                    <td class="table-info"><a href="/classes?modal=flask">Flask</a>, <a href="/classes?modal=django">Django</a>, <a href="/classes?modal=php">PHP</a></td>
-                </tr>
-                <tr>
-                    <td class="table-info">7th Grade and up</td>
-                    <td class="table-info"><a href="/classes?modal=ue4">Unreal Engine 4</a>, <a href="/classes?modal=unity">Unity</a></td>
-                </tr>
-
-                <tr>
-                    <td class="table-info">9th Grade and up</td>
-                    <td class="table-info"><a href="/classes?modal=apPhysics">AP Physics 1 Crash Course</a></td>
-                </tr>
-            </table>
-        </div>
-    </section>
-    <hr class="homepageBreak">-->
-    <section id="contactinfo" class="contactinfo">
-        <div class="contactinformation">
-            <div class="row text-center">
-                <h1 class="display-5 fw-bold text-uppercase">Contact Information</h1>
-                <h1 class="display-7"><b>Contact us by email:</b> </h1>
-                <ul>
-                    <li><b>Main business email</b> - <a href="mailto:classes56official@gmail.com">classes56official@gmail.com</a></li>
-                </ul>
-                <h1 class="display-7"><b>Phone Number:</b> </h1>
-                <a href="tel:862-245-2792">‪(862) 245-2792‬</a>
-                <br>
-                <h1 class="display-7"><b>Social Media Handles</b></h1>
-                <ul>
-                    <li><b>Twitter</b> - <a href="https://twitter.com/classes56">classes56</a></li>
-                    <li><b>Instagram</b> - <a href="https://www.instagram.com/classes56official/">classes56official</a></li>
-                    <li><b>YouTube</b> - <a href="https://www.youtube.com/channel/UCot7W_-D9sqeQoj3cMOYBdw">Classes56 Channel</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
 </body>
 
 <script>

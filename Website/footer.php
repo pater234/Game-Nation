@@ -60,7 +60,7 @@
                     <a href="https://twitter.com/classes56" target="_blank" class="fa fa-twitter"></a>
                 </div>
                 <div>
-                    <a href="tel:862-245-2792">‪(862) 245-2792‬</a></li>
+                    <a class="fa fa-envelope" href="tel:862-245-2792"></a></li>
                 </div>
             </div>
             <hr class="mb-4">

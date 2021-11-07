@@ -26,37 +26,37 @@ session_start();
     <nav class="navbar navbar-expand-xl fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Classes56 <img src="/othercontent/Logo.png" width=25% ></a>
-            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between mx-auto" id="navbar">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-center mx-auto" id="navbar">
+                <div class="justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/classes">View Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/private-tutoring">Private Tutoring</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="justify-content-center">
+                <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="/signup"><i class="fas fa-shopping-cart fa-lg"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/aboutus">About Us</a>
+                        <a class="nav-link" href="/donate"><i class="fas fa-hand-holding-usd fa-lg"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/classes">View Classes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/private-tutoring">Private Tutoring</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/#contactinfo">Contact Information</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/faq">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/signup">Sign Up</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/donate">Donate</a>
+                        <a class="nav-link" href="/faq"><i class="fas fa-question fa-lg"></i></a>
                     </li>
                 </ul>
             </div>
+            <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse" type="button">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </nav>
 </header>
