@@ -43,11 +43,6 @@ body {
     color: rgba(237, 240, 241, 0.5);
 }
 
-.navbar-expand-lg {
-    padding-right: 10rem;
-    padding-left: 3rem;
-}
-
 #navbutton {
     border: none;
     border-radius: 0.75rem;
@@ -57,6 +52,12 @@ body {
     line-height: 1.5;
     margin-top: 1rem;
     transition: all 0.3s ease 0s;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 #navbutton:hover {

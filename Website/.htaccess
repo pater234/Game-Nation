@@ -30,7 +30,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 RedirectMatch 404 ^/classes/.*$
 
-RedirectMatch 404 ^/one-on-one/.*$
+RedirectMatch 404 ^/private-tutoring/.*$
 
 RedirectMatch 404 ^/aboutus/.*$
 

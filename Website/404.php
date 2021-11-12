@@ -7,11 +7,9 @@
         background: #000000;
         text-align: center;
         color: #E0E0E0;
-        font-family:'Fira Mono', monospace;
     }
     .h1{
         font-size: 2.5rem;
-        font-family: 'Permanent Marker', cursive;
     }
     div{
         transform-style: preserve-3d;

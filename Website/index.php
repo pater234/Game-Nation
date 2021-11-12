@@ -379,6 +379,77 @@
         }
     }
 
+    #feedback {
+        max-width: 70%;
+        left: 15%;
+    }
+
+    #quote {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background: #ddecff;
+        text-decoration: none;
+        color: #333333;
+        border-radius: 40px;
+        text-align: center;
+    }
+
+    #quote:hover {
+        color: #333333;
+    }
+
+    @media only screen and (max-width: 400px) {
+        #quote {
+            font-size: 15px;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 10%;
+            padding-bottom: 10%;
+        }
+        #feedback {
+            max-width: 90%;
+            left: 5%;
+        }
+    }
+    @media only screen and (min-width: 401px) and (max-width: 600px) {
+        #quote {
+            font-size: 17px;
+        }
+        #feedback {
+            max-width: 85%;
+            left: 7.5%;
+        }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 900px) {
+        #quote {
+            font-size: 20px;
+        }
+        #feedback {
+            max-width: 80%;
+            left: 10%;
+        }
+    }
+    @media only screen and (min-width: 901px) and (max-width: 1200px) {
+        #quote {
+            font-size: 23.5px;
+        }
+        #feedback {
+            max-width: 80%;
+            left: 10%;
+        }
+    }
+    @media only screen and (min-width: 1201px) {
+        #quote {
+            font-size: 25px;
+        }
+        #feedback {
+            max-width: 80%;
+            left: 10%;
+        }
+    }
+
 </style>
 
 <body class="body" style="position: relative; top: 0px">
@@ -472,40 +543,29 @@
     </div>-->
 
     <hr class="homepageBreak">
-    <div id="PopClasses" class="carousel slide" data-ride="carousel">
+    <div id="feedback" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
+                <a id="quote" class="d-block w-100 h-40">“My son was very happy with the classes that he attended.
+                    He was new to coding, but the expertise of the mentors made it look easy and he was able to grasp
+                    all the concepts very easily.”</a>
             </div>
             <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                <a id="quote" class="d-block w-100 h-40">“Overall, we were very impressed with the quality, dedication, and
+                    the knowledge of the mentors in the program and wish all the very best for all the future endeavours. We
+                    would definitely enroll my son for and future courses to come.”</a>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#feedback" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#feedback" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </button>

@@ -106,7 +106,7 @@
             <h1 class="card-title">Scratch</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to code in Scratch with us! Code games, scripts, and more! Learn the basics of coding while having fun!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="scratchBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="scratchBtn" href="#scratchModal">View more information</a>
         </div>
     </div>
 
@@ -126,7 +126,7 @@
             <h1 class="card-title">Web Design Fundamentals</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to create amazing webpages in HTML and CSS with us!</p>
-            <a class="btn btn-primary mt-auto btn-view" id="webBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="webBtn" href="#webModal">View more information</a>
         </div>
     </div>
 
@@ -145,7 +145,7 @@
             <h1 class="card-title">Exploring Our Universe</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Explore the vast universe beyond Earth with us!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="exploringBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="exploringBtn" href="#exploringModal">View more information</a>
         </div>
     </div>
 </div>
@@ -157,7 +157,7 @@
             <h1 class="card-title">Java</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to code in Java with us!</p>
-            <a class="btn btn-primary mt-auto btn-view" id="javaBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="javaBtn" href="#javaModal">View more information</a>
         </div>
     </div>
 
@@ -167,7 +167,7 @@
             <h1 class="card-title">Python</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to code in Python to automate your life with us!</p>
-            <a class="btn btn-primary mt-auto btn-view" id="pythonBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="pythonBtn" href="#pythonModal">View more information</a>
         </div>
     </div>
 
@@ -177,17 +177,17 @@
             <h1 class="card-title">Entrepreneurship</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn about finances and entrepreneurship with us!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="entrepreneurshipBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view"  id="entrepreneurshipBtn" href="#entrepreneurshipModal">View more information</a>
         </div>
     </div>
 
-    <div class="card" id="3d">
+    <div class="card" id="m3d">
         <img src="/othercontent/3dmodeling.png" alt="3DModeling" height=auto class="card-img-top" style="width: 70%; align-self: center; border-radius: inherit">
         <div class="card-body d-flex flex-column">
             <h1 class="card-title">3D Modeling</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn to create magnificent 3D models and designs with us!</p>
-            <a class="btn btn-primary mt-auto btn-view"  id="3dBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="m3dBtn" href="#m3dModal">View more information</a>
         </div>
     </div>
 </div>
@@ -238,7 +238,7 @@
             <h1 class="card-title">AP Physics 1 Crash Course</h1>
             <p class="card-text">$7 per class. $35 for the whole course</p>
             <p class="card-text">Prepare for AP Physics 1 with our crash course!</p>
-            <a class="btn btn-primary mt-auto btn-view" id="apPhysicsBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="apPhysicsBtn" href="#apPhysicsModal">View more information</a>
         </div>
     </div>
 
@@ -248,7 +248,7 @@
             <h1 class="card-title">Game Design in Unity</h1>
             <p class="card-text">$7 per class. $35 for the whole course</p>
             <p class="card-text">Learn to create amazing and interactive games in Unity and C# with us!</p>
-            <a class="btn btn-primary mt-auto btn-view" id="unityBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="unityBtn" href="#unityModal">View more information</a>
         </div>
     </div>-->
 
@@ -268,7 +268,7 @@
             <h1 class="card-title">Internet of Things</h1>
             <p class="card-text">$6 per class. $30 for the whole course</p>
             <p class="card-text">Learn about the vast world of the internet and how it all works with us!</p>
-            <a class="btn btn-primary mt-auto btn-view" id="iotBtn">View more information</a>
+            <a class="btn btn-primary mt-auto btn-view" id="iotBtn" href="#iotModal">View more information</a>
         </div>
     </div>
 </div>
@@ -321,10 +321,8 @@
     </div>
 
 </div>
-
+<!--
 <div id="codingModal" class="modal">
-
-    <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p><b>Coding Principles</b> is an introductory class designed to introduce absolute beginners to coding logic and ideas.
@@ -341,7 +339,7 @@
     </div>
 
 </div>
-
+-->
 <div id="exploringModal" class="modal">
     <!-- Modal content -->
     <div class="modal-content">
@@ -412,7 +410,7 @@
 
 </div>
 
-<div id="3dModal" class="modal">
+<div id="m3dModal" class="modal">
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
@@ -427,9 +425,8 @@
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 </div>
-
+<!--
 <div id="ue4Modal" class="modal">
-    <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>This course will give an introduction to <b>Game Design in Unreal Engine 4</b>. Games in Unreal Engine can be coded in C++ or in Unreal's visual scripting system called Blueprints.
@@ -449,8 +446,6 @@
 
 
 <div id="flaskModal" class="modal">
-
-    <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p>This course is an introduction into the popular web framework known as <b>Flask</b>, which is coded in Python. The students in this
@@ -469,8 +464,6 @@
 
 </div>
 <div id="djangoModal" class="modal">
-
-    <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p><b>Django</b> is a popular web development framework coded in python. Django helps website builders create pragmatic, maintainable, clean and secure websites.
@@ -488,8 +481,6 @@
 </div>
 
 <div id="phpModal" class="modal">
-
-    <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
         <p><b>PHP</b> is a backend scripting language that has been increasing in popularity in relation to utilizing python for Web Design. Students will
@@ -505,7 +496,7 @@
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
 
-</div>
+</div> -->
 
 <div id="apPhysicsModal" class="modal">
 
@@ -574,6 +565,24 @@
         <p><b>Timings: </b>July 26th to July 30th at 4 P.M. to 5 P.M. ET</p>
         <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
     </div>
+</div>
+
+<div id="investModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Have you ever wondered how the internet works? <b>Investment Essentials</b> will teach you what makes the internet tick and why it is so important.
+            Students will learn how data is transferred over the internet and how they are able to see their favorite websites like YouTube anywhere they have an internet connection.
+            They will understand the importance of protocols such as UDP and TCP and what http and https means when they visit a website. Additionally, they will also learn about risks that
+            the internet poses to us through viruses and malware. They will learn to recognize different types of malware and how to avoid them.</p>
+        <p>By the end of this course, students will have a deeper understanding about the exciting world of the internet and how it functions to serve and help us every single day while remaining
+            safe and cautious.</p>
+        <p><b>Age Requirements: </b>2nd Grade and up</p>
+        <p><b>Prerequisites: </b>None</p>
+        <p><b>Requirements:</b> None</p>
+        <p><b>Timings: </b>TBD</p>
+        <a class="btn btn-outline-primary" href="/signup" role="button">Sign Up Now!</a>
+    </div>
 
 </div>
 
@@ -593,235 +602,27 @@
         modal.style.display = "block";
         body.style.overflow = "hidden";
     }
-
-    var modal1 = document.getElementById("scratchModal");
-    var btn1 = document.getElementById("scratchBtn");
-    var span1 = document.getElementsByClassName("close")[0];
-    var modal2 = document.getElementById("mlModal");
-    var btn2 = document.getElementById("mlBtn");
-    var span2 = document.getElementsByClassName("close")[1];
-    var modal3 = document.getElementById("webModal")
-    var btn3 = document.getElementById("webBtn");
-    var span3 = document.getElementsByClassName("close")[2];
-    var modal4 = document.getElementById("codingModal");
-    var btn4 = document.getElementById("codingBtn");
-    var span4 = document.getElementsByClassName("close")[3];
-    var modal5 = document.getElementById("exploringModal");
-    var btn5 = document.getElementById("exploringBtn");
-    var span5 = document.getElementsByClassName("close")[4];
-    var modal6 = document.getElementById("javaModal");
-    var btn6 = document.getElementById("javaBtn");
-    var span6 = document.getElementsByClassName("close")[5]
-    var modal7 = document.getElementById("pythonModal");
-    var btn7 = document.getElementById("pythonBtn");
-    var span7 = document.getElementsByClassName("close")[6]
-    var modal8 = document.getElementById("entrepreneurshipModal");
-    var btn8 = document.getElementById("entrepreneurshipBtn");
-    var span8 = document.getElementsByClassName("close")[7]
-    var modal9 = document.getElementById("3dModal");
-    var btn9 = document.getElementById("3dBtn");
-    var span9 = document.getElementsByClassName("close")[8];
-    var modal10 = document.getElementById("ue4Modal");
-    var btn10 = document.getElementById("ue4Btn");
-    var span10 = document.getElementsByClassName("close")[9]
-    var modal11 = document.getElementById("flaskModal");
-    var btn11 = document.getElementById("flaskBtn");
-    var span11 = document.getElementsByClassName("close")[10]
-    var modal12 = document.getElementById("djangoModal");
-    var btn12 = document.getElementById("djangoBtn");
-    var span12 = document.getElementsByClassName("close")[11]
-    var modal13 = document.getElementById("phpModal");
-    var btn13 = document.getElementById("phpBtn");
-    var span13 = document.getElementsByClassName("close")[12];
-    var modal14 = document.getElementById("apPhysicsModal");
-    var btn14 = document.getElementById("apPhysicsBtn");
-    var span14 = document.getElementsByClassName("close")[13]
-    /*var modal14 = document.getElementById("unityModal");
-    var btn14 = document.getElementById("unityBtn");
-    var span14 = document.getElementsByClassName("close")[13]*/
-    var modal15 = document.getElementById("cModal");
-    var btn15 = document.getElementById("cBtn");
-    var span15 = document.getElementsByClassName("close")[14]
-    var modal16 = document.getElementById("iotModal");
-    var btn16 = document.getElementById("iotBtn");
-    var span16 = document.getElementsByClassName("close")[15]
-
-    btn1.onclick = function() {
-        modal1.style.display = "block";
-        body.style.overflow = "hidden";
+    var btns = document.querySelectorAll("a.btn-view");
+    var modals = document.querySelectorAll('.modal');
+    var spans = document.getElementsByClassName("close");
+    for (var i = 0; i < btns.length; i++)
+    {
+        btns[i].onclick = function (e)
+        {
+            e.preventDefault();
+            modal = document.querySelector(e.target.getAttribute("href"));
+            modal.style.display = "block";
+            body.style.overflow = "hidden";
+            console.log("found");
+        }
     }
-
-    // When the user clicks on <span> (x), close the modal
-    span1.onclick = function() {
-        modal1.style.display = "none";
-        body.style.overflow = "auto";
+    for (var i = 0; i < spans.length; i++) {
+        spans[i].onclick = function() {
+            for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+                body.style.overflow = "visible";
+            }
+        }
     }
-
-    btn2.onclick = function() {
-        modal2.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span2.onclick = function() {
-        modal2.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn3.onclick = function() {
-        modal3.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span3.onclick = function() {
-        modal3.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn4.onclick = function() {
-        modal4.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span4.onclick = function() {
-        modal4.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn5.onclick = function() {
-        modal5.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span5.onclick = function() {
-        modal5.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn6.onclick = function() {
-        modal6.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span6.onclick = function() {
-        modal6.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn7.onclick = function() {
-        modal7.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span7.onclick = function() {
-        modal7.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn8.onclick = function() {
-        modal8.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span8.onclick = function() {
-        modal8.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn9.onclick = function() {
-        modal9.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span9.onclick = function() {
-        modal9.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn10.onclick = function() {
-        modal10.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span10.onclick = function() {
-        modal10.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn11.onclick = function() {
-        modal11.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span11.onclick = function() {
-        modal11.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn12.onclick = function() {
-        modal12.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span12.onclick = function() {
-        modal12.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn13.onclick = function() {
-        modal13.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span13.onclick = function() {
-        modal13.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn14.onclick = function() {
-        modal14.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span14.onclick = function() {
-        modal14.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn15.onclick = function() {
-        modal15.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span15.onclick = function() {
-        modal15.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
-    btn16.onclick = function() {
-        modal16.style.display = "block";
-        body.style.overflow = "hidden";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span16.onclick = function() {
-        modal16.style.display = "none";
-        body.style.overflow = "auto";
-    }
-
 </script>
-
 <?php include ($_SERVER["DOCUMENT_ROOT"] . "/footer.php"); ?>
