@@ -137,8 +137,9 @@
                 <h2 class="card-text">Qualifications</h2>
                 <ul class="list-group list-group-flush" style="text-align: left;">
                     <li class="list-group-item" style="text-align: center;">Student in the Academy for Mathematics, Science and Engineering</li>
-                    <li class="list-group-item" style="text-align: center;">Currently taking a college course in marketing and
+                    <li class="list-group-item" style="text-align: center;">Completed a college course in marketing and
                             States Qualifier in DECA</li>
+                    <li class="list-group-item" style="text-align: center;">Bronze medalist in the Academic Decathlon regional competition for Economics and Social Science</li>
                     <li class="list-group-item" style="text-align: center;">Received a 5 on the AP Physics and the AP Computer Science Principles Exams</li>
                     <li class="list-group-item" style="text-align: center;">Self studied Java, Python and Machine Learning through the internet, along with other
                             classes from reputable organizations</li>
