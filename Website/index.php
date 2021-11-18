@@ -560,6 +560,10 @@
                     the knowledge of the mentors in the program and wish all the very best for all the future endeavours. We
                     would definitely enroll my son for and future courses to come.”</a>
             </div>
+            <div class="carousel-item">
+                <a id="quote" class="d-block w-100 h-40">“I definitely learned something but I feel like I also found
+                    a new hobby. Something to do while I'm bored.”</a>
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#feedback" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
