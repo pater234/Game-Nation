@@ -129,6 +129,11 @@
                     <img src="othercontent/Prathamesh.jpeg" alt="Prathamesh Profile Picture" style="width: 165%; margin-left: -50px; margin-top: -80px">
                 </div>
                 <br>
+                <h5 class="card-text">Hi everyone! My name is Prathamesh. Some consider me to be the most handsome member of this group. I agree with them.
+                    I am interested in AI/ML, Data Analytics, Physics, Robotics, and Chemistry. I love to play chess and basketball, along with my flute
+                    and mridangam. I love reading history books and comics in my spare time.
+                </h5>
+                <br>
                 <h2 class="card-text">Qualifications</h2>
                 <ul class="list-group list-group-flush" style="text-align: left;">
                     <li class="list-group-item" style="text-align: center;">Student in the Academy for Mathematics, Science and Engineering</li>
@@ -147,6 +152,10 @@
                 <div class="circular--landscape">
                     <img src="othercontent/Darsh.jpeg" alt="Darsh Profile Picture" style="width: 157%; margin-left: -53px; margin-top: -45px">
                 </div>
+                <br>
+                <h5 class="card-text"> Hello! My name is Darsh and I am interested
+                    in web development, artificial intelligence, and economics. I participate in my school's marching band and
+                    and jazz band and I like reading, chess, and football.</h5>
                 <br>
                 <h2 class="card-text">Qualifications</h2>
                 <ul class="list-group list-group-flush" style="text-align: left;">
